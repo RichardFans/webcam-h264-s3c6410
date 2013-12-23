@@ -14,13 +14,13 @@
 int readn(int fd, void *pbuf, size_t n);
 int writen(int fd, void *pbuf, size_t n);
 char* strnchr(char *str, char ch);
-#include <sys/ioctl.h>
+#include <libv4l2.h>
 static inline int xioctl(int fd, int request, void *arg)
 {
 	int r;
 
 	do {
-		r = ioctl (fd, request, arg);
+		r = v4l2_ioctl (fd, request, arg);
 	} while (-1 == r && EINTR == errno);
 
 	return r;

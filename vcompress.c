@@ -58,10 +58,10 @@ void *vc_open (int width, int height, double fps)
 
 	// 设置编码属性
 	//x264_param_default(&ctx->param);
-	//x264_param_default_preset(&ctx->param, "ultrafast", "zerolatency");
-	x264_param_default_preset(&ctx->param, "ultrafast", "");
+	x264_param_default_preset(&ctx->param, "ultrafast", "zerolatency");
+	//x264_param_default_preset(&ctx->param, "ultrafast", "");
 	//x264_param_apply_profile(&ctx->param, "baseline");
-	x264_param_apply_profile(&ctx->param, "main");
+	//x264_param_apply_profile(&ctx->param, "main");
 
 	ctx->param.i_width = width;
 	ctx->param.i_height = height;
@@ -215,7 +215,6 @@ int vc_compress (void *ctx, unsigned char *data[4], int stride[4], const void **
 		}
 		encode_nals(c, nals, nal_cnt);
 	} while (0);
-    printf("x264_encoder_delayed_frames = %d\n", x264_encoder_delayed_frames(c->x264));
 
 	*out = c->output;
 	*len = c->output_datasize;

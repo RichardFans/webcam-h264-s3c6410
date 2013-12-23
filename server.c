@@ -21,10 +21,10 @@
 #define VIDEO_WIDTH 320
 #define VIDEO_HEIGHT 240
 
-#ifdef HW_VC   /* 软件编码fps=10，硬件编码fps=20 */
-#define VIDEO_FPS 15.0
+#ifdef HW_VC   /* 软件编码fps=15，硬件编码fps=20 */
+#define VIDEO_FPS 20.0
 #else
-#define VIDEO_FPS 1.0
+#define VIDEO_FPS 15.0
 #endif
 
 #define TARGET_IP "192.168.1.5"

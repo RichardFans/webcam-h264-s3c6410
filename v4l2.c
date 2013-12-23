@@ -11,7 +11,7 @@
 #include <sys/mman.h>
 
 #include <linux/types.h>
-#include <linux/videodev2.h>
+#include <libv4l2.h>
 
 #include "utils.h"
 #include "v4l2.h"
@@ -76,7 +76,7 @@ static int v4l2_uctl_setup(v4l2_dev_t vd)
 	memset(&qctl, 0, sizeof(qctl));
 	for (qctl.id = V4L2_CID_BASE; 
          qctl.id < V4L2_CID_LASTP1; qctl.id++) {
-		if (-1  == ioctl(v->fd, VIDIOC_QUERYCTRL, &qctl)) {
+		if (-1  == v4l2_ioctl(v->fd, VIDIOC_QUERYCTRL, &qctl)) {
             if (errno == EINVAL)
                 continue;
             perror("VIDIOC_QUERYCTRL");
@@ -94,7 +94,7 @@ static int v4l2_uctl_setup(v4l2_dev_t vd)
 
 		memset(&ctl, 0, sizeof(ctl));
 		ctl.id = qctl.id;
-        if (-1 == ioctl(v->fd, VIDIOC_G_CTRL, &ctl)) {
+        if (-1 == v4l2_ioctl(v->fd, VIDIOC_G_CTRL, &ctl)) {
             perror("VIDIOC_G_CTRL");
             return -1;
         }
@@ -139,7 +139,7 @@ int v4l2_set_uctl(v4l2_dev_t vd, __u32 id, __s32 val)
 
 	ctl.id    = id;
 	ctl.value = val;
-	if (-1 == ioctl (v->fd, VIDIOC_S_CTRL, &ctl)) {
+	if (-1 == v4l2_ioctl (v->fd, VIDIOC_S_CTRL, &ctl)) {
         fprintf(stderr, "VIDIOC_S_CTRL: %s: id = 0x%x, val = 0x%x\n", strerror(errno), id, val);
         return -1;
     }
@@ -170,7 +170,7 @@ __s32 v4l2_get_uctl(v4l2_dev_t vd, __u32 id, bool *ok)
 
     *ok = false;
 	ctl.id = id;
-	if (-1 == ioctl (v->fd, VIDIOC_G_CTRL, &ctl)) {
+	if (-1 == v4l2_ioctl (v->fd, VIDIOC_G_CTRL, &ctl)) {
         pr_debug("id = %x", id);
         //perror("VIDIOC_G_CTRL");
         return -1;
@@ -243,7 +243,7 @@ static int v4l2_mmap_setup(v4l2_dev_t vd)
         }
 
 		v->buf[i].len   = buf.length;
-		v->buf[i].start = mmap(NULL, buf.length, PROT_READ | PROT_WRITE,
+		v->buf[i].start = v4l2_mmap(NULL, buf.length, PROT_READ | PROT_WRITE,
                                MAP_SHARED, v->fd, buf.m.offset);
 
 		if (MAP_FAILED == v->buf[i].start) {
@@ -264,7 +264,7 @@ static int v4l2_mmap_free(v4l2_dev_t vd)
 	struct v4l2_dev *v = vd;
     int i;
 	for (i = 0; i < v->buf_nr; i++) {
-		if (-1 == munmap(v->buf[i].start, v->buf[i].len)) {
+		if (-1 == v4l2_munmap(v->buf[i].start, v->buf[i].len)) {
             perror("munmap");
             return -1;
         }
@@ -292,7 +292,7 @@ static int v4l2_fmt_setup(v4l2_dev_t vd)
     pfmt->index = 0;
     pfmt->type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
     for (;;) {
-        ret = ioctl(v->fd, VIDIOC_ENUM_FMT, pfmt);
+        ret = v4l2_ioctl(v->fd, VIDIOC_ENUM_FMT, pfmt);
         if (ret < 0) {
             if (errno == EINVAL)
                 break;
@@ -305,7 +305,7 @@ static int v4l2_fmt_setup(v4l2_dev_t vd)
         pfrm->type = V4L2_FRMSIZE_TYPE_DISCRETE;
         pfrm->pixel_format = pfmt->pixelformat;
         for (;;) {
-            ret = ioctl(v->fd, VIDIOC_ENUM_FRAMESIZES, pfrm);
+            ret = v4l2_ioctl(v->fd, VIDIOC_ENUM_FRAMESIZES, pfrm);
             if (ret < 0) {
                 if (errno == EINVAL)
                     break;
@@ -452,6 +452,16 @@ int v4l2_get_format(v4l2_dev_t vd, struct v4l2_format *fmt)
     return 0;
 }
 
+int v4l2_set_format(v4l2_dev_t vd, struct v4l2_format *fmt)
+{
+	struct v4l2_dev *v = vd;
+  	if (-1 == xioctl (v->fd, VIDIOC_S_FMT, fmt)) {
+        perror("VIDIOC_S_FMT");
+        return -1;
+    }  
+    return 0;
+}
+
 int v4l2_get_frmsize(v4l2_dev_t vd, 
                      __u32 fmt_nr, __u32 frm_nr, 
                      struct v4l2_frmsizeenum *frm)
@@ -485,7 +495,7 @@ static int v4l2_init(v4l2_dev_t vd, __u32 fmt_nr, __u32 frm_nr)
     struct v4l2_cropcap cropcap;
     struct v4l2_crop crop;
 
-	if (-1 == ioctl(v->fd, VIDIOC_QUERYCAP, &cap)) {
+	if (-1 == v4l2_ioctl(v->fd, VIDIOC_QUERYCAP, &cap)) {
         perror("VIDIOC_QUERYCAP");
         return -1;
     }
@@ -542,6 +552,70 @@ err_uctl:
     return -1;
 }
 
+static int v4l2_init2(v4l2_dev_t vd, struct v4l2_format *fmt) 
+{
+	struct v4l2_dev *v = vd;
+ 	struct v4l2_capability cap;
+    struct v4l2_cropcap cropcap;
+    struct v4l2_crop crop;
+
+	if (-1 == v4l2_ioctl(v->fd, VIDIOC_QUERYCAP, &cap)) {
+        perror("VIDIOC_QUERYCAP");
+        return -1;
+    }
+
+	if (!(cap.capabilities & V4L2_CAP_VIDEO_CAPTURE)) {
+		pr_debug("%s is no video capture device\n", v->name);
+		return -1;
+	}	
+
+    if (!(cap.capabilities & V4L2_CAP_STREAMING)) {
+        pr_debug("%s does not support streaming i/o\n", v->name);
+        return -1;
+    }
+	strcpy((char*)v->name, (char*)cap.card);
+	strcpy((char*)v->drv, (char*)cap.driver);
+    pr_debug("name: %s, drv: %s\n", v->name, v->drv);
+
+    bzero(&cropcap, sizeof(cropcap));
+    cropcap.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
+    if (0 == xioctl(v->fd, VIDIOC_CROPCAP, &cropcap)) {
+        crop.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
+        crop.c = cropcap.defrect; /* reset to default */
+        if (-1 == xioctl(v->fd, VIDIOC_S_CROP, &crop)) {
+            perror("VIDIOC_S_CROP");
+            //return -1; ???
+        } else {
+            pr_debug("set crop to cropcap.defrect:\n"
+                     "left(%d), top(%d), width(%d), height(%d)\n",
+                     crop.c.left, crop.c.top, crop.c.width, crop.c.height);
+        }
+    } else {
+        pr_debug("%s does not support cropcap\n", v->name);
+        /* Errors ignored. */
+    }
+
+	if (-1 == v4l2_uctl_setup(v)) 
+		return -1;
+
+	if (-1 == v4l2_fmt_setup(v)) 
+		goto err_uctl;	
+
+	if (-1 == v4l2_set_format(v, fmt)) 
+		goto err_fmt;	
+	
+	if (-1 == v4l2_mmap_setup(v)) 
+		goto err_fmt;	
+
+    return 0;
+
+err_fmt:
+    v4l2_fmt_free(v);
+err_uctl:
+    v4l2_uctl_free(v);
+    return -1;
+}
+
 /*
  * 反初始化设备
  * */
@@ -580,6 +654,41 @@ static void v4l2_app_handler(int fd, void *arg)
     }	
 }
 
+v4l2_dev_t v4l2_create2(app_t app, const char *dev, struct v4l2_format *fmt) 
+{
+    struct v4l2_dev *v = calloc(1, sizeof(struct v4l2_dev));
+    if (!v) {
+		perror("v4l2_create");
+		return NULL;
+	}
+
+	if (NULL == dev)
+		dev = DEF_V4L_DEV;
+
+    if (-1 == (v->fd = v4l2_open(dev, O_RDWR | O_NONBLOCK))) {
+        perror(dev);
+        goto err_mem;
+    }
+
+    if (-1 == (v4l2_init2(v, fmt))) 
+        goto err_open;
+
+    v->ev = app_event_create(v->fd);
+    if (NULL == v->ev) 
+        goto err_init;
+    app_event_add_notifier(v->ev, NOTIFIER_READ, v4l2_app_handler, v);
+    v->app = app;
+
+	return v;
+err_init:
+    v4l2_uninit(v);
+err_open:
+    v4l2_close(v->fd);
+err_mem:
+    free(v);
+    return NULL;
+}
+
 v4l2_dev_t v4l2_create(app_t app, const char *dev, __u32 fmt_nr, __u32 frm_nr) 
 {
     struct v4l2_dev *v = calloc(1, sizeof(struct v4l2_dev));
@@ -591,7 +700,7 @@ v4l2_dev_t v4l2_create(app_t app, const char *dev, __u32 fmt_nr, __u32 frm_nr)
 	if (NULL == dev)
 		dev = DEF_V4L_DEV;
 
-    if (-1 == (v->fd = open(dev, O_RDWR | O_NONBLOCK))) {
+    if (-1 == (v->fd = v4l2_open(dev, O_RDWR | O_NONBLOCK))) {
         perror(dev);
         goto err_mem;
     }
@@ -609,7 +718,7 @@ v4l2_dev_t v4l2_create(app_t app, const char *dev, __u32 fmt_nr, __u32 frm_nr)
 err_init:
     v4l2_uninit(v);
 err_open:
-    close(v->fd);
+    v4l2_close(v->fd);
 err_mem:
     free(v);
     return NULL;
@@ -619,7 +728,7 @@ void v4l2_free(v4l2_dev_t vd)
 {
 	struct v4l2_dev *v = vd;
     v4l2_uninit(v);
-    close(v->fd);
+    v4l2_close(v->fd);
     app_event_free(v->ev);
     free(v);
 }

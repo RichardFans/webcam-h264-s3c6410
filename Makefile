@@ -4,9 +4,9 @@ ifeq ($(tag),s)
 CROSS_COMPILE?=arm-linux-
 
 ifeq ($(CROSS_COMPILE),)
-LIBS :=   $(shell pkg-config --libs libavformat libavcodec libswscale libavutil) \
+LIBS :=   $(shell pkg-config --libs libavformat libavcodec libswscale libavutil libv4l2) \
 -lm -lpthread
-INC:= $(shell pkg-config --cflags libavcodec libswscale libavutil) 
+INC:= $(shell pkg-config --cflags libavcodec libswscale libavutil)
 else
 LIBS:=	-lavformat -lavcodec -lasound -lmp3lame -lfdk-aac \
 -lz -ldl -lswscale -lavutil -lm -lx264 -lpthread

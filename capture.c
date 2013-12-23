@@ -33,11 +33,9 @@ void capture_handler(const void *p, int size, void *arg)
     
     tst_t t = tst_create();
     tst_start(t);
-	ctx->pic_src.data[0] = (unsigned char*)p;
-	ctx->pic_src.data[1] = ctx->pic_src.data[2] = ctx->pic_src.data[3] = 0;
-	ctx->pic_src.linesize[0] = ctx->bytesperrow;
-	ctx->pic_src.linesize[1] = ctx->pic_src.linesize[2] = ctx->pic_src.linesize[3] = 0;
 
+    avpicture_fill(&ctx->pic_src, p, PIX_FMT_YUV420P,
+            ctx->width, ctx->height);
 	// sws_scale
 	sws_scale(ctx->sws, ctx->pic_src.data, ctx->pic_src.linesize,
             0, ctx->rows, ctx->pic_target.data, ctx->pic_target.linesize);
@@ -50,24 +48,12 @@ void *capture_open (app_t a, const char *dev_name, int t_width, int t_height, Pi
 	Ctx *ctx = malloc(sizeof(Ctx));
     struct v4l2_format fmt;
 
-    ctx->v = v4l2_create(a, dev_name, 0, 1);
-    v4l2_set_img_proc(ctx->v, capture_handler, ctx);
-
     fmt.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
-    v4l2_get_format(ctx->v, &fmt);
-    PixelFormat srcfmt = PIX_FMT_NONE;
-    switch (fmt.fmt.pix.pixelformat) {
-    case V4L2_PIX_FMT_YUYV:
-        srcfmt = PIX_FMT_YUYV422;
-        break;
-    case V4L2_PIX_FMT_JPEG:
-        //需要进行解码
-        break;//
-    }
-    if (srcfmt == PIX_FMT_NONE) {
-        fprintf(stderr, "Just support YUYV source format from Camera Now\n");
-        goto err_v4l;
-    }
+    fmt.fmt.pix.pixelformat = V4L2_PIX_FMT_YUV420;
+	fmt.fmt.pix.width       = t_width;
+	fmt.fmt.pix.height      = t_height;
+    ctx->v = v4l2_create2(a, dev_name, &fmt);
+    PixelFormat srcfmt = PIX_FMT_YUV420P;
 
 	// 构造转换器
 	ctx->width = t_width;
@@ -81,14 +67,12 @@ void *capture_open (app_t a, const char *dev_name, int t_width, int t_height, Pi
 
     avpicture_alloc(&ctx->pic_target, tarfmt, ctx->width, ctx->height);
 
+    v4l2_set_img_proc(ctx->v, capture_handler, ctx);
     v4l2_start_capture(ctx->v);
 
     ctx->fmt = tarfmt;
 
 	return ctx;
-err_v4l:
-    v4l2_free(ctx->v);
-    return NULL;
 }
 
 int capture_get_picture (void *id, Picture *pic)

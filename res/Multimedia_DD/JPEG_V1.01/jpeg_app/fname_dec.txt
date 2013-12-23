@@ -1,0 +1,13 @@
+./testVectors/testInp/test_420_1600_1200.jpg ./testVectors/testOut/test_420_1600_1200.yuv
+./testVectors/testInp/test_420_1599_1198.jpg ./testVectors/testOut/test_420_1599_1198.yuv
+./testVectors/testInp/test_420_799_598.jpg ./testVectors/testOut/test_420_799_598.yuv
+./testVectors/testInp/test_420_640_480.jpg ./testVectors/testOut/test_420_640_480.yuv
+./testVectors/testInp/test_422_1600_1200.jpg ./testVectors/testOut/test_422_1600_1200.yuv
+./testVectors/testInp/test_422_1599_1198.jpg ./testVectors/testOut/test_422_1599_1198.yuv
+./testVectors/testInp/test_422_799_598.jpg ./testVectors/testOut/test_422_799_598.yuv
+./testVectors/testInp/test_422_640_480.jpg ./testVectors/testOut/test_422_640_480.yuv
+./testVectors/testInp/test_444_1600_1200.jpg ./testVectors/testOut/test_444_1600_1200.yuv
+./testVectors/testInp/test_444_1599_1198.jpg ./testVectors/testOut/test_444_1599_1198.yuv
+./testVectors/testInp/test_444_799_598.jpg ./testVectors/testOut/test_444_799_598.yuv
+./testVectors/testInp/test_444_640_480.jpg ./testVectors/testOut/test_444_640_480.yuv
+################

@@ -1,0 +1,7 @@
+./testVectors/testInp/test_320_240.yuv ./testVectors/testOut/test_320_240.jpg 320 240
+./testVectors/testInp/test_640_480.yuv ./testVectors/testOut/test_640_480.jpg 640 480
+./testVectors/testInp/test_1280_960.yuv ./testVectors/testOut/test_1280_960.jpg 1280 960
+./testVectors/testInp/test_1600_1200.yuv ./testVectors/testOut/test_1600_1200.jpg 1600 1200
+#############
+
+

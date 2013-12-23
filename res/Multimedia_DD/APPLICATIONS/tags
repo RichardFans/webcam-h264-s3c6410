@@ -1,0 +1,2334 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ANNEX_I_OFF	MFC_API/SsbSipMpeg4Encode.h	36;"	d
+ANNEX_I_ON	MFC_API/SsbSipMpeg4Encode.h	37;"	d
+ANNEX_J_OFF	MFC_API/SsbSipMpeg4Encode.h	34;"	d
+ANNEX_J_ON	MFC_API/SsbSipMpeg4Encode.h	35;"	d
+ANNEX_K_OFF	MFC_API/SsbSipMpeg4Encode.h	32;"	d
+ANNEX_K_ON	MFC_API/SsbSipMpeg4Encode.h	33;"	d
+ANNEX_T_OFF	MFC_API/SsbSipMpeg4Encode.h	30;"	d
+ANNEX_T_ON	MFC_API/SsbSipMpeg4Encode.h	31;"	d
+APP_data	Common/videodev2.h	/^	char APP_data[60];      \/* Data in the JPEG APPn segment. *\/$/;"	m	struct:v4l2_jpegcompression
+APP_len	Common/videodev2.h	/^	int  APP_len;           \/* Length of data in JPEG APPn segment *\/$/;"	m	struct:v4l2_jpegcompression
+APPn	Common/videodev2.h	/^	int  APPn;              \/* Number of APP segment to be written,$/;"	m	struct:v4l2_jpegcompression
+ARGB16	Common/post.h	/^	RGB8, ARGB8, RGB16, ARGB16, RGB18, RGB24, RGB30, ARGB24,$/;"	e	enum:__anon39
+ARGB24	Common/post.h	/^	RGB8, ARGB8, RGB16, ARGB16, RGB18, RGB24, RGB30, ARGB24,$/;"	e	enum:__anon39
+ARGB8	Common/post.h	/^	RGB8, ARGB8, RGB16, ARGB16, RGB18, RGB24, RGB30, ARGB24,$/;"	e	enum:__anon39
+ApertureFNumber	JPEG_API/JPGApi.h	/^	UINT	ApertureFNumber; $/;"	m	struct:tagExifFileInfo
+BASE_VIDIOC_PRIVATE	Common/videodev2.h	1477;"	d
+BOOL	JPEG_API/JPGApi.h	/^typedef enum {FALSE, TRUE} BOOL;$/;"	t	typeref:enum:__anon25
+BUF_SIZE	Common/MfcDriver.h	52;"	d
+BUF_SIZE	Common/mfc.h	52;"	d
+B_RGB565	JPEG_API/JPGApi.c	58;"	d	file:
+BitsPerPixel	Common/lcd.h	54;"	d
+Bpp	Common/lcd.h	/^	int Bpp;$/;"	m	struct:__anon26
+BrightnessDen	JPEG_API/JPGApi.h	/^	int		BrightnessDen; $/;"	m	struct:tagExifFileInfo
+BrightnessNum	JPEG_API/JPGApi.h	/^	int		BrightnessNum; $/;"	m	struct:tagExifFileInfo
+BytesPerPixel	Common/lcd.h	53;"	d
+CBYCRY	Common/post.h	/^	CRYCBY, CBYCRY, YCRYCB, YCBYCR, YUV444 \/\/ Interleave$/;"	e	enum:__anon39
+CC	Common/Makefile	/^CC = arm-linux-gcc$/;"	m
+CC	FrameExtractor/Makefile	/^CC = arm-linux-gcc$/;"	m
+CC	JPEG_API/Makefile	/^CC = arm-linux-gcc$/;"	m
+CC	MFC_API/Makefile	/^CC = arm-linux-gcc$/;"	m
+CC	Makefile	/^CC = arm-linux-gcc$/;"	m
+CCDWidth	JPEG_API/JPGApi.h	/^	UINT	CCDWidth;$/;"	m	struct:tagExifFileInfo
+CFLAGS	Common/Makefile	/^CFLAGS = -g -c -Os -Wall$/;"	m
+CFLAGS	FrameExtractor/Makefile	/^CFLAGS = -g -c -Os -Wall$/;"	m
+CFLAGS	JPEG_API/Makefile	/^CFLAGS = -g -c -Os -Wall$/;"	m
+CFLAGS	MFC_API/Makefile	/^CFLAGS = -g -c -Os -Wall$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -c -Os -Wall$/;"	m
+CODEC_NODE	cam_dec_preview-On7LCD.c	49;"	d	file:
+CODEC_NODE	cam_dec_preview.c	50;"	d	file:
+CODEC_NODE	cam_enc_dec_test.c	46;"	d	file:
+CODEC_NODE	cam_encoder_test.c	45;"	d	file:
+CODEC_NODE	capture.c	40;"	d	file:
+CODEC_NODE	yuanshi-cam_dec_preview.c	49;"	d	file:
+COM_data	Common/videodev2.h	/^	char COM_data[60];      \/* Data in JPEG COM segment *\/$/;"	m	struct:v4l2_jpegcompression
+COM_len	Common/videodev2.h	/^	int  COM_len;           \/* Length of data in JPEG COM segment *\/$/;"	m	struct:v4l2_jpegcompression
+CRYCBY	Common/post.h	/^	CRYCBY, CBYCRY, YCRYCB, YCBYCR, YUV444 \/\/ Interleave$/;"	e	enum:__anon39
+ColorSpace	JPEG_API/JPGApi.h	/^	UINT	ColorSpace; $/;"	m	struct:tagExifFileInfo
+CopyRight	JPEG_API/JPGApi.h	/^	char	CopyRight[32]; $/;"	m	struct:tagExifFileInfo
+DATA_FILE	FrameExtractor/FileRead.h	29;"	d
+DATA_MEM	FrameExtractor/FileRead.h	30;"	d
+DEBUG	JPEG_API/JPGApi.c	62;"	d	file:
+DEBUG_LINE	display_test.c	74;"	d	file:
+DEBUG_LINE	display_test.c	76;"	d	file:
+DEC_PIC_OPT_MP4ASP	Common/MfcDrvParams.h	105;"	d
+DEPENDENCY	Common/Makefile	/^DEPENDENCY = lcd.h 				\\$/;"	m
+DEPENDENCY	FrameExtractor/Makefile	/^DEPENDENCY = FileRead.h 		\\$/;"	m
+DEPENDENCY	JPEG_API/Makefile	/^DEPENDENCY = JPGApi.h$/;"	m
+DEPENDENCY	MFC_API/Makefile	/^DEPENDENCY = SsbSipH264Decode.h		\\$/;"	m
+DEPENDENCY	Makefile	/^DEPENDENCY = .\/Common\/lcd.h 			\\$/;"	m
+DMA_ONESHOT	Common/post.h	/^	DMA_ONESHOT,$/;"	e	enum:__anon38
+DWORD	JPEG_API/JPGApi.h	/^typedef unsigned long	DWORD;$/;"	t
+DateTime	JPEG_API/JPGApi.h	/^	char	DateTime[32]; $/;"	m	struct:tagExifFileInfo
+DstCSpace	Common/post.h	/^	s3c_color_space_t DstCSpace; 		\/\/ Color Space ot the Source Image$/;"	m	struct:__anon41
+DstFrmSt	Common/post.h	/^	unsigned int DstFrmSt; 			\/\/ Base Address of the Source Image : Physical Address$/;"	m	struct:__anon41
+DstFullHeight	Common/post.h	/^	unsigned int DstFullHeight; 		\/\/ Source Image Full Height(Virtual screen size)$/;"	m	struct:__anon41
+DstFullWidth	Common/post.h	/^	unsigned int DstFullWidth; 		\/\/ Source Image Full Width(Virtual screen size)$/;"	m	struct:__anon41
+DstHeight	Common/post.h	/^	unsigned int DstHeight; 			\/\/ Source Image Height$/;"	m	struct:__anon41
+DstStartX	Common/post.h	/^	unsigned int DstStartX; 			\/\/ Source Image Start width offset$/;"	m	struct:__anon41
+DstStartY	Common/post.h	/^	unsigned int DstStartY; 			\/\/ Source Image Start height offset$/;"	m	struct:__anon41
+DstWidth	Common/post.h	/^	unsigned int DstWidth; 			\/\/ Source Image Width$/;"	m	struct:__anon41
+ENCDEC_TYPE_T	JPEG_API/JPGApi.c	/^}ENCDEC_TYPE_T;$/;"	t	typeref:enum:tagENCDEC_TYPE_T	file:
+ENC_PARAM_BITRATE	Common/MfcDrvParams.h	95;"	d
+ENC_PARAM_F_RATE	Common/MfcDrvParams.h	96;"	d
+ENC_PARAM_GOP_NUM	Common/MfcDrvParams.h	93;"	d
+ENC_PARAM_INTRA_QP	Common/MfcDrvParams.h	94;"	d
+ENC_PARAM_INTRA_REF	Common/MfcDrvParams.h	97;"	d
+ENC_PARAM_SLICE_MODE	Common/MfcDrvParams.h	98;"	d
+ENC_PIC_OPT_IDR	Common/MfcDrvParams.h	100;"	d
+ENC_PIC_OPT_RECOVERY	Common/MfcDrvParams.h	102;"	d
+ENC_PIC_OPT_SKIP	Common/MfcDrvParams.h	101;"	d
+EXIF_FILE_SIZE	JPEG_API/JPGApi.h	29;"	d
+ExifFileInfo	JPEG_API/JPGApi.h	/^}ExifFileInfo;$/;"	t	typeref:struct:tagExifFileInfo
+ExifHeader	JPEG_API/JPGApi.c	/^UCHAR ExifHeader[6]=$/;"	v
+ExifInfo	JPEG_API/JPGApi.c	/^	ExifFileInfo *ExifInfo;$/;"	m	struct:tagJPG_CTX	file:
+ExposureBiasDen	JPEG_API/JPGApi.h	/^	int		ExposureBiasDen; $/;"	m	struct:tagExifFileInfo
+ExposureBiasNum	JPEG_API/JPGApi.h	/^	int		ExposureBiasNum; $/;"	m	struct:tagExifFileInfo
+ExposureProgram	JPEG_API/JPGApi.h	/^	int		ExposureProgram;$/;"	m	struct:tagExifFileInfo
+ExposureTimeDen	JPEG_API/JPGApi.h	/^	UINT	ExposureTimeDen; $/;"	m	struct:tagExifFileInfo
+ExposureTimeNum	JPEG_API/JPGApi.h	/^	UINT	ExposureTimeNum; $/;"	m	struct:tagExifFileInfo
+ExtractConfigStreamH263	FrameExtractor/H263Frames.c	/^int ExtractConfigStreamH263(void *fp,$/;"	f
+ExtractConfigStreamH264	FrameExtractor/H264Frames.c	/^int ExtractConfigStreamH264(FRAMEX_CTX  *pFrameExCtx,$/;"	f
+ExtractConfigStreamMpeg4	FrameExtractor/MPEG4Frames.c	/^int ExtractConfigStreamMpeg4(FRAMEX_CTX  *pFrameExCtx,$/;"	f
+ExtractConfigStreamVC1	FrameExtractor/VC1Frames.c	/^int ExtractConfigStreamVC1(void *fp, unsigned char buf[], int buf_size, VC1_CONFIG_DATA *conf_data)$/;"	f
+FALSE	JPEG_API/JPGApi.c	61;"	d	file:
+FALSE	JPEG_API/JPGApi.h	/^typedef enum {FALSE, TRUE} BOOL;$/;"	e	enum:__anon25
+FALSE	cam_dec_preview-On7LCD.c	101;"	d	file:
+FALSE	cam_dec_preview.c	114;"	d	file:
+FALSE	cam_encoder_test.c	99;"	d	file:
+FALSE	capture.c	103;"	d	file:
+FALSE	yuanshi-cam_dec_preview.c	101;"	d	file:
+FBIO_WAITFORVSYNC	Common/lcd.h	27;"	d
+FB_DEV_NAME	Common/lcd.h	42;"	d
+FB_DEV_NAME1	Common/lcd.h	43;"	d
+FB_DEV_NAME2	Common/lcd.h	44;"	d
+FB_DEV_NAME3	Common/lcd.h	45;"	d
+FB_DEV_NAME4	Common/lcd.h	46;"	d
+FB_HEIGHT	Common/lcd.h	49;"	d
+FB_VIRTUAL_HEIGHT	Common/lcd.h	51;"	d
+FB_VIRTUAL_WIDTH	Common/lcd.h	50;"	d
+FB_WIDTH	Common/lcd.h	48;"	d
+FIFO_FREERUN	Common/post.h	/^    FIFO_FREERUN$/;"	e	enum:__anon38
+FNumberDen	JPEG_API/JPGApi.h	/^	UINT	FNumberDen; $/;"	m	struct:tagExifFileInfo
+FNumberNum	JPEG_API/JPGApi.h	/^	UINT	FNumberNum; $/;"	m	struct:tagExifFileInfo
+FRAMEX_CONTINUE	FrameExtractor/FrameExtractor.h	57;"	d
+FRAMEX_CTX	FrameExtractor/FrameExtractor.h	/^} FRAMEX_CTX;$/;"	t	typeref:struct:stFRAMEX_CTX
+FRAMEX_ERR_BUFSIZE_TOO_SMALL	FrameExtractor/FrameExtractor.h	60;"	d
+FRAMEX_ERR_EOS	FrameExtractor/FrameExtractor.h	59;"	d
+FRAMEX_ERR_NOTFOUND	FrameExtractor/FrameExtractor.h	58;"	d
+FRAMEX_IN	FrameExtractor/FrameExtractor.h	/^typedef void * FRAMEX_IN;$/;"	t
+FRAMEX_INVALID_PARAM	FrameExtractor/FrameExtractor.h	61;"	d
+FRAMEX_IN_TYPE	FrameExtractor/FrameExtractor.h	/^} FRAMEX_IN_TYPE;$/;"	t	typeref:enum:__anon16
+FRAMEX_IN_TYPE_FILE	FrameExtractor/FrameExtractor.h	/^	FRAMEX_IN_TYPE_FILE,$/;"	e	enum:__anon16
+FRAMEX_IN_TYPE_MEM	FrameExtractor/FrameExtractor.h	/^	FRAMEX_IN_TYPE_MEM,$/;"	e	enum:__anon16
+FRAMEX_OK	FrameExtractor/FrameExtractor.h	56;"	d
+FRAMEX_STRM_PTR	FrameExtractor/FrameExtractor.h	/^} FRAMEX_STRM_PTR;$/;"	t	typeref:struct:__anon17
+FREE_RUN	Common/post.h	/^	ONE_SHOT, FREE_RUN$/;"	e	enum:__anon37
+Flash	JPEG_API/JPGApi.h	/^	UINT	Flash; $/;"	m	struct:tagExifFileInfo
+FocalLengthDen	JPEG_API/JPGApi.h	/^	UINT	FocalLengthDen; $/;"	m	struct:tagExifFileInfo
+FocalLengthNum	JPEG_API/JPGApi.h	/^	UINT	FocalLengthNum; $/;"	m	struct:tagExifFileInfo
+FocalPlaneResolutionUnit	JPEG_API/JPGApi.h	/^	UINT	FocalPlaneResolutionUnit;$/;"	m	struct:tagExifFileInfo
+FocalPlaneXResolutionDen	JPEG_API/JPGApi.h	/^	UINT	FocalPlaneXResolutionDen;$/;"	m	struct:tagExifFileInfo
+FocalPlaneXResolutionNum	JPEG_API/JPGApi.h	/^	UINT	FocalPlaneXResolutionNum;$/;"	m	struct:tagExifFileInfo
+FocalPlaneYResolutionDen	JPEG_API/JPGApi.h	/^	UINT	FocalPlaneYResolutionDen;$/;"	m	struct:tagExifFileInfo
+FocalPlaneYResolutionNum	JPEG_API/JPGApi.h	/^	UINT	FocalPlaneYResolutionNum;$/;"	m	struct:tagExifFileInfo
+Forlinx_Test_Cam_Dec_Preview	cam_dec_preview-On7LCD.c	/^int Forlinx_Test_Cam_Dec_Preview(int argc, char **argv,int lcdnum)$/;"	f
+Forlinx_Test_Cam_Dec_Preview	cam_dec_preview.c	/^int Forlinx_Test_Cam_Dec_Preview(int argc, char **argv,int lcdnum)$/;"	f
+Forlinx_Test_Cam_Dec_Preview	yuanshi-cam_dec_preview.c	/^int Forlinx_Test_Cam_Dec_Preview(int argc, char **argv,int lcdnum)$/;"	f
+Forlinx_Test_Cam_Enc_Dec	cam_enc_dec_test.c	/^int Forlinx_Test_Cam_Enc_Dec(int argc, char **argv, int lcdnum)$/;"	f
+Forlinx_Test_Cam_Encoding	cam_encoder_test.c	/^int Forlinx_Test_Cam_Encoding(int argc, char **argv, int lcdnum)$/;"	f
+Forlinx_Test_Capture	capture.c	/^int Forlinx_Test_Capture(int argc, char **argv, int lcdnum)$/;"	f
+Forlinx_Test_Display_4_Windows	display_4_windows.c	/^int Forlinx_Test_Display_4_Windows(int argc, char **argv, int lcdnum)$/;"	f
+Forlinx_Test_Display_H263	display_test.c	/^int Forlinx_Test_Display_H263(int argc, char **argv, int lcdnum)$/;"	f
+Forlinx_Test_Display_H264	display_test.c	/^int Forlinx_Test_Display_H264(int argc, char **argv, int lcdnum)$/;"	f
+Forlinx_Test_Display_MPEG4	display_test.c	/^int Forlinx_Test_Display_MPEG4(int argc, char **argv, int lcdnum)$/;"	f
+Forlinx_Test_Display_Optimization1	display_optimization1.c	/^int Forlinx_Test_Display_Optimization1(int argc, char **argv, int lcdnum)$/;"	f
+Forlinx_Test_Display_Optimization2	display_optimization2.c	/^int Forlinx_Test_Display_Optimization2(int argc, char **argv, int lcdnum)$/;"	f
+Forlinx_Test_Display_VC1	display_test.c	/^int Forlinx_Test_Display_VC1(int argc, char **argv, int lcdnum)$/;"	f
+Forlinx_Test_Jpeg_Display	jpeg_display.c	/^int Forlinx_Test_Jpeg_Display(int argc, char **argv, int lcdnum)$/;"	f
+FrameExtractorFinal	FrameExtractor/FrameExtractor.c	/^int FrameExtractorFinal(FRAMEX_CTX *pCTX)$/;"	f
+FrameExtractorFirst	FrameExtractor/FrameExtractor.c	/^int FrameExtractorFirst(FRAMEX_CTX *pCTX, FRAMEX_IN in)$/;"	f
+FrameExtractorInit	FrameExtractor/FrameExtractor.c	/^FRAMEX_CTX *FrameExtractorInit(FRAMEX_IN_TYPE type, unsigned char delimiter[], int delim_leng, int delim_insert)$/;"	f
+FrameExtractorNext	FrameExtractor/FrameExtractor.c	/^int FrameExtractorNext(FRAMEX_CTX *pCTX, FRAMEX_IN in, unsigned char outbuf[], int outbuf_size, int *n_fill)$/;"	f
+FrameExtractorPeek	FrameExtractor/FrameExtractor.c	/^int FrameExtractorPeek(FRAMEX_CTX *pCTX, FRAMEX_IN in, unsigned char peekbuf[], int peek_size, int *n_fill)$/;"	f
+GET_FB_INFO	Common/lcd.h	38;"	d
+G_RGB565	JPEG_API/JPGApi.c	57;"	d	file:
+H263_CODING_TYPE_I	FrameExtractor/H263Frames.h	19;"	d
+H263_CODING_TYPE_P	FrameExtractor/H263Frames.h	20;"	d
+H263_CONFIG_DATA	FrameExtractor/H263Frames.h	/^} H263_CONFIG_DATA;$/;"	t	typeref:struct:__anon20
+H263_INPUT_FILE	display_4_windows.c	36;"	d	file:
+H263_INPUT_FILE	display_test.c	35;"	d	file:
+H263_PICTURE_INFO	FrameExtractor/H263Frames.c	/^} H263_PICTURE_INFO;$/;"	t	typeref:struct:tagH263_PICTURE_INFO	file:
+H264_CODING_TYPE_I	FrameExtractor/H264Frames.h	19;"	d
+H264_CODING_TYPE_P	FrameExtractor/H264Frames.h	20;"	d
+H264_CONFIG_DATA	FrameExtractor/H264Frames.h	/^} H264_CONFIG_DATA;$/;"	t	typeref:struct:__anon21
+H264_DEC_CONF	MFC_API/SsbSipH264Decode.h	/^typedef unsigned int	H264_DEC_CONF;$/;"	t
+H264_DEC_GETCONF_FRAM_NEED_COUNT	MFC_API/SsbSipH264Decode.h	18;"	d
+H264_DEC_GETCONF_PHYADDR_FRAM_BUF	MFC_API/SsbSipH264Decode.h	17;"	d
+H264_DEC_GETCONF_STREAMINFO	MFC_API/SsbSipH264Decode.h	16;"	d
+H264_DEC_SETCONF_POST_ROTATE	MFC_API/SsbSipH264Decode.h	20;"	d
+H264_ENC_CONF	MFC_API/SsbSipH264Encode.h	/^typedef unsigned int	H264_ENC_CONF;$/;"	t
+H264_ENC_GETCONF_HEADER_SIZE	MFC_API/SsbSipH264Encode.h	7;"	d
+H264_ENC_PARAM_BITRATE	MFC_API/SsbSipH264Encode.h	15;"	d
+H264_ENC_PARAM_F_RATE	MFC_API/SsbSipH264Encode.h	16;"	d
+H264_ENC_PARAM_GOP_NUM	MFC_API/SsbSipH264Encode.h	13;"	d
+H264_ENC_PARAM_INTRA_QP	MFC_API/SsbSipH264Encode.h	14;"	d
+H264_ENC_PARAM_INTRA_REF	MFC_API/SsbSipH264Encode.h	17;"	d
+H264_ENC_PARAM_SLICE_MODE	MFC_API/SsbSipH264Encode.h	18;"	d
+H264_ENC_PIC_OPT_IDR	MFC_API/SsbSipH264Encode.h	20;"	d
+H264_ENC_PIC_OPT_RECOVERY	MFC_API/SsbSipH264Encode.h	22;"	d
+H264_ENC_PIC_OPT_SKIP	MFC_API/SsbSipH264Encode.h	21;"	d
+H264_ENC_SETCONF_CUR_PIC_OPT	MFC_API/SsbSipH264Encode.h	11;"	d
+H264_ENC_SETCONF_NUM_SLICES	MFC_API/SsbSipH264Encode.h	9;"	d
+H264_ENC_SETCONF_PARAM_CHANGE	MFC_API/SsbSipH264Encode.h	10;"	d
+H264_INPUT_FILE	cam_dec_preview-On7LCD.c	105;"	d	file:
+H264_INPUT_FILE	cam_dec_preview.c	118;"	d	file:
+H264_INPUT_FILE	display_4_windows.c	34;"	d	file:
+H264_INPUT_FILE	display_optimization1.c	35;"	d	file:
+H264_INPUT_FILE	display_optimization2.c	35;"	d	file:
+H264_INPUT_FILE	display_test.c	33;"	d	file:
+H264_INPUT_FILE	yuanshi-cam_dec_preview.c	105;"	d	file:
+H264_SLICE_INFO	FrameExtractor/H264Frames.c	/^} H264_SLICE_INFO;$/;"	t	typeref:struct:tagH264_SLICE_INFO	file:
+Height	Common/lcd.h	/^	int Height;$/;"	m	struct:__anon26
+Height	JPEG_API/JPGApi.h	/^	UINT	Height; $/;"	m	struct:tagExifFileInfo
+IMAGE_QUALITY_TYPE_T	JPEG_API/JPGApi.h	/^}IMAGE_QUALITY_TYPE_T;$/;"	t	typeref:enum:tagIMAGE_QUALITY_TYPE_T
+INC	Common/Makefile	/^INC = -I..\/Common$/;"	m
+INC	FrameExtractor/Makefile	/^INC = -I..\/Common$/;"	m
+INC	JPEG_API/Makefile	/^INC = -I..\/Common$/;"	m
+INC	MFC_API/Makefile	/^INC = -I..\/Common$/;"	m
+INC	Makefile	/^INC = -I.\/Common -I.\/FrameExtractor -I.\/MFC_API -I.\/JPEG_API$/;"	m
+INPUT_BUFFER_SIZE	cam_dec_preview-On7LCD.c	83;"	d	file:
+INPUT_BUFFER_SIZE	cam_dec_preview.c	96;"	d	file:
+INPUT_BUFFER_SIZE	display_4_windows.c	46;"	d	file:
+INPUT_BUFFER_SIZE	display_optimization1.c	47;"	d	file:
+INPUT_BUFFER_SIZE	display_optimization2.c	47;"	d	file:
+INPUT_BUFFER_SIZE	display_test.c	42;"	d	file:
+INPUT_BUFFER_SIZE	yuanshi-cam_dec_preview.c	83;"	d	file:
+INT32	JPEG_API/JPGApi.h	/^typedef int				INT32;$/;"	t
+INTERLACE_MODE	Common/post.h	/^	INTERLACE_MODE,$/;"	e	enum:__anon40
+IOCTL_JPG_DECODE	JPEG_API/JPGApi.c	44;"	d	file:
+IOCTL_JPG_ENCODE	JPEG_API/JPGApi.c	46;"	d	file:
+IOCTL_JPG_GET_FRMBUF	JPEG_API/JPGApi.c	48;"	d	file:
+IOCTL_JPG_GET_PHY_FRMBUF	JPEG_API/JPGApi.c	51;"	d	file:
+IOCTL_JPG_GET_PHY_THUMB_FRMBUF	JPEG_API/JPGApi.c	52;"	d	file:
+IOCTL_JPG_GET_STRBUF	JPEG_API/JPGApi.c	47;"	d	file:
+IOCTL_JPG_GET_THUMB_FRMBUF	JPEG_API/JPGApi.c	50;"	d	file:
+IOCTL_JPG_GET_THUMB_STRBUF	JPEG_API/JPGApi.c	49;"	d	file:
+IOCTL_MFC_GET_CONFIG	Common/MfcDriver.h	39;"	d
+IOCTL_MFC_GET_CONFIG	Common/mfc.h	39;"	d
+IOCTL_MFC_GET_FRAM_BUF_ADDR	Common/MfcDriver.h	36;"	d
+IOCTL_MFC_GET_FRAM_BUF_ADDR	Common/mfc.h	36;"	d
+IOCTL_MFC_GET_LINE_BUF_ADDR	Common/MfcDriver.h	34;"	d
+IOCTL_MFC_GET_LINE_BUF_ADDR	Common/mfc.h	34;"	d
+IOCTL_MFC_GET_PHY_FRAM_BUF_ADDR	Common/MfcDriver.h	38;"	d
+IOCTL_MFC_GET_PHY_FRAM_BUF_ADDR	Common/mfc.h	38;"	d
+IOCTL_MFC_GET_POST_BUF_ADDR	Common/MfcDriver.h	37;"	d
+IOCTL_MFC_GET_POST_BUF_ADDR	Common/mfc.h	37;"	d
+IOCTL_MFC_GET_RING_BUF_ADDR	Common/MfcDriver.h	35;"	d
+IOCTL_MFC_GET_RING_BUF_ADDR	Common/mfc.h	35;"	d
+IOCTL_MFC_H263_DEC_EXE	Common/MfcDriver.h	28;"	d
+IOCTL_MFC_H263_DEC_EXE	Common/mfc.h	28;"	d
+IOCTL_MFC_H263_DEC_INIT	Common/MfcDriver.h	26;"	d
+IOCTL_MFC_H263_DEC_INIT	Common/mfc.h	26;"	d
+IOCTL_MFC_H263_ENC_EXE	Common/MfcDriver.h	29;"	d
+IOCTL_MFC_H263_ENC_EXE	Common/mfc.h	29;"	d
+IOCTL_MFC_H263_ENC_INIT	Common/MfcDriver.h	27;"	d
+IOCTL_MFC_H263_ENC_INIT	Common/mfc.h	27;"	d
+IOCTL_MFC_H264_DEC_EXE	Common/MfcDriver.h	23;"	d
+IOCTL_MFC_H264_DEC_EXE	Common/mfc.h	23;"	d
+IOCTL_MFC_H264_DEC_INIT	Common/MfcDriver.h	21;"	d
+IOCTL_MFC_H264_DEC_INIT	Common/mfc.h	21;"	d
+IOCTL_MFC_H264_ENC_EXE	Common/MfcDriver.h	24;"	d
+IOCTL_MFC_H264_ENC_EXE	Common/mfc.h	24;"	d
+IOCTL_MFC_H264_ENC_INIT	Common/MfcDriver.h	22;"	d
+IOCTL_MFC_H264_ENC_INIT	Common/mfc.h	22;"	d
+IOCTL_MFC_MPEG4_DEC_EXE	Common/MfcDriver.h	18;"	d
+IOCTL_MFC_MPEG4_DEC_EXE	Common/mfc.h	18;"	d
+IOCTL_MFC_MPEG4_DEC_INIT	Common/MfcDriver.h	16;"	d
+IOCTL_MFC_MPEG4_DEC_INIT	Common/mfc.h	16;"	d
+IOCTL_MFC_MPEG4_ENC_EXE	Common/MfcDriver.h	19;"	d
+IOCTL_MFC_MPEG4_ENC_EXE	Common/mfc.h	19;"	d
+IOCTL_MFC_MPEG4_ENC_INIT	Common/MfcDriver.h	17;"	d
+IOCTL_MFC_MPEG4_ENC_INIT	Common/mfc.h	17;"	d
+IOCTL_MFC_SET_CONFIG	Common/MfcDriver.h	42;"	d
+IOCTL_MFC_SET_CONFIG	Common/mfc.h	42;"	d
+IOCTL_MFC_SET_H263_MULTIPLE_SLICE	Common/MfcDriver.h	41;"	d
+IOCTL_MFC_SET_H263_MULTIPLE_SLICE	Common/mfc.h	41;"	d
+IOCTL_MFC_VC1_DEC_EXE	Common/MfcDriver.h	32;"	d
+IOCTL_MFC_VC1_DEC_EXE	Common/mfc.h	32;"	d
+IOCTL_MFC_VC1_DEC_INIT	Common/MfcDriver.h	31;"	d
+IOCTL_MFC_VC1_DEC_INIT	Common/mfc.h	31;"	d
+ISOSpeedRatings	JPEG_API/JPGApi.h	/^	UINT	ISOSpeedRatings[2]; $/;"	m	struct:tagExifFileInfo
+InBuf	JPEG_API/JPGApi.c	/^	char	*InBuf;$/;"	m	struct:tagJPG_CTX	file:
+InThumbBuf	JPEG_API/JPGApi.c	/^	char	*InThumbBuf;$/;"	m	struct:tagJPG_CTX	file:
+JPEGConf	JPEG_API/JPGApi.h	/^}JPEGConf;$/;"	t	typeref:enum:tagJPEGConf
+JPEG_DECODE_FAIL	JPEG_API/JPGApi.h	/^	JPEG_DECODE_FAIL,$/;"	e	enum:tagJPEG_ERRORTYPE
+JPEG_DECODE_OK	JPEG_API/JPGApi.h	/^	JPEG_DECODE_OK,$/;"	e	enum:tagJPEG_ERRORTYPE
+JPEG_ENCODE_FAIL	JPEG_API/JPGApi.h	/^	JPEG_ENCODE_FAIL,$/;"	e	enum:tagJPEG_ERRORTYPE
+JPEG_ENCODE_OK	JPEG_API/JPGApi.h	/^	JPEG_ENCODE_OK,$/;"	e	enum:tagJPEG_ERRORTYPE
+JPEG_ERRORTYPE	JPEG_API/JPGApi.h	/^}JPEG_ERRORTYPE;$/;"	t	typeref:enum:tagJPEG_ERRORTYPE
+JPEG_FAIL	JPEG_API/JPGApi.h	/^	JPEG_FAIL,$/;"	e	enum:tagJPEG_ERRORTYPE
+JPEG_GET_DECODE_HEIGHT	JPEG_API/JPGApi.h	/^	JPEG_GET_DECODE_HEIGHT,$/;"	e	enum:tagJPEGConf
+JPEG_GET_DECODE_WIDTH	JPEG_API/JPGApi.h	/^	JPEG_GET_DECODE_WIDTH,$/;"	e	enum:tagJPEGConf
+JPEG_GET_SAMPING_MODE	JPEG_API/JPGApi.h	/^	JPEG_GET_SAMPING_MODE,$/;"	e	enum:tagJPEGConf
+JPEG_HEADER_PARSE_FAIL	JPEG_API/JPGApi.h	/^	JPEG_HEADER_PARSE_FAIL,$/;"	e	enum:tagJPEG_ERRORTYPE
+JPEG_HEADER_PARSE_OK	JPEG_API/JPGApi.h	/^	JPEG_HEADER_PARSE_OK,$/;"	e	enum:tagJPEG_ERRORTYPE
+JPEG_INPUT_FILE	jpeg_display.c	23;"	d	file:
+JPEG_OK	JPEG_API/JPGApi.h	/^	JPEG_OK,$/;"	e	enum:tagJPEG_ERRORTYPE
+JPEG_SCALER	JPEG_API/JPGApi.h	/^}JPEG_SCALER;$/;"	t	typeref:enum:tagJPEG_SCALER
+JPEG_SET_ENCODE_HEIGHT	JPEG_API/JPGApi.h	/^	JPEG_SET_ENCODE_HEIGHT,$/;"	e	enum:tagJPEGConf
+JPEG_SET_ENCODE_QUALITY	JPEG_API/JPGApi.h	/^	JPEG_SET_ENCODE_QUALITY,$/;"	e	enum:tagJPEGConf
+JPEG_SET_ENCODE_THUMBNAIL	JPEG_API/JPGApi.h	/^	JPEG_SET_ENCODE_THUMBNAIL,$/;"	e	enum:tagJPEGConf
+JPEG_SET_ENCODE_WIDTH	JPEG_API/JPGApi.h	/^	JPEG_SET_ENCODE_WIDTH,$/;"	e	enum:tagJPEGConf
+JPEG_SET_SAMPING_MODE	JPEG_API/JPGApi.h	/^	JPEG_SET_SAMPING_MODE,$/;"	e	enum:tagJPEGConf
+JPEG_SET_THUMBNAIL_HEIGHT	JPEG_API/JPGApi.h	/^	JPEG_SET_THUMBNAIL_HEIGHT$/;"	e	enum:tagJPEGConf
+JPEG_SET_THUMBNAIL_WIDTH	JPEG_API/JPGApi.h	/^	JPEG_SET_THUMBNAIL_WIDTH,$/;"	e	enum:tagJPEGConf
+JPEG_UNKNOWN_ERROR	JPEG_API/JPGApi.h	/^	JPEG_UNKNOWN_ERROR$/;"	e	enum:tagJPEG_ERRORTYPE
+JPEG_USE_HW_SCALER	JPEG_API/JPGApi.h	/^	JPEG_USE_HW_SCALER=1,$/;"	e	enum:tagJPEG_SCALER
+JPEG_USE_SW_SCALER	JPEG_API/JPGApi.h	/^	JPEG_USE_SW_SCALER=2$/;"	e	enum:tagJPEG_SCALER
+JPG_400	JPEG_API/JPGApi.h	/^	JPG_400,$/;"	e	enum:tagSAMPLE_MODE_T
+JPG_411	JPEG_API/JPGApi.h	/^	JPG_411,$/;"	e	enum:tagSAMPLE_MODE_T
+JPG_420	JPEG_API/JPGApi.h	/^	JPG_420, $/;"	e	enum:tagSAMPLE_MODE_T
+JPG_422	JPEG_API/JPGApi.h	/^	JPG_422,$/;"	e	enum:tagSAMPLE_MODE_T
+JPG_444	JPEG_API/JPGApi.h	/^	JPG_444,$/;"	e	enum:tagSAMPLE_MODE_T
+JPG_CTX	JPEG_API/JPGApi.c	/^}JPG_CTX;$/;"	t	typeref:struct:tagJPG_CTX	file:
+JPG_DEC_PROC_PARAM	JPEG_API/JPGApi.c	/^} JPG_DEC_PROC_PARAM;$/;"	t	typeref:struct:tagJPG_DEC_PROC_PARAM	file:
+JPG_DRIVER_NAME	JPEG_API/JPGApi.c	40;"	d	file:
+JPG_ENC_PROC_PARAM	JPEG_API/JPGApi.c	/^} JPG_ENC_PROC_PARAM;$/;"	t	typeref:struct:tagJPG_ENC_PROC_PARAM	file:
+JPG_FRAME_BUF_SIZE	JPEG_API/JPGApi.h	33;"	d
+JPG_FRAME_THUMB_BUF_SIZE	JPEG_API/JPGApi.h	34;"	d
+JPG_MAIN	JPEG_API/JPGApi.c	/^	JPG_MAIN,$/;"	e	enum:tagENCDEC_TYPE_T	file:
+JPG_QUALITY_LEVEL_1	JPEG_API/JPGApi.h	/^	JPG_QUALITY_LEVEL_1 = 0, \/*high quality*\/$/;"	e	enum:tagIMAGE_QUALITY_TYPE_T
+JPG_QUALITY_LEVEL_2	JPEG_API/JPGApi.h	/^	JPG_QUALITY_LEVEL_2,$/;"	e	enum:tagIMAGE_QUALITY_TYPE_T
+JPG_QUALITY_LEVEL_3	JPEG_API/JPGApi.h	/^	JPG_QUALITY_LEVEL_3,$/;"	e	enum:tagIMAGE_QUALITY_TYPE_T
+JPG_QUALITY_LEVEL_4	JPEG_API/JPGApi.h	/^	JPG_QUALITY_LEVEL_4     \/*low quality*\/$/;"	e	enum:tagIMAGE_QUALITY_TYPE_T
+JPG_SAMPLE_UNKNOWN	JPEG_API/JPGApi.h	/^	JPG_SAMPLE_UNKNOWN$/;"	e	enum:tagSAMPLE_MODE_T
+JPG_STREAM_BUF_SIZE	JPEG_API/JPGApi.h	31;"	d
+JPG_STREAM_THUMB_BUF_SIZE	JPEG_API/JPGApi.h	32;"	d
+JPG_THUMBNAIL	JPEG_API/JPGApi.c	/^	JPG_THUMBNAIL$/;"	e	enum:tagENCDEC_TYPE_T	file:
+JPG_TOTAL_BUF_SIZE	JPEG_API/JPGApi.h	36;"	d
+LCD_24BIT	cam_dec_preview-On7LCD.c	42;"	d	file:
+LCD_24BIT	cam_dec_preview.c	43;"	d	file:
+LCD_24BIT	cam_enc_dec_test.c	39;"	d	file:
+LCD_24BIT	cam_encoder_test.c	38;"	d	file:
+LCD_24BIT	capture.c	33;"	d	file:
+LCD_24BIT	yuanshi-cam_dec_preview.c	42;"	d	file:
+LCD_BPP	cam_dec_preview-On7LCD.c	62;"	d	file:
+LCD_BPP	cam_dec_preview-On7LCD.c	64;"	d	file:
+LCD_BPP	cam_dec_preview.c	63;"	d	file:
+LCD_BPP	cam_dec_preview.c	65;"	d	file:
+LCD_BPP	cam_enc_dec_test.c	59;"	d	file:
+LCD_BPP	cam_enc_dec_test.c	61;"	d	file:
+LCD_BPP	cam_encoder_test.c	58;"	d	file:
+LCD_BPP	cam_encoder_test.c	60;"	d	file:
+LCD_BPP	capture.c	53;"	d	file:
+LCD_BPP	capture.c	55;"	d	file:
+LCD_BPP	jpeg_display.c	28;"	d	file:
+LCD_BPP	jpeg_display.c	30;"	d	file:
+LCD_BPP	yuanshi-cam_dec_preview.c	62;"	d	file:
+LCD_BPP	yuanshi-cam_dec_preview.c	64;"	d	file:
+LCD_BPP_V4L2	cam_dec_preview-On7LCD.c	43;"	d	file:
+LCD_BPP_V4L2	cam_dec_preview-On7LCD.c	45;"	d	file:
+LCD_BPP_V4L2	cam_dec_preview.c	44;"	d	file:
+LCD_BPP_V4L2	cam_dec_preview.c	46;"	d	file:
+LCD_BPP_V4L2	cam_enc_dec_test.c	40;"	d	file:
+LCD_BPP_V4L2	cam_enc_dec_test.c	42;"	d	file:
+LCD_BPP_V4L2	cam_encoder_test.c	39;"	d	file:
+LCD_BPP_V4L2	cam_encoder_test.c	41;"	d	file:
+LCD_BPP_V4L2	capture.c	34;"	d	file:
+LCD_BPP_V4L2	capture.c	36;"	d	file:
+LCD_BPP_V4L2	yuanshi-cam_dec_preview.c	43;"	d	file:
+LCD_BPP_V4L2	yuanshi-cam_dec_preview.c	45;"	d	file:
+LCD_HEIGHT	cam_dec_preview-On7LCD.c	/^static int  LCD_HEIGHT =	240;$/;"	v	file:
+LCD_HEIGHT	yuanshi-cam_dec_preview.c	/^static int  LCD_HEIGHT =	240;$/;"	v	file:
+LCD_HEIGHT_MAX	cam_dec_preview.c	68;"	d	file:
+LCD_HEIGHT_MAX	cam_enc_dec_test.c	71;"	d	file:
+LCD_HEIGHT_MAX	cam_encoder_test.c	67;"	d	file:
+LCD_HEIGHT_MAX	capture.c	63;"	d	file:
+LCD_WIDTH	cam_dec_preview-On7LCD.c	/^static int  LCD_WIDTH  = 	320;$/;"	v	file:
+LCD_WIDTH	yuanshi-cam_dec_preview.c	/^static int  LCD_WIDTH  = 	320;$/;"	v	file:
+LCD_WIDTH_MAX	cam_dec_preview.c	67;"	d	file:
+LCD_WIDTH_MAX	cam_enc_dec_test.c	70;"	d	file:
+LCD_WIDTH_MAX	cam_encoder_test.c	66;"	d	file:
+LCD_WIDTH_MAX	capture.c	62;"	d	file:
+LOG_ERROR	Common/LogMsg.h	/^	LOG_ERROR   = 2$/;"	e	enum:__anon44
+LOG_LEVEL	Common/LogMsg.h	/^} LOG_LEVEL;$/;"	t	typeref:enum:__anon44
+LOG_MSG	Common/LogMsg.c	/^void LOG_MSG(LOG_LEVEL level, const char *func_name, const char *msg, ...)$/;"	f
+LOG_TRACE	Common/LogMsg.h	/^	LOG_TRACE   = 0,$/;"	e	enum:__anon44
+LOG_WARNING	Common/LogMsg.h	/^	LOG_WARNING = 1,$/;"	e	enum:__anon44
+LeftTop_x	Common/lcd.h	/^	int LeftTop_x;$/;"	m	struct:__anon26
+LeftTop_y	Common/lcd.h	/^	int LeftTop_y;$/;"	m	struct:__anon26
+MAX_FILE_SIZE	JPEG_API/JPGApi.h	24;"	d
+MAX_FILE_THUMB_SIZE	JPEG_API/JPGApi.h	28;"	d
+MAX_JPG_HEIGHT	JPEG_API/JPGApi.h	22;"	d
+MAX_JPG_THUMBNAIL_HEIGHT	JPEG_API/JPGApi.h	26;"	d
+MAX_JPG_THUMBNAIL_WIDTH	JPEG_API/JPGApi.h	25;"	d
+MAX_JPG_WIDTH	JPEG_API/JPGApi.h	21;"	d
+MAX_YUV_SIZE	JPEG_API/JPGApi.h	23;"	d
+MAX_YUV_THUMB_SIZE	JPEG_API/JPGApi.h	27;"	d
+MCUCheck	JPEG_API/JPGApi.c	/^static JPEG_ERRORTYPE MCUCheck(SAMPLE_MODE_T sampleMode, UINT32 width, UINT32 height)$/;"	f	file:
+MFCDRV_RET_ERR_HANDLE_INVALIDATED	Common/MfcDriver.h	46;"	d
+MFCDRV_RET_ERR_HANDLE_INVALIDATED	Common/mfc.h	46;"	d
+MFCDRV_RET_ERR_INVALID_PARAM	Common/MfcDriver.h	45;"	d
+MFCDRV_RET_ERR_INVALID_PARAM	Common/mfc.h	45;"	d
+MFCDRV_RET_ERR_OTHERS	Common/MfcDriver.h	47;"	d
+MFCDRV_RET_ERR_OTHERS	Common/mfc.h	47;"	d
+MFCDRV_RET_OK	Common/MfcDriver.h	44;"	d
+MFCDRV_RET_OK	Common/mfc.h	44;"	d
+MFC_ARGS	Common/MfcDrvParams.h	/^} MFC_ARGS;$/;"	t	typeref:union:__anon35
+MFC_DEC_CONF	MFC_API/SsbSipMfcDecode.h	/^typedef unsigned int	MFC_DEC_CONF;$/;"	t
+MFC_DEC_EXE_ARG	Common/MfcDrvParams.h	/^} MFC_DEC_EXE_ARG;$/;"	t	typeref:struct:__anon31
+MFC_DEC_GETCONF_FRAM_NEED_COUNT	MFC_API/SsbSipMfcDecode.h	16;"	d
+MFC_DEC_GETCONF_PHYADDR_FRAM_BUF	MFC_API/SsbSipMfcDecode.h	15;"	d
+MFC_DEC_GETCONF_STREAMINFO	MFC_API/SsbSipMfcDecode.h	14;"	d
+MFC_DEC_INIT_ARG	Common/MfcDrvParams.h	/^} MFC_DEC_INIT_ARG;$/;"	t	typeref:struct:__anon30
+MFC_DEC_SETCONF_POST_ROTATE	MFC_API/SsbSipMfcDecode.h	18;"	d
+MFC_DEV_NAME	Common/MfcDriver.h	55;"	d
+MFC_DEV_NAME	Common/mfc.h	55;"	d
+MFC_ENC_EXE_ARG	Common/MfcDrvParams.h	/^} MFC_ENC_EXE_ARG;$/;"	t	typeref:struct:__anon29
+MFC_ENC_INIT_ARG	Common/MfcDrvParams.h	/^} MFC_ENC_INIT_ARG;$/;"	t	typeref:struct:__anon28
+MFC_GET_BUF_ADDR_ARG	Common/MfcDrvParams.h	/^} MFC_GET_BUF_ADDR_ARG;$/;"	t	typeref:struct:__anon32
+MFC_GET_CONFIG_ARG	Common/MfcDrvParams.h	/^} MFC_GET_CONFIG_ARG;$/;"	t	typeref:struct:__anon33
+MFC_GET_CONFIG_DEC_BYTE_CONSUMED	Common/MfcDrvParams.h	76;"	d
+MFC_GET_CONFIG_DEC_FRAME_NEED_COUNT	Common/MfcDrvParams.h	67;"	d
+MFC_GET_CONFIG_DEC_MP4ASP_FCODE	Common/MfcDrvParams.h	71;"	d
+MFC_GET_CONFIG_DEC_MP4ASP_MBTYPE	Common/MfcDrvParams.h	69;"	d
+MFC_GET_CONFIG_DEC_MP4ASP_MV	Common/MfcDrvParams.h	68;"	d
+MFC_GET_CONFIG_DEC_MP4ASP_NONB_TIME_LAST	Common/MfcDrvParams.h	74;"	d
+MFC_GET_CONFIG_DEC_MP4ASP_TIME_BASE_LAST	Common/MfcDrvParams.h	73;"	d
+MFC_GET_CONFIG_DEC_MP4ASP_TRD	Common/MfcDrvParams.h	75;"	d
+MFC_GET_CONFIG_DEC_MP4ASP_VOP_TIME_RES	Common/MfcDrvParams.h	72;"	d
+MFC_LINE_BUF_SIZE_PER_INSTANCE	cam_dec_preview-On7LCD.c	103;"	d	file:
+MFC_LINE_BUF_SIZE_PER_INSTANCE	cam_dec_preview.c	116;"	d	file:
+MFC_LINE_BUF_SIZE_PER_INSTANCE	cam_enc_dec_test.c	116;"	d	file:
+MFC_LINE_BUF_SIZE_PER_INSTANCE	cam_encoder_test.c	101;"	d	file:
+MFC_LINE_BUF_SIZE_PER_INSTANCE	capture.c	104;"	d	file:
+MFC_LINE_BUF_SIZE_PER_INSTANCE	yuanshi-cam_dec_preview.c	103;"	d	file:
+MFC_SET_CACHE_CLEAN	Common/MfcDrvParams.h	87;"	d
+MFC_SET_CACHE_CLEAN_INVALIDATE	Common/MfcDrvParams.h	89;"	d
+MFC_SET_CACHE_INVALIDATE	Common/MfcDrvParams.h	88;"	d
+MFC_SET_CONFIG_ARG	Common/MfcDrvParams.h	/^} MFC_SET_CONFIG_ARG;$/;"	t	typeref:struct:__anon34
+MFC_SET_CONFIG_DEC_OPTION	Common/MfcDrvParams.h	80;"	d
+MFC_SET_CONFIG_DEC_ROTATE	Common/MfcDrvParams.h	79;"	d
+MFC_SET_CONFIG_ENC_CUR_PIC_OPT	Common/MfcDrvParams.h	85;"	d
+MFC_SET_CONFIG_ENC_H263_PARAM	Common/MfcDrvParams.h	82;"	d
+MFC_SET_CONFIG_ENC_PARAM_CHANGE	Common/MfcDrvParams.h	84;"	d
+MFC_SET_CONFIG_ENC_SLICE_MODE	Common/MfcDrvParams.h	83;"	d
+MFC_SET_PADDING_SIZE	Common/MfcDrvParams.h	91;"	d
+MIN	cam_dec_preview-On7LCD.c	824;"	d	file:
+MIN	cam_dec_preview.c	896;"	d	file:
+MIN	cam_enc_dec_test.c	715;"	d	file:
+MIN	cam_encoder_test.c	594;"	d	file:
+MIN	capture.c	708;"	d	file:
+MIN	yuanshi-cam_dec_preview.c	824;"	d	file:
+MMAP_STRM_PTR	FrameExtractor/FileRead.h	/^} MMAP_STRM_PTR;$/;"	t	typeref:struct:__anon22
+MPEG4_CODING_TYPE_I	FrameExtractor/MPEG4Frames.h	18;"	d
+MPEG4_CODING_TYPE_P	FrameExtractor/MPEG4Frames.h	19;"	d
+MPEG4_CONFIG_DATA	FrameExtractor/MPEG4Frames.h	/^} MPEG4_CONFIG_DATA;$/;"	t	typeref:struct:__anon19
+MPEG4_DEC_CONF	MFC_API/SsbSipMpeg4Decode.h	/^typedef unsigned int	MPEG4_DEC_CONF;$/;"	t
+MPEG4_DEC_GETCONF_BYTE_CONSUMED	MFC_API/SsbSipMpeg4Decode.h	29;"	d
+MPEG4_DEC_GETCONF_FRAM_NEED_COUNT	MFC_API/SsbSipMpeg4Decode.h	18;"	d
+MPEG4_DEC_GETCONF_MPEG4_FCODE	MFC_API/SsbSipMpeg4Decode.h	23;"	d
+MPEG4_DEC_GETCONF_MPEG4_MBTYPE_ADDR	MFC_API/SsbSipMpeg4Decode.h	20;"	d
+MPEG4_DEC_GETCONF_MPEG4_MV_ADDR	MFC_API/SsbSipMpeg4Decode.h	19;"	d
+MPEG4_DEC_GETCONF_MPEG4_NONB_TIME_LAST	MFC_API/SsbSipMpeg4Decode.h	26;"	d
+MPEG4_DEC_GETCONF_MPEG4_TIME_BASE_LAST	MFC_API/SsbSipMpeg4Decode.h	25;"	d
+MPEG4_DEC_GETCONF_MPEG4_TRD	MFC_API/SsbSipMpeg4Decode.h	27;"	d
+MPEG4_DEC_GETCONF_MPEG4_VOP_TIME_RES	MFC_API/SsbSipMpeg4Decode.h	24;"	d
+MPEG4_DEC_GETCONF_PHYADDR_B_FRAM_BUF	MFC_API/SsbSipMpeg4Decode.h	28;"	d
+MPEG4_DEC_GETCONF_PHYADDR_FRAM_BUF	MFC_API/SsbSipMpeg4Decode.h	17;"	d
+MPEG4_DEC_GETCONF_STREAMINFO	MFC_API/SsbSipMpeg4Decode.h	16;"	d
+MPEG4_DEC_SETCONF_CACHE_CLEAN	MFC_API/SsbSipMpeg4Decode.h	33;"	d
+MPEG4_DEC_SETCONF_CACHE_CLEAN_INVALIDATE	MFC_API/SsbSipMpeg4Decode.h	35;"	d
+MPEG4_DEC_SETCONF_CACHE_INVALIDATE	MFC_API/SsbSipMpeg4Decode.h	34;"	d
+MPEG4_DEC_SETCONF_PADDING_SIZE	MFC_API/SsbSipMpeg4Decode.h	36;"	d
+MPEG4_DEC_SETCONF_POST_ROTATE	MFC_API/SsbSipMpeg4Decode.h	32;"	d
+MPEG4_ENC_CONF	MFC_API/SsbSipMpeg4Encode.h	/^typedef unsigned int	MPEG4_ENC_CONF;$/;"	t
+MPEG4_ENC_GETCONF_HEADER_SIZE	MFC_API/SsbSipMpeg4Encode.h	26;"	d
+MPEG4_ENC_PARAM_BITRATE	MFC_API/SsbSipMpeg4Encode.h	14;"	d
+MPEG4_ENC_PARAM_F_RATE	MFC_API/SsbSipMpeg4Encode.h	15;"	d
+MPEG4_ENC_PARAM_GOP_NUM	MFC_API/SsbSipMpeg4Encode.h	12;"	d
+MPEG4_ENC_PARAM_INTRA_QP	MFC_API/SsbSipMpeg4Encode.h	13;"	d
+MPEG4_ENC_PARAM_INTRA_REF	MFC_API/SsbSipMpeg4Encode.h	16;"	d
+MPEG4_ENC_PARAM_SLICE_MODE	MFC_API/SsbSipMpeg4Encode.h	17;"	d
+MPEG4_ENC_PIC_OPT_IDR	MFC_API/SsbSipMpeg4Encode.h	19;"	d
+MPEG4_ENC_PIC_OPT_SKIP	MFC_API/SsbSipMpeg4Encode.h	20;"	d
+MPEG4_ENC_SETCONF_CUR_PIC_OPT	MFC_API/SsbSipMpeg4Encode.h	9;"	d
+MPEG4_ENC_SETCONF_H263_ANNEX	MFC_API/SsbSipMpeg4Encode.h	7;"	d
+MPEG4_ENC_SETCONF_H263_NUM_SLICES	MFC_API/SsbSipMpeg4Encode.h	6;"	d
+MPEG4_ENC_SETCONF_PARAM_CHANGE	MFC_API/SsbSipMpeg4Encode.h	8;"	d
+MPEG4_INPUT_FILE	display_4_windows.c	35;"	d	file:
+MPEG4_INPUT_FILE	display_test.c	34;"	d	file:
+Make	JPEG_API/JPGApi.h	/^	char	Make[32]; $/;"	m	struct:tagExifFileInfo
+MapFileRead	FrameExtractor/FileRead.c	/^static int MapFileRead(void *p, unsigned char *buf, unsigned int num_read, unsigned int *num_written)$/;"	f	file:
+MeteringMode	JPEG_API/JPGApi.h	/^	UINT	MeteringMode; $/;"	m	struct:tagExifFileInfo
+Mode	Common/post.h	/^	s3c_pp_scan_mode_t Mode;$/;"	m	struct:__anon41
+Model	JPEG_API/JPGApi.h	/^	char	Model[32]; $/;"	m	struct:tagExifFileInfo
+NAL_UNIT_TYPE_TYPE	FrameExtractor/H264Frames.c	17;"	d	file:
+NextFrameH263	FrameExtractor/H263Frames.c	/^int NextFrameH263(void *fp, unsigned char buf[], int buf_size, unsigned int *coding_type)$/;"	f
+NextFrameH264	FrameExtractor/H264Frames.c	/^int NextFrameH264(FRAMEX_CTX  *pFrameExCtx, void *fp, unsigned char buf[], int buf_size, unsigned int *coding_type)$/;"	f
+NextFrameMpeg4	FrameExtractor/MPEG4Frames.c	/^int NextFrameMpeg4(FRAMEX_CTX  *pFrameExCtx, void *fp, unsigned char buf[], int buf_size, unsigned int *coding_type)$/;"	f
+NextFrameVC1	FrameExtractor/VC1Frames.c	/^int NextFrameVC1(void *fp, unsigned char buf[], int buf_size, unsigned int *coding_type)$/;"	f
+NextIFrameH264	FrameExtractor/H264Frames.c	/^static int NextIFrameH264(FRAMEX_CTX  *pFrameExCtx, void *fp, unsigned char buf[], int buf_size)$/;"	f	file:
+OBJECTS	Common/Makefile	/^OBJECTS = performance.o \\$/;"	m
+OBJECTS	FrameExtractor/Makefile	/^OBJECTS = FileRead.o 		\\$/;"	m
+OBJECTS	JPEG_API/Makefile	/^OBJECTS = JPGApi.o$/;"	m
+OBJECTS	MFC_API/Makefile	/^OBJECTS = SsbSipH264Decode.o	\\$/;"	m
+OBJECTS	Makefile	/^OBJECTS = display_test.o 				\\$/;"	m
+ONE_SHOT	Common/post.h	/^	ONE_SHOT, FREE_RUN$/;"	e	enum:__anon37
+Orientation	JPEG_API/JPGApi.h	/^	UINT	Orientation; $/;"	m	struct:tagExifFileInfo
+OutBuf	JPEG_API/JPGApi.c	/^	char	*OutBuf;$/;"	m	struct:tagJPG_CTX	file:
+OutPath	Common/post.h	/^	s3c_pp_out_path_t OutPath; 	\/\/ Data path of the desitination image$/;"	m	struct:__anon41
+OutThumbBuf	JPEG_API/JPGApi.c	/^	char	*OutThumbBuf;$/;"	m	struct:tagJPG_CTX	file:
+PAL1	Common/post.h	/^	PAL1, PAL2, PAL4, PAL8,$/;"	e	enum:__anon39
+PAL2	Common/post.h	/^	PAL1, PAL2, PAL4, PAL8,$/;"	e	enum:__anon39
+PAL4	Common/post.h	/^	PAL1, PAL2, PAL4, PAL8,$/;"	e	enum:__anon39
+PAL8	Common/post.h	/^	PAL1, PAL2, PAL4, PAL8,$/;"	e	enum:__anon39
+POST_DMA	Common/post.h	/^	POST_DMA, POST_FIFO$/;"	e	enum:__anon36
+POST_DRIVER_NAME	JPEG_API/JPGApi.c	41;"	d	file:
+POST_FIFO	Common/post.h	/^	POST_DMA, POST_FIFO$/;"	e	enum:__anon36
+PP_DEV_NAME	Common/post.h	33;"	d
+PP_IOCTL_MAGIC	Common/post.h	4;"	d
+PREVIEW_NODE	cam_dec_preview-On7LCD.c	48;"	d	file:
+PREVIEW_NODE	cam_dec_preview.c	49;"	d	file:
+PREVIEW_NODE	cam_enc_dec_test.c	45;"	d	file:
+PREVIEW_NODE	cam_encoder_test.c	44;"	d	file:
+PREVIEW_NODE	capture.c	39;"	d	file:
+PREVIEW_NODE	yuanshi-cam_dec_preview.c	48;"	d	file:
+PROGRESSIVE_MODE	Common/post.h	/^	PROGRESSIVE_MODE$/;"	e	enum:__anon40
+Process	JPEG_API/JPGApi.h	/^	UINT	Process;$/;"	m	struct:tagExifFileInfo
+QUEUE_CAPACITY	FrameExtractor/FrameExtractor.h	7;"	d
+Q_INIT	FrameExtractor/FrameExtractor.c	43;"	d	file:
+Q_PEEK	FrameExtractor/FrameExtractor.c	65;"	d	file:
+Q_POP	FrameExtractor/FrameExtractor.c	57;"	d	file:
+Q_PUSH	FrameExtractor/FrameExtractor.c	50;"	d	file:
+RGB16	Common/post.h	/^	RGB8, ARGB8, RGB16, ARGB16, RGB18, RGB24, RGB30, ARGB24,$/;"	e	enum:__anon39
+RGB18	Common/post.h	/^	RGB8, ARGB8, RGB16, ARGB16, RGB18, RGB24, RGB30, ARGB24,$/;"	e	enum:__anon39
+RGB24	Common/post.h	/^	RGB8, ARGB8, RGB16, ARGB16, RGB18, RGB24, RGB30, ARGB24,$/;"	e	enum:__anon39
+RGB30	Common/post.h	/^	RGB8, ARGB8, RGB16, ARGB16, RGB18, RGB24, RGB30, ARGB24,$/;"	e	enum:__anon39
+RGB8	Common/post.h	/^	RGB8, ARGB8, RGB16, ARGB16, RGB18, RGB24, RGB30, ARGB24,$/;"	e	enum:__anon39
+RUnit	JPEG_API/JPGApi.h	/^	UINT	RUnit; $/;"	m	struct:tagExifFileInfo
+R_RGB565	JPEG_API/JPGApi.c	56;"	d	file:
+S3C6400_BASEADDR_MFC_DATA_BUF	Common/MfcDriver.h	51;"	d
+S3C6400_BASEADDR_MFC_DATA_BUF	Common/mfc.h	51;"	d
+S3C_PP_ALLOC_KMEM	Common/post.h	26;"	d
+S3C_PP_FREE_KMEM	Common/post.h	27;"	d
+S3C_PP_GET_DST_BUF_SIZE	Common/post.h	24;"	d
+S3C_PP_GET_RESERVED_MEM_ADDR_PHY	Common/post.h	29;"	d
+S3C_PP_GET_RESERVED_MEM_SIZE	Common/post.h	28;"	d
+S3C_PP_GET_SRC_BUF_SIZE	Common/post.h	21;"	d
+S3C_PP_SET_DST_BUF_ADDR_PHY	Common/post.h	25;"	d
+S3C_PP_SET_PARAMS	Common/post.h	19;"	d
+S3C_PP_SET_SRC_BUF_ADDR_PHY	Common/post.h	22;"	d
+S3C_PP_SET_SRC_BUF_NEXT_ADDR_PHY	Common/post.h	23;"	d
+S3C_PP_START	Common/post.h	20;"	d
+SAMPLE_MODE_T	JPEG_API/JPGApi.h	/^}SAMPLE_MODE_T;$/;"	t	typeref:enum:tagSAMPLE_MODE_T
+SAMSUNG_UXGA_S5K3BA	cam_dec_preview-On7LCD.c	37;"	d	file:
+SAMSUNG_UXGA_S5K3BA	cam_dec_preview.c	38;"	d	file:
+SAMSUNG_UXGA_S5K3BA	cam_enc_dec_test.c	34;"	d	file:
+SAMSUNG_UXGA_S5K3BA	cam_encoder_test.c	33;"	d	file:
+SAMSUNG_UXGA_S5K3BA	capture.c	28;"	d	file:
+SAMSUNG_UXGA_S5K3BA	yuanshi-cam_dec_preview.c	37;"	d	file:
+SET_FB_CHANGE_REQ	Common/lcd.h	39;"	d
+SET_H263_MULTIPLE_SLICE	MFC_API/SsbSipMpeg4Encode.h	27;"	d
+SET_OSD_INFO	Common/lcd.h	34;"	d
+SET_OSD_START	Common/lcd.h	35;"	d
+SET_OSD_STOP	Common/lcd.h	36;"	d
+SET_VSYNC_INT	Common/lcd.h	40;"	d
+SET_VS_INFO	Common/lcd.h	31;"	d
+SET_VS_MOVE	Common/lcd.h	32;"	d
+SET_VS_START	Common/lcd.h	29;"	d
+SET_VS_STOP	Common/lcd.h	30;"	d
+SHARED_BUF_NUM	cam_dec_preview-On7LCD.c	102;"	d	file:
+SHARED_BUF_NUM	cam_dec_preview.c	115;"	d	file:
+SHARED_BUF_NUM	cam_enc_dec_test.c	115;"	d	file:
+SHARED_BUF_NUM	cam_encoder_test.c	100;"	d	file:
+SHARED_BUF_NUM	yuanshi-cam_dec_preview.c	102;"	d	file:
+SRCS	Common/Makefile	/^SRCS = $(OBJECTS:.o=.c)$/;"	m
+SRCS	FrameExtractor/Makefile	/^SRCS = $(OBJECTS:.o=.c)$/;"	m
+SRCS	JPEG_API/Makefile	/^SRCS = $(OBJECTS:.o=.c)$/;"	m
+SRCS	MFC_API/Makefile	/^SRCS = $(OBJECTS:.o=.c)$/;"	m
+SRCS	Makefile	/^SRCS = $(OBJECTS:.o=.c)$/;"	m
+SSBSIPMFCDEC_H263	MFC_API/SsbSipMfcDecode.h	21;"	d
+SSBSIPMFCDEC_H264	MFC_API/SsbSipMfcDecode.h	22;"	d
+SSBSIPMFCDEC_MPEG4	MFC_API/SsbSipMfcDecode.h	20;"	d
+SSBSIPMFCDEC_VC1	MFC_API/SsbSipMfcDecode.h	23;"	d
+SSBSIPMFCENC_H263	MFC_API/SsbSipMpeg4Encode.h	23;"	d
+SSBSIPMFCENC_MPEG4	MFC_API/SsbSipMpeg4Encode.h	22;"	d
+SSBSIP_H264_DEC_RET_ERR_CONFIG_FAIL	MFC_API/SsbSipH264Decode.h	50;"	d
+SSBSIP_H264_DEC_RET_ERR_DECODE_FAIL	MFC_API/SsbSipH264Decode.h	51;"	d
+SSBSIP_H264_DEC_RET_ERR_GETCONF_FAIL	MFC_API/SsbSipH264Decode.h	52;"	d
+SSBSIP_H264_DEC_RET_ERR_INVALID_HANDLE	MFC_API/SsbSipH264Decode.h	47;"	d
+SSBSIP_H264_DEC_RET_ERR_INVALID_PARAM	MFC_API/SsbSipH264Decode.h	48;"	d
+SSBSIP_H264_DEC_RET_ERR_SETCONF_FAIL	MFC_API/SsbSipH264Decode.h	53;"	d
+SSBSIP_H264_DEC_RET_OK	MFC_API/SsbSipH264Decode.h	46;"	d
+SSBSIP_H264_ENC_RET_ERR_CONFIG_FAIL	MFC_API/SsbSipH264Encode.h	54;"	d
+SSBSIP_H264_ENC_RET_ERR_ENCODE_FAIL	MFC_API/SsbSipH264Encode.h	55;"	d
+SSBSIP_H264_ENC_RET_ERR_GETCONF_FAIL	MFC_API/SsbSipH264Encode.h	56;"	d
+SSBSIP_H264_ENC_RET_ERR_INVALID_HANDLE	MFC_API/SsbSipH264Encode.h	51;"	d
+SSBSIP_H264_ENC_RET_ERR_INVALID_PARAM	MFC_API/SsbSipH264Encode.h	52;"	d
+SSBSIP_H264_ENC_RET_ERR_SETCONF_FAIL	MFC_API/SsbSipH264Encode.h	57;"	d
+SSBSIP_H264_ENC_RET_OK	MFC_API/SsbSipH264Encode.h	50;"	d
+SSBSIP_H264_STREAM_INFO	MFC_API/SsbSipH264Decode.h	/^} SSBSIP_H264_STREAM_INFO;$/;"	t	typeref:struct:__anon10
+SSBSIP_MFC_DEC_RET_ERR_CONFIG_FAIL	MFC_API/SsbSipMfcDecode.h	56;"	d
+SSBSIP_MFC_DEC_RET_ERR_DECODE_FAIL	MFC_API/SsbSipMfcDecode.h	57;"	d
+SSBSIP_MFC_DEC_RET_ERR_GETCONF_FAIL	MFC_API/SsbSipMfcDecode.h	58;"	d
+SSBSIP_MFC_DEC_RET_ERR_INVALID_HANDLE	MFC_API/SsbSipMfcDecode.h	52;"	d
+SSBSIP_MFC_DEC_RET_ERR_INVALID_PARAM	MFC_API/SsbSipMfcDecode.h	53;"	d
+SSBSIP_MFC_DEC_RET_ERR_SETCONF_FAIL	MFC_API/SsbSipMfcDecode.h	59;"	d
+SSBSIP_MFC_DEC_RET_ERR_UNDEF_CODEC	MFC_API/SsbSipMfcDecode.h	54;"	d
+SSBSIP_MFC_DEC_RET_OK	MFC_API/SsbSipMfcDecode.h	51;"	d
+SSBSIP_MFC_STREAM_INFO	MFC_API/SsbSipMfcDecode.h	/^} SSBSIP_MFC_STREAM_INFO;$/;"	t	typeref:struct:__anon6
+SSBSIP_MPEG4_DEC_RET_ERR_CONFIG_FAIL	MFC_API/SsbSipMpeg4Decode.h	67;"	d
+SSBSIP_MPEG4_DEC_RET_ERR_DECODE_FAIL	MFC_API/SsbSipMpeg4Decode.h	68;"	d
+SSBSIP_MPEG4_DEC_RET_ERR_GETCONF_FAIL	MFC_API/SsbSipMpeg4Decode.h	69;"	d
+SSBSIP_MPEG4_DEC_RET_ERR_INVALID_HANDLE	MFC_API/SsbSipMpeg4Decode.h	64;"	d
+SSBSIP_MPEG4_DEC_RET_ERR_INVALID_PARAM	MFC_API/SsbSipMpeg4Decode.h	65;"	d
+SSBSIP_MPEG4_DEC_RET_ERR_SETCONF_FAIL	MFC_API/SsbSipMpeg4Decode.h	70;"	d
+SSBSIP_MPEG4_DEC_RET_OK	MFC_API/SsbSipMpeg4Decode.h	63;"	d
+SSBSIP_MPEG4_ENC_RET_ERR_CONFIG_FAIL	MFC_API/SsbSipMpeg4Encode.h	69;"	d
+SSBSIP_MPEG4_ENC_RET_ERR_ENCODE_FAIL	MFC_API/SsbSipMpeg4Encode.h	70;"	d
+SSBSIP_MPEG4_ENC_RET_ERR_GETCONF_FAIL	MFC_API/SsbSipMpeg4Encode.h	71;"	d
+SSBSIP_MPEG4_ENC_RET_ERR_INVALID_HANDLE	MFC_API/SsbSipMpeg4Encode.h	66;"	d
+SSBSIP_MPEG4_ENC_RET_ERR_INVALID_PARAM	MFC_API/SsbSipMpeg4Encode.h	67;"	d
+SSBSIP_MPEG4_ENC_RET_ERR_SETCONF_FAIL	MFC_API/SsbSipMpeg4Encode.h	72;"	d
+SSBSIP_MPEG4_ENC_RET_OK	MFC_API/SsbSipMpeg4Encode.h	65;"	d
+SSBSIP_MPEG4_STREAM_INFO	MFC_API/SsbSipMpeg4Decode.h	/^} SSBSIP_MPEG4_STREAM_INFO;$/;"	t	typeref:struct:__anon9
+SSBSIP_VC1_DEC_RET_ERR_CONFIG_FAIL	MFC_API/SsbSipVC1Decode.h	50;"	d
+SSBSIP_VC1_DEC_RET_ERR_DECODE_FAIL	MFC_API/SsbSipVC1Decode.h	51;"	d
+SSBSIP_VC1_DEC_RET_ERR_GETCONF_FAIL	MFC_API/SsbSipVC1Decode.h	52;"	d
+SSBSIP_VC1_DEC_RET_ERR_INVALID_HANDLE	MFC_API/SsbSipVC1Decode.h	47;"	d
+SSBSIP_VC1_DEC_RET_ERR_INVALID_PARAM	MFC_API/SsbSipVC1Decode.h	48;"	d
+SSBSIP_VC1_DEC_RET_ERR_SETCONF_FAIL	MFC_API/SsbSipVC1Decode.h	53;"	d
+SSBSIP_VC1_DEC_RET_OK	MFC_API/SsbSipVC1Decode.h	46;"	d
+SSBSIP_VC1_STREAM_INFO	MFC_API/SsbSipVC1Decode.h	/^} SSBSIP_VC1_STREAM_INFO;$/;"	t	typeref:struct:__anon5
+SSB_FILE_EOF	FrameExtractor/FileRead.h	34;"	d
+SSB_FILE_POS_BEGIN	FrameExtractor/FileRead.h	37;"	d
+SSB_FILE_POS_CURRENT	FrameExtractor/FileRead.h	38;"	d
+SSB_FILE_POS_END	FrameExtractor/FileRead.h	39;"	d
+SSB_FILE_READ	FrameExtractor/FileRead.c	/^int SSB_FILE_READ(void *p, unsigned char *buf, unsigned int num_read, unsigned int *num_written)$/;"	f
+SrcCSpace	Common/post.h	/^	s3c_color_space_t SrcCSpace; 		\/\/ Color Space ot the Source Image$/;"	m	struct:__anon41
+SrcFrmSt	Common/post.h	/^	unsigned int SrcFrmSt; 		\/\/ Base Address of the Source Image : Physical Address$/;"	m	struct:__anon41
+SrcFullHeight	Common/post.h	/^	unsigned int SrcFullHeight; 		\/\/ Source Image Full Height(Virtual screen size)$/;"	m	struct:__anon41
+SrcFullWidth	Common/post.h	/^	unsigned int SrcFullWidth; 		\/\/ Source Image Full Width(Virtual screen size)$/;"	m	struct:__anon41
+SrcHeight	Common/post.h	/^	unsigned int SrcHeight; 			\/\/ Source Image Height$/;"	m	struct:__anon41
+SrcStartX	Common/post.h	/^	unsigned int SrcStartX; 			\/\/ Source Image Start width offset$/;"	m	struct:__anon41
+SrcStartY	Common/post.h	/^	unsigned int SrcStartY; 			\/\/ Source Image Start height offset$/;"	m	struct:__anon41
+SrcWidth	Common/post.h	/^	unsigned int SrcWidth;			\/\/ Source Image Width$/;"	m	struct:__anon41
+SsbSipH264DecodeDeInit	MFC_API/SsbSipH264Decode.c	/^int SsbSipH264DecodeDeInit(void *openHandle)$/;"	f
+SsbSipH264DecodeExe	MFC_API/SsbSipH264Decode.c	/^int SsbSipH264DecodeExe(void *openHandle, long lengthBufFill)$/;"	f
+SsbSipH264DecodeGetConfig	MFC_API/SsbSipH264Decode.c	/^int SsbSipH264DecodeGetConfig(void *openHandle, H264_DEC_CONF conf_type, void *value)$/;"	f
+SsbSipH264DecodeGetInBuf	MFC_API/SsbSipH264Decode.c	/^void *SsbSipH264DecodeGetInBuf(void *openHandle, long size)$/;"	f
+SsbSipH264DecodeGetOutBuf	MFC_API/SsbSipH264Decode.c	/^void *SsbSipH264DecodeGetOutBuf(void *openHandle, long *size)$/;"	f
+SsbSipH264DecodeInit	MFC_API/SsbSipH264Decode.c	/^void *SsbSipH264DecodeInit()$/;"	f
+SsbSipH264DecodeSetConfig	MFC_API/SsbSipH264Decode.c	/^int SsbSipH264DecodeSetConfig(void *openHandle, H264_DEC_CONF conf_type, void *value)$/;"	f
+SsbSipH264EncodeDeInit	MFC_API/SsbSipH264Encode.c	/^int SsbSipH264EncodeDeInit(void *openHandle)$/;"	f
+SsbSipH264EncodeExe	MFC_API/SsbSipH264Encode.c	/^int SsbSipH264EncodeExe(void *openHandle)$/;"	f
+SsbSipH264EncodeGetConfig	MFC_API/SsbSipH264Encode.c	/^int SsbSipH264EncodeGetConfig(void *openHandle, H264_ENC_CONF conf_type, void *value)$/;"	f
+SsbSipH264EncodeGetInBuf	MFC_API/SsbSipH264Encode.c	/^void *SsbSipH264EncodeGetInBuf(void *openHandle, long size)$/;"	f
+SsbSipH264EncodeGetOutBuf	MFC_API/SsbSipH264Encode.c	/^void *SsbSipH264EncodeGetOutBuf(void *openHandle, long *size)$/;"	f
+SsbSipH264EncodeInit	MFC_API/SsbSipH264Encode.c	/^void *SsbSipH264EncodeInit(unsigned int uiWidth,     unsigned int uiHeight,$/;"	f
+SsbSipH264EncodeSetConfig	MFC_API/SsbSipH264Encode.c	/^int SsbSipH264EncodeSetConfig(void *openHandle, H264_ENC_CONF conf_type, void *value)$/;"	f
+SsbSipJPEGDecodeDeInit	JPEG_API/JPGApi.c	/^JPEG_ERRORTYPE SsbSipJPEGDecodeDeInit (int dev_fd)$/;"	f
+SsbSipJPEGDecodeExe	JPEG_API/JPGApi.c	/^JPEG_ERRORTYPE SsbSipJPEGDecodeExe(int dev_fd)$/;"	f
+SsbSipJPEGDecodeInit	JPEG_API/JPGApi.c	/^int SsbSipJPEGDecodeInit(void)$/;"	f
+SsbSipJPEGEncodeDeInit	JPEG_API/JPGApi.c	/^JPEG_ERRORTYPE SsbSipJPEGEncodeDeInit (int dev_fd)$/;"	f
+SsbSipJPEGEncodeExe	JPEG_API/JPGApi.c	/^JPEG_ERRORTYPE SsbSipJPEGEncodeExe(int dev_fd, ExifFileInfo *Exif, JPEG_SCALER scaler)$/;"	f
+SsbSipJPEGEncodeInit	JPEG_API/JPGApi.c	/^int SsbSipJPEGEncodeInit(void)$/;"	f
+SsbSipJPEGGetConfig	JPEG_API/JPGApi.c	/^JPEG_ERRORTYPE SsbSipJPEGGetConfig (JPEGConf type, INT32 *value)$/;"	f
+SsbSipJPEGGetDecodeInBuf	JPEG_API/JPGApi.c	/^void *SsbSipJPEGGetDecodeInBuf(int dev_fd, long size)$/;"	f
+SsbSipJPEGGetDecodeOutBuf	JPEG_API/JPGApi.c	/^void *SsbSipJPEGGetDecodeOutBuf (int dev_fd, long *size)$/;"	f
+SsbSipJPEGGetEncodeInBuf	JPEG_API/JPGApi.c	/^void *SsbSipJPEGGetEncodeInBuf(int dev_fd, long size)$/;"	f
+SsbSipJPEGGetEncodeOutBuf	JPEG_API/JPGApi.c	/^void *SsbSipJPEGGetEncodeOutBuf (int dev_fd, long *size)$/;"	f
+SsbSipJPEGSetConfig	JPEG_API/JPGApi.c	/^JPEG_ERRORTYPE SsbSipJPEGSetConfig (JPEGConf type, INT32 value)$/;"	f
+SsbSipMPEG4DecodeDeInit	MFC_API/SsbSipMpeg4Decode.c	/^int SsbSipMPEG4DecodeDeInit(void *openHandle)$/;"	f
+SsbSipMPEG4DecodeExe	MFC_API/SsbSipMpeg4Decode.c	/^int SsbSipMPEG4DecodeExe(void *openHandle, long lengthBufFill)$/;"	f
+SsbSipMPEG4DecodeGetConfig	MFC_API/SsbSipMpeg4Decode.c	/^int SsbSipMPEG4DecodeGetConfig(void *openHandle, MPEG4_DEC_CONF conf_type, void *value)$/;"	f
+SsbSipMPEG4DecodeGetInBuf	MFC_API/SsbSipMpeg4Decode.c	/^void *SsbSipMPEG4DecodeGetInBuf(void *openHandle, long size)$/;"	f
+SsbSipMPEG4DecodeGetOutBuf	MFC_API/SsbSipMpeg4Decode.c	/^void *SsbSipMPEG4DecodeGetOutBuf(void *openHandle, long *size)$/;"	f
+SsbSipMPEG4DecodeInit	MFC_API/SsbSipMpeg4Decode.c	/^void *SsbSipMPEG4DecodeInit()$/;"	f
+SsbSipMPEG4DecodeSetConfig	MFC_API/SsbSipMpeg4Decode.c	/^int SsbSipMPEG4DecodeSetConfig(void *openHandle, MPEG4_DEC_CONF conf_type, void *value)$/;"	f
+SsbSipMPEG4EncodeDeInit	MFC_API/SsbSipMpeg4Encode.c	/^int SsbSipMPEG4EncodeDeInit(void *openHandle)$/;"	f
+SsbSipMPEG4EncodeExe	MFC_API/SsbSipMpeg4Encode.c	/^int SsbSipMPEG4EncodeExe(void *openHandle)$/;"	f
+SsbSipMPEG4EncodeGetConfig	MFC_API/SsbSipMpeg4Encode.c	/^int SsbSipMPEG4EncodeGetConfig(void *openHandle, MPEG4_ENC_CONF conf_type, void *value)$/;"	f
+SsbSipMPEG4EncodeGetInBuf	MFC_API/SsbSipMpeg4Encode.c	/^void *SsbSipMPEG4EncodeGetInBuf(void *openHandle, long size)$/;"	f
+SsbSipMPEG4EncodeGetOutBuf	MFC_API/SsbSipMpeg4Encode.c	/^void *SsbSipMPEG4EncodeGetOutBuf(void *openHandle, long *size)$/;"	f
+SsbSipMPEG4EncodeInit	MFC_API/SsbSipMpeg4Encode.c	/^void *SsbSipMPEG4EncodeInit(int strmType, unsigned int uiWidth,     unsigned int uiHeight,$/;"	f
+SsbSipMPEG4EncodeSetConfig	MFC_API/SsbSipMpeg4Encode.c	/^int SsbSipMPEG4EncodeSetConfig(void *openHandle, MPEG4_ENC_CONF conf_type, void *value)$/;"	f
+SsbSipMfcDecodeDeInit	MFC_API/SsbSipMfcDecode.c	/^int SsbSipMfcDecodeDeInit(void *openHandle)$/;"	f
+SsbSipMfcDecodeExe	MFC_API/SsbSipMfcDecode.c	/^int SsbSipMfcDecodeExe(void *openHandle, long lengthBufFill)$/;"	f
+SsbSipMfcDecodeGetConfig	MFC_API/SsbSipMfcDecode.c	/^int SsbSipMfcDecodeGetConfig(void *openHandle, MFC_DEC_CONF conf_type, void *value)$/;"	f
+SsbSipMfcDecodeGetInBuf	MFC_API/SsbSipMfcDecode.c	/^void *SsbSipMfcDecodeGetInBuf(void *openHandle, long *size)$/;"	f
+SsbSipMfcDecodeGetOutBuf	MFC_API/SsbSipMfcDecode.c	/^void *SsbSipMfcDecodeGetOutBuf(void *openHandle, long *size)$/;"	f
+SsbSipMfcDecodeInit	MFC_API/SsbSipMfcDecode.c	/^void *SsbSipMfcDecodeInit(int dec_type)$/;"	f
+SsbSipMfcDecodeSetConfig	MFC_API/SsbSipMfcDecode.c	/^int SsbSipMfcDecodeSetConfig(void *openHandle, MFC_DEC_CONF conf_type, void *value)$/;"	f
+SsbSipVC1DecodeDeInit	MFC_API/SsbSipVC1Decode.c	/^int SsbSipVC1DecodeDeInit(void *openHandle)$/;"	f
+SsbSipVC1DecodeExe	MFC_API/SsbSipVC1Decode.c	/^int SsbSipVC1DecodeExe(void *openHandle, long lengthBufFill)$/;"	f
+SsbSipVC1DecodeGetConfig	MFC_API/SsbSipVC1Decode.c	/^int SsbSipVC1DecodeGetConfig(void *openHandle, VC1_DEC_CONF conf_type, void *value)$/;"	f
+SsbSipVC1DecodeGetInBuf	MFC_API/SsbSipVC1Decode.c	/^void *SsbSipVC1DecodeGetInBuf(void *openHandle, long size)$/;"	f
+SsbSipVC1DecodeGetOutBuf	MFC_API/SsbSipVC1Decode.c	/^void *SsbSipVC1DecodeGetOutBuf(void *openHandle, long *size)$/;"	f
+SsbSipVC1DecodeInit	MFC_API/SsbSipVC1Decode.c	/^void *SsbSipVC1DecodeInit()$/;"	f
+SsbSipVC1DecodeSetConfig	MFC_API/SsbSipVC1Decode.c	/^int SsbSipVC1DecodeSetConfig(void *openHandle, VC1_DEC_CONF conf_type, void *value)$/;"	f
+SubjectDistanceDen	JPEG_API/JPGApi.h	/^	int		SubjectDistanceDen; $/;"	m	struct:tagExifFileInfo
+SubjectDistanceNum	JPEG_API/JPGApi.h	/^	int		SubjectDistanceNum; $/;"	m	struct:tagExifFileInfo
+TARGET	Common/Makefile	/^TARGET = app$/;"	m
+TARGET	FrameExtractor/Makefile	/^TARGET = app$/;"	m
+TARGET	JPEG_API/Makefile	/^TARGET = app$/;"	m
+TARGET	MFC_API/Makefile	/^TARGET = app$/;"	m
+TARGET	Makefile	/^TARGET = multimediatest$/;"	m
+TIFFHeader	JPEG_API/JPGApi.c	/^UCHAR TIFFHeader[8]=$/;"	v
+TRUE	JPEG_API/JPGApi.c	60;"	d	file:
+TRUE	JPEG_API/JPGApi.h	/^typedef enum {FALSE, TRUE} BOOL;$/;"	e	enum:__anon25
+TRUE	cam_dec_preview-On7LCD.c	100;"	d	file:
+TRUE	cam_dec_preview.c	113;"	d	file:
+TRUE	cam_encoder_test.c	98;"	d	file:
+TRUE	capture.c	102;"	d	file:
+TRUE	yuanshi-cam_dec_preview.c	100;"	d	file:
+UCHAR	JPEG_API/JPGApi.h	/^typedef	unsigned char	UCHAR;$/;"	t
+UINT	JPEG_API/JPGApi.h	/^typedef	unsigned int	UINT;$/;"	t
+UINT32	JPEG_API/JPGApi.h	/^typedef unsigned int	UINT32;$/;"	t
+UINT8	JPEG_API/JPGApi.h	/^typedef unsigned char	UINT8;$/;"	t
+ULONG	JPEG_API/JPGApi.h	/^typedef unsigned long	ULONG;$/;"	t
+UserComments	JPEG_API/JPGApi.h	/^	char	UserComments[150];$/;"	m	struct:tagExifFileInfo
+V4L2_AUDCAP_AVL	Common/videodev2.h	1203;"	d
+V4L2_AUDCAP_STEREO	Common/videodev2.h	1202;"	d
+V4L2_AUDMODE_AVL	Common/videodev2.h	1206;"	d
+V4L2_BUF_FLAG_BFRAME	Common/videodev2.h	529;"	d
+V4L2_BUF_FLAG_DONE	Common/videodev2.h	526;"	d
+V4L2_BUF_FLAG_INPUT	Common/videodev2.h	531;"	d
+V4L2_BUF_FLAG_KEYFRAME	Common/videodev2.h	527;"	d
+V4L2_BUF_FLAG_MAPPED	Common/videodev2.h	524;"	d
+V4L2_BUF_FLAG_PFRAME	Common/videodev2.h	528;"	d
+V4L2_BUF_FLAG_QUEUED	Common/videodev2.h	525;"	d
+V4L2_BUF_FLAG_TIMECODE	Common/videodev2.h	530;"	d
+V4L2_BUF_TYPE_PRIVATE	Common/videodev2.h	/^	V4L2_BUF_TYPE_PRIVATE              = 0x80,$/;"	e	enum:v4l2_buf_type
+V4L2_BUF_TYPE_SLICED_VBI_CAPTURE	Common/videodev2.h	/^	V4L2_BUF_TYPE_SLICED_VBI_CAPTURE   = 6,$/;"	e	enum:v4l2_buf_type
+V4L2_BUF_TYPE_SLICED_VBI_OUTPUT	Common/videodev2.h	/^	V4L2_BUF_TYPE_SLICED_VBI_OUTPUT    = 7,$/;"	e	enum:v4l2_buf_type
+V4L2_BUF_TYPE_VBI_CAPTURE	Common/videodev2.h	/^	V4L2_BUF_TYPE_VBI_CAPTURE          = 4,$/;"	e	enum:v4l2_buf_type
+V4L2_BUF_TYPE_VBI_OUTPUT	Common/videodev2.h	/^	V4L2_BUF_TYPE_VBI_OUTPUT           = 5,$/;"	e	enum:v4l2_buf_type
+V4L2_BUF_TYPE_VIDEO_CAPTURE	Common/videodev2.h	/^	V4L2_BUF_TYPE_VIDEO_CAPTURE        = 1,$/;"	e	enum:v4l2_buf_type
+V4L2_BUF_TYPE_VIDEO_OUTPUT	Common/videodev2.h	/^	V4L2_BUF_TYPE_VIDEO_OUTPUT         = 2,$/;"	e	enum:v4l2_buf_type
+V4L2_BUF_TYPE_VIDEO_OUTPUT_OVERLAY	Common/videodev2.h	/^	V4L2_BUF_TYPE_VIDEO_OUTPUT_OVERLAY = 8,$/;"	e	enum:v4l2_buf_type
+V4L2_BUF_TYPE_VIDEO_OVERLAY	Common/videodev2.h	/^	V4L2_BUF_TYPE_VIDEO_OVERLAY        = 3,$/;"	e	enum:v4l2_buf_type
+V4L2_CAP_ASYNCIO	Common/videodev2.h	264;"	d
+V4L2_CAP_AUDIO	Common/videodev2.h	260;"	d
+V4L2_CAP_HW_FREQ_SEEK	Common/videodev2.h	257;"	d
+V4L2_CAP_RADIO	Common/videodev2.h	261;"	d
+V4L2_CAP_RDS_CAPTURE	Common/videodev2.h	255;"	d
+V4L2_CAP_READWRITE	Common/videodev2.h	263;"	d
+V4L2_CAP_SLICED_VBI_CAPTURE	Common/videodev2.h	253;"	d
+V4L2_CAP_SLICED_VBI_OUTPUT	Common/videodev2.h	254;"	d
+V4L2_CAP_STREAMING	Common/videodev2.h	265;"	d
+V4L2_CAP_TIMEPERFRAME	Common/videodev2.h	589;"	d
+V4L2_CAP_TUNER	Common/videodev2.h	259;"	d
+V4L2_CAP_VBI_CAPTURE	Common/videodev2.h	251;"	d
+V4L2_CAP_VBI_OUTPUT	Common/videodev2.h	252;"	d
+V4L2_CAP_VIDEO_CAPTURE	Common/videodev2.h	248;"	d
+V4L2_CAP_VIDEO_OUTPUT	Common/videodev2.h	249;"	d
+V4L2_CAP_VIDEO_OUTPUT_OVERLAY	Common/videodev2.h	256;"	d
+V4L2_CAP_VIDEO_OVERLAY	Common/videodev2.h	250;"	d
+V4L2_CHIP_MATCH_HOST	Common/videodev2.h	1374;"	d
+V4L2_CHIP_MATCH_I2C_ADDR	Common/videodev2.h	1376;"	d
+V4L2_CHIP_MATCH_I2C_DRIVER	Common/videodev2.h	1375;"	d
+V4L2_CID_ARBITRARY	Common/videodev2_s3c.h	12;"	d
+V4L2_CID_ART_FREEZE	Common/videodev2_s3c.h	14;"	d
+V4L2_CID_AUDIO_BALANCE	Common/videodev2.h	850;"	d
+V4L2_CID_AUDIO_BASS	Common/videodev2.h	851;"	d
+V4L2_CID_AUDIO_LOUDNESS	Common/videodev2.h	854;"	d
+V4L2_CID_AUDIO_MUTE	Common/videodev2.h	853;"	d
+V4L2_CID_AUDIO_TREBLE	Common/videodev2.h	852;"	d
+V4L2_CID_AUDIO_VOLUME	Common/videodev2.h	849;"	d
+V4L2_CID_AUTOGAIN	Common/videodev2.h	863;"	d
+V4L2_CID_AUTO_WHITE_BALANCE	Common/videodev2.h	856;"	d
+V4L2_CID_BACKLIGHT_COMPENSATION	Common/videodev2.h	881;"	d
+V4L2_CID_BASE	Common/videodev2.h	839;"	d
+V4L2_CID_BLACK_LEVEL	Common/videodev2.h	855;"	d
+V4L2_CID_BLUE_BALANCE	Common/videodev2.h	859;"	d
+V4L2_CID_BRIGHTNESS	Common/videodev2.h	845;"	d
+V4L2_CID_CAMERA_CLASS	Common/videodev2.h	1101;"	d
+V4L2_CID_CAMERA_CLASS_BASE	Common/videodev2.h	1100;"	d
+V4L2_CID_CHROMA_AGC	Common/videodev2.h	882;"	d
+V4L2_CID_COLOR_KILLER	Common/videodev2.h	883;"	d
+V4L2_CID_CONTRAST	Common/videodev2.h	846;"	d
+V4L2_CID_DO_WHITE_BALANCE	Common/videodev2.h	857;"	d
+V4L2_CID_EMBOSSING	Common/videodev2_s3c.h	15;"	d
+V4L2_CID_EXPOSURE	Common/videodev2.h	862;"	d
+V4L2_CID_EXPOSURE_ABSOLUTE	Common/videodev2.h	1110;"	d
+V4L2_CID_EXPOSURE_AUTO	Common/videodev2.h	1103;"	d
+V4L2_CID_EXPOSURE_AUTO_PRIORITY	Common/videodev2.h	1111;"	d
+V4L2_CID_FOCUS_ABSOLUTE	Common/videodev2.h	1121;"	d
+V4L2_CID_FOCUS_AUTO	Common/videodev2.h	1123;"	d
+V4L2_CID_FOCUS_RELATIVE	Common/videodev2.h	1122;"	d
+V4L2_CID_GAIN	Common/videodev2.h	864;"	d
+V4L2_CID_GAMMA	Common/videodev2.h	860;"	d
+V4L2_CID_HCENTER	Common/videodev2.h	869;"	d
+V4L2_CID_HFLIP	Common/videodev2.h	865;"	d
+V4L2_CID_HUE	Common/videodev2.h	848;"	d
+V4L2_CID_HUE_AUTO	Common/videodev2.h	878;"	d
+V4L2_CID_LASTP1	Common/videodev2.h	885;"	d
+V4L2_CID_MPEG_AUDIO_AAC_BITRATE	Common/videodev2.h	1005;"	d
+V4L2_CID_MPEG_AUDIO_AC3_BITRATE	Common/videodev2.h	1006;"	d
+V4L2_CID_MPEG_AUDIO_CRC	Common/videodev2.h	999;"	d
+V4L2_CID_MPEG_AUDIO_EMPHASIS	Common/videodev2.h	993;"	d
+V4L2_CID_MPEG_AUDIO_ENCODING	Common/videodev2.h	920;"	d
+V4L2_CID_MPEG_AUDIO_L1_BITRATE	Common/videodev2.h	928;"	d
+V4L2_CID_MPEG_AUDIO_L2_BITRATE	Common/videodev2.h	945;"	d
+V4L2_CID_MPEG_AUDIO_L3_BITRATE	Common/videodev2.h	962;"	d
+V4L2_CID_MPEG_AUDIO_MODE	Common/videodev2.h	979;"	d
+V4L2_CID_MPEG_AUDIO_MODE_EXTENSION	Common/videodev2.h	986;"	d
+V4L2_CID_MPEG_AUDIO_MUTE	Common/videodev2.h	1004;"	d
+V4L2_CID_MPEG_AUDIO_SAMPLING_FREQ	Common/videodev2.h	914;"	d
+V4L2_CID_MPEG_BASE	Common/videodev2.h	888;"	d
+V4L2_CID_MPEG_CLASS	Common/videodev2.h	889;"	d
+V4L2_CID_MPEG_CX2341X_BASE	Common/videodev2.h	1059;"	d
+V4L2_CID_MPEG_CX2341X_STREAM_INSERT_NAV_PACKETS	Common/videodev2.h	1097;"	d
+V4L2_CID_MPEG_CX2341X_VIDEO_CHROMA_MEDIAN_FILTER_BOTTOM	Common/videodev2.h	1095;"	d
+V4L2_CID_MPEG_CX2341X_VIDEO_CHROMA_MEDIAN_FILTER_TOP	Common/videodev2.h	1096;"	d
+V4L2_CID_MPEG_CX2341X_VIDEO_CHROMA_SPATIAL_FILTER_TYPE	Common/videodev2.h	1074;"	d
+V4L2_CID_MPEG_CX2341X_VIDEO_LUMA_MEDIAN_FILTER_BOTTOM	Common/videodev2.h	1093;"	d
+V4L2_CID_MPEG_CX2341X_VIDEO_LUMA_MEDIAN_FILTER_TOP	Common/videodev2.h	1094;"	d
+V4L2_CID_MPEG_CX2341X_VIDEO_LUMA_SPATIAL_FILTER_TYPE	Common/videodev2.h	1066;"	d
+V4L2_CID_MPEG_CX2341X_VIDEO_MEDIAN_FILTER_TYPE	Common/videodev2.h	1085;"	d
+V4L2_CID_MPEG_CX2341X_VIDEO_SPATIAL_FILTER	Common/videodev2.h	1065;"	d
+V4L2_CID_MPEG_CX2341X_VIDEO_SPATIAL_FILTER_MODE	Common/videodev2.h	1060;"	d
+V4L2_CID_MPEG_CX2341X_VIDEO_TEMPORAL_FILTER	Common/videodev2.h	1084;"	d
+V4L2_CID_MPEG_CX2341X_VIDEO_TEMPORAL_FILTER_MODE	Common/videodev2.h	1079;"	d
+V4L2_CID_MPEG_STREAM_PES_ID_AUDIO	Common/videodev2.h	905;"	d
+V4L2_CID_MPEG_STREAM_PES_ID_VIDEO	Common/videodev2.h	906;"	d
+V4L2_CID_MPEG_STREAM_PID_AUDIO	Common/videodev2.h	902;"	d
+V4L2_CID_MPEG_STREAM_PID_PCR	Common/videodev2.h	904;"	d
+V4L2_CID_MPEG_STREAM_PID_PMT	Common/videodev2.h	901;"	d
+V4L2_CID_MPEG_STREAM_PID_VIDEO	Common/videodev2.h	903;"	d
+V4L2_CID_MPEG_STREAM_TYPE	Common/videodev2.h	892;"	d
+V4L2_CID_MPEG_STREAM_VBI_FMT	Common/videodev2.h	907;"	d
+V4L2_CID_MPEG_VIDEO_ASPECT	Common/videodev2.h	1036;"	d
+V4L2_CID_MPEG_VIDEO_BITRATE	Common/videodev2.h	1052;"	d
+V4L2_CID_MPEG_VIDEO_BITRATE_MODE	Common/videodev2.h	1047;"	d
+V4L2_CID_MPEG_VIDEO_BITRATE_PEAK	Common/videodev2.h	1053;"	d
+V4L2_CID_MPEG_VIDEO_B_FRAMES	Common/videodev2.h	1043;"	d
+V4L2_CID_MPEG_VIDEO_ENCODING	Common/videodev2.h	1030;"	d
+V4L2_CID_MPEG_VIDEO_GOP_CLOSURE	Common/videodev2.h	1045;"	d
+V4L2_CID_MPEG_VIDEO_GOP_SIZE	Common/videodev2.h	1044;"	d
+V4L2_CID_MPEG_VIDEO_MUTE	Common/videodev2.h	1055;"	d
+V4L2_CID_MPEG_VIDEO_MUTE_YUV	Common/videodev2.h	1056;"	d
+V4L2_CID_MPEG_VIDEO_PULLDOWN	Common/videodev2.h	1046;"	d
+V4L2_CID_MPEG_VIDEO_TEMPORAL_DECIMATION	Common/videodev2.h	1054;"	d
+V4L2_CID_NEGATIVE	Common/videodev2_s3c.h	13;"	d
+V4L2_CID_ORIGINAL	Common/videodev2_s3c.h	11;"	d
+V4L2_CID_PAN_ABSOLUTE	Common/videodev2.h	1118;"	d
+V4L2_CID_PAN_RELATIVE	Common/videodev2.h	1113;"	d
+V4L2_CID_PAN_RESET	Common/videodev2.h	1115;"	d
+V4L2_CID_POWER_LINE_FREQUENCY	Common/videodev2.h	872;"	d
+V4L2_CID_POWER_LINE_FREQUENCY_50HZ	Common/videodev2.h	/^	V4L2_CID_POWER_LINE_FREQUENCY_50HZ	= 1,$/;"	e	enum:v4l2_power_line_frequency
+V4L2_CID_POWER_LINE_FREQUENCY_60HZ	Common/videodev2.h	/^	V4L2_CID_POWER_LINE_FREQUENCY_60HZ	= 2,$/;"	e	enum:v4l2_power_line_frequency
+V4L2_CID_POWER_LINE_FREQUENCY_DISABLED	Common/videodev2.h	/^	V4L2_CID_POWER_LINE_FREQUENCY_DISABLED	= 0,$/;"	e	enum:v4l2_power_line_frequency
+V4L2_CID_PRIVATE_BASE	Common/videodev2.h	842;"	d
+V4L2_CID_RED_BALANCE	Common/videodev2.h	858;"	d
+V4L2_CID_ROTATE_180	Common/videodev2_s3c.h	20;"	d
+V4L2_CID_ROTATE_270	Common/videodev2_s3c.h	21;"	d
+V4L2_CID_ROTATE_90	Common/videodev2_s3c.h	19;"	d
+V4L2_CID_ROTATE_BYPASS	Common/videodev2_s3c.h	22;"	d
+V4L2_CID_SATURATION	Common/videodev2.h	847;"	d
+V4L2_CID_SHARPNESS	Common/videodev2.h	880;"	d
+V4L2_CID_SILHOUETTE	Common/videodev2_s3c.h	16;"	d
+V4L2_CID_TILT_ABSOLUTE	Common/videodev2.h	1119;"	d
+V4L2_CID_TILT_RELATIVE	Common/videodev2.h	1114;"	d
+V4L2_CID_TILT_RESET	Common/videodev2.h	1116;"	d
+V4L2_CID_USER_BASE	Common/videodev2.h	840;"	d
+V4L2_CID_USER_CLASS	Common/videodev2.h	844;"	d
+V4L2_CID_VCENTER	Common/videodev2.h	870;"	d
+V4L2_CID_VFLIP	Common/videodev2.h	866;"	d
+V4L2_CID_WHITENESS	Common/videodev2.h	861;"	d
+V4L2_CID_WHITE_BALANCE_TEMPERATURE	Common/videodev2.h	879;"	d
+V4L2_CID_ZOOMIN	Common/videodev2_s3c.h	25;"	d
+V4L2_CID_ZOOMOUT	Common/videodev2_s3c.h	26;"	d
+V4L2_COLORSPACE_470_SYSTEM_BG	Common/videodev2.h	/^	V4L2_COLORSPACE_470_SYSTEM_BG = 6,$/;"	e	enum:v4l2_colorspace
+V4L2_COLORSPACE_470_SYSTEM_M	Common/videodev2.h	/^	V4L2_COLORSPACE_470_SYSTEM_M  = 5,$/;"	e	enum:v4l2_colorspace
+V4L2_COLORSPACE_BT878	Common/videodev2.h	/^	V4L2_COLORSPACE_BT878         = 4,$/;"	e	enum:v4l2_colorspace
+V4L2_COLORSPACE_JPEG	Common/videodev2.h	/^	V4L2_COLORSPACE_JPEG          = 7,$/;"	e	enum:v4l2_colorspace
+V4L2_COLORSPACE_REC709	Common/videodev2.h	/^	V4L2_COLORSPACE_REC709        = 3,$/;"	e	enum:v4l2_colorspace
+V4L2_COLORSPACE_SMPTE170M	Common/videodev2.h	/^	V4L2_COLORSPACE_SMPTE170M     = 1,$/;"	e	enum:v4l2_colorspace
+V4L2_COLORSPACE_SMPTE240M	Common/videodev2.h	/^	V4L2_COLORSPACE_SMPTE240M     = 2,$/;"	e	enum:v4l2_colorspace
+V4L2_COLORSPACE_SRGB	Common/videodev2.h	/^	V4L2_COLORSPACE_SRGB          = 8,$/;"	e	enum:v4l2_colorspace
+V4L2_CTRL_CLASS_CAMERA	Common/videodev2.h	800;"	d
+V4L2_CTRL_CLASS_MPEG	Common/videodev2.h	799;"	d
+V4L2_CTRL_CLASS_USER	Common/videodev2.h	798;"	d
+V4L2_CTRL_DRIVER_PRIV	Common/videodev2.h	804;"	d
+V4L2_CTRL_FLAG_DISABLED	Common/videodev2.h	828;"	d
+V4L2_CTRL_FLAG_GRABBED	Common/videodev2.h	829;"	d
+V4L2_CTRL_FLAG_INACTIVE	Common/videodev2.h	832;"	d
+V4L2_CTRL_FLAG_NEXT_CTRL	Common/videodev2.h	836;"	d
+V4L2_CTRL_FLAG_READ_ONLY	Common/videodev2.h	830;"	d
+V4L2_CTRL_FLAG_SLIDER	Common/videodev2.h	833;"	d
+V4L2_CTRL_FLAG_UPDATE	Common/videodev2.h	831;"	d
+V4L2_CTRL_ID2CLASS	Common/videodev2.h	803;"	d
+V4L2_CTRL_ID_MASK	Common/videodev2.h	802;"	d
+V4L2_CTRL_TYPE_BOOLEAN	Common/videodev2.h	/^	V4L2_CTRL_TYPE_BOOLEAN	     = 2,$/;"	e	enum:v4l2_ctrl_type
+V4L2_CTRL_TYPE_BUTTON	Common/videodev2.h	/^	V4L2_CTRL_TYPE_BUTTON	     = 4,$/;"	e	enum:v4l2_ctrl_type
+V4L2_CTRL_TYPE_CTRL_CLASS	Common/videodev2.h	/^	V4L2_CTRL_TYPE_CTRL_CLASS    = 6,$/;"	e	enum:v4l2_ctrl_type
+V4L2_CTRL_TYPE_INTEGER	Common/videodev2.h	/^	V4L2_CTRL_TYPE_INTEGER	     = 1,$/;"	e	enum:v4l2_ctrl_type
+V4L2_CTRL_TYPE_INTEGER64	Common/videodev2.h	/^	V4L2_CTRL_TYPE_INTEGER64     = 5,$/;"	e	enum:v4l2_ctrl_type
+V4L2_CTRL_TYPE_MENU	Common/videodev2.h	/^	V4L2_CTRL_TYPE_MENU	     = 3,$/;"	e	enum:v4l2_ctrl_type
+V4L2_ENC_CMD_PAUSE	Common/videodev2.h	1246;"	d
+V4L2_ENC_CMD_RESUME	Common/videodev2.h	1247;"	d
+V4L2_ENC_CMD_START	Common/videodev2.h	1244;"	d
+V4L2_ENC_CMD_STOP	Common/videodev2.h	1245;"	d
+V4L2_ENC_CMD_STOP_AT_GOP_END	Common/videodev2.h	1250;"	d
+V4L2_ENC_IDX_ENTRIES	Common/videodev2.h	1235;"	d
+V4L2_ENC_IDX_FRAME_B	Common/videodev2.h	1224;"	d
+V4L2_ENC_IDX_FRAME_I	Common/videodev2.h	1222;"	d
+V4L2_ENC_IDX_FRAME_MASK	Common/videodev2.h	1225;"	d
+V4L2_ENC_IDX_FRAME_P	Common/videodev2.h	1223;"	d
+V4L2_EXPOSURE_APERTURE_PRIORITY	Common/videodev2.h	/^	V4L2_EXPOSURE_APERTURE_PRIORITY = 3$/;"	e	enum:v4l2_exposure_auto_type
+V4L2_EXPOSURE_AUTO	Common/videodev2.h	/^	V4L2_EXPOSURE_AUTO = 0,$/;"	e	enum:v4l2_exposure_auto_type
+V4L2_EXPOSURE_MANUAL	Common/videodev2.h	/^	V4L2_EXPOSURE_MANUAL = 1,$/;"	e	enum:v4l2_exposure_auto_type
+V4L2_EXPOSURE_SHUTTER_PRIORITY	Common/videodev2.h	/^	V4L2_EXPOSURE_SHUTTER_PRIORITY = 2,$/;"	e	enum:v4l2_exposure_auto_type
+V4L2_FBUF_CAP_BITMAP_CLIPPING	Common/videodev2.h	548;"	d
+V4L2_FBUF_CAP_CHROMAKEY	Common/videodev2.h	546;"	d
+V4L2_FBUF_CAP_EXTERNOVERLAY	Common/videodev2.h	545;"	d
+V4L2_FBUF_CAP_GLOBAL_ALPHA	Common/videodev2.h	550;"	d
+V4L2_FBUF_CAP_LIST_CLIPPING	Common/videodev2.h	547;"	d
+V4L2_FBUF_CAP_LOCAL_ALPHA	Common/videodev2.h	549;"	d
+V4L2_FBUF_CAP_LOCAL_INV_ALPHA	Common/videodev2.h	551;"	d
+V4L2_FBUF_FLAG_CHROMAKEY	Common/videodev2.h	555;"	d
+V4L2_FBUF_FLAG_GLOBAL_ALPHA	Common/videodev2.h	557;"	d
+V4L2_FBUF_FLAG_LOCAL_ALPHA	Common/videodev2.h	556;"	d
+V4L2_FBUF_FLAG_LOCAL_INV_ALPHA	Common/videodev2.h	558;"	d
+V4L2_FBUF_FLAG_OVERLAY	Common/videodev2.h	554;"	d
+V4L2_FBUF_FLAG_PRIMARY	Common/videodev2.h	553;"	d
+V4L2_FIELD_ALTERNATE	Common/videodev2.h	/^	V4L2_FIELD_ALTERNATE     = 7, \/* both fields alternating into$/;"	e	enum:v4l2_field
+V4L2_FIELD_ANY	Common/videodev2.h	/^	V4L2_FIELD_ANY           = 0, \/* driver can choose from none,$/;"	e	enum:v4l2_field
+V4L2_FIELD_BOTTOM	Common/videodev2.h	/^	V4L2_FIELD_BOTTOM        = 3, \/* bottom field only *\/$/;"	e	enum:v4l2_field
+V4L2_FIELD_HAS_BOTH	Common/videodev2.h	144;"	d
+V4L2_FIELD_HAS_BOTTOM	Common/videodev2.h	137;"	d
+V4L2_FIELD_HAS_TOP	Common/videodev2.h	130;"	d
+V4L2_FIELD_INTERLACED	Common/videodev2.h	/^	V4L2_FIELD_INTERLACED    = 4, \/* both fields interlaced *\/$/;"	e	enum:v4l2_field
+V4L2_FIELD_INTERLACED_BT	Common/videodev2.h	/^	V4L2_FIELD_INTERLACED_BT = 9, \/* both fields interlaced, top field$/;"	e	enum:v4l2_field
+V4L2_FIELD_INTERLACED_TB	Common/videodev2.h	/^	V4L2_FIELD_INTERLACED_TB = 8, \/* both fields interlaced, top field$/;"	e	enum:v4l2_field
+V4L2_FIELD_NONE	Common/videodev2.h	/^	V4L2_FIELD_NONE          = 1, \/* this device has no fields ... *\/$/;"	e	enum:v4l2_field
+V4L2_FIELD_SEQ_BT	Common/videodev2.h	/^	V4L2_FIELD_SEQ_BT        = 6, \/* same as above + bottom-top order *\/$/;"	e	enum:v4l2_field
+V4L2_FIELD_SEQ_TB	Common/videodev2.h	/^	V4L2_FIELD_SEQ_TB        = 5, \/* both fields sequential into one$/;"	e	enum:v4l2_field
+V4L2_FIELD_TOP	Common/videodev2.h	/^	V4L2_FIELD_TOP           = 2, \/* top field only *\/$/;"	e	enum:v4l2_field
+V4L2_FMT_FLAG_COMPRESSED	Common/videodev2.h	364;"	d
+V4L2_FMT_IN	Common/videodev2.h	74;"	d
+V4L2_FMT_IN	cam_dec_preview.c	122;"	d	file:
+V4L2_FMT_IN	cam_enc_dec_test.c	119;"	d	file:
+V4L2_FMT_IN	cam_encoder_test.c	105;"	d	file:
+V4L2_FMT_IN	capture.c	110;"	d	file:
+V4L2_FMT_OUT	Common/videodev2.h	75;"	d
+V4L2_FMT_OUT	cam_dec_preview.c	123;"	d	file:
+V4L2_FMT_OUT	cam_enc_dec_test.c	120;"	d	file:
+V4L2_FMT_OUT	cam_encoder_test.c	106;"	d	file:
+V4L2_FMT_OUT	capture.c	111;"	d	file:
+V4L2_FRMIVAL_TYPE_CONTINUOUS	Common/videodev2.h	/^	V4L2_FRMIVAL_TYPE_CONTINUOUS	= 2,$/;"	e	enum:v4l2_frmivaltypes
+V4L2_FRMIVAL_TYPE_DISCRETE	Common/videodev2.h	/^	V4L2_FRMIVAL_TYPE_DISCRETE	= 1,$/;"	e	enum:v4l2_frmivaltypes
+V4L2_FRMIVAL_TYPE_STEPWISE	Common/videodev2.h	/^	V4L2_FRMIVAL_TYPE_STEPWISE	= 3,$/;"	e	enum:v4l2_frmivaltypes
+V4L2_FRMSIZE_TYPE_CONTINUOUS	Common/videodev2.h	/^	V4L2_FRMSIZE_TYPE_CONTINUOUS	= 2,$/;"	e	enum:v4l2_frmsizetypes
+V4L2_FRMSIZE_TYPE_DISCRETE	Common/videodev2.h	/^	V4L2_FRMSIZE_TYPE_DISCRETE	= 1,$/;"	e	enum:v4l2_frmsizetypes
+V4L2_FRMSIZE_TYPE_STEPWISE	Common/videodev2.h	/^	V4L2_FRMSIZE_TYPE_STEPWISE	= 3,$/;"	e	enum:v4l2_frmsizetypes
+V4L2_INPUT_TYPE_CAMERA	Common/videodev2.h	733;"	d
+V4L2_INPUT_TYPE_INTERLACE	Common/videodev2_s3c.h	4;"	d
+V4L2_INPUT_TYPE_MSDMA	Common/videodev2_s3c.h	3;"	d
+V4L2_INPUT_TYPE_TUNER	Common/videodev2.h	732;"	d
+V4L2_IN_ST_COLOR_KILL	Common/videodev2.h	742;"	d
+V4L2_IN_ST_MACROVISION	Common/videodev2.h	750;"	d
+V4L2_IN_ST_NO_ACCESS	Common/videodev2.h	751;"	d
+V4L2_IN_ST_NO_CARRIER	Common/videodev2.h	747;"	d
+V4L2_IN_ST_NO_COLOR	Common/videodev2.h	738;"	d
+V4L2_IN_ST_NO_EQU	Common/videodev2.h	746;"	d
+V4L2_IN_ST_NO_H_LOCK	Common/videodev2.h	741;"	d
+V4L2_IN_ST_NO_POWER	Common/videodev2.h	736;"	d
+V4L2_IN_ST_NO_SIGNAL	Common/videodev2.h	737;"	d
+V4L2_IN_ST_NO_SYNC	Common/videodev2.h	745;"	d
+V4L2_IN_ST_VTR	Common/videodev2.h	752;"	d
+V4L2_JPEG_MARKER_APP	Common/videodev2.h	488;"	d
+V4L2_JPEG_MARKER_COM	Common/videodev2.h	487;"	d
+V4L2_JPEG_MARKER_DHT	Common/videodev2.h	484;"	d
+V4L2_JPEG_MARKER_DQT	Common/videodev2.h	485;"	d
+V4L2_JPEG_MARKER_DRI	Common/videodev2.h	486;"	d
+V4L2_MEMORY_MMAP	Common/videodev2.h	/^	V4L2_MEMORY_MMAP             = 1,$/;"	e	enum:v4l2_memory
+V4L2_MEMORY_OVERLAY	Common/videodev2.h	/^	V4L2_MEMORY_OVERLAY          = 3,$/;"	e	enum:v4l2_memory
+V4L2_MEMORY_USERPTR	Common/videodev2.h	/^	V4L2_MEMORY_USERPTR          = 2,$/;"	e	enum:v4l2_memory
+V4L2_MODE_HIGHQUALITY	Common/videodev2.h	588;"	d
+V4L2_MPEG_AUDIO_AC3_BITRATE_112K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_AC3_BITRATE_112K = 7,$/;"	e	enum:v4l2_mpeg_audio_ac3_bitrate
+V4L2_MPEG_AUDIO_AC3_BITRATE_128K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_AC3_BITRATE_128K = 8,$/;"	e	enum:v4l2_mpeg_audio_ac3_bitrate
+V4L2_MPEG_AUDIO_AC3_BITRATE_160K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_AC3_BITRATE_160K = 9,$/;"	e	enum:v4l2_mpeg_audio_ac3_bitrate
+V4L2_MPEG_AUDIO_AC3_BITRATE_192K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_AC3_BITRATE_192K = 10,$/;"	e	enum:v4l2_mpeg_audio_ac3_bitrate
+V4L2_MPEG_AUDIO_AC3_BITRATE_224K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_AC3_BITRATE_224K = 11,$/;"	e	enum:v4l2_mpeg_audio_ac3_bitrate
+V4L2_MPEG_AUDIO_AC3_BITRATE_256K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_AC3_BITRATE_256K = 12,$/;"	e	enum:v4l2_mpeg_audio_ac3_bitrate
+V4L2_MPEG_AUDIO_AC3_BITRATE_320K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_AC3_BITRATE_320K = 13,$/;"	e	enum:v4l2_mpeg_audio_ac3_bitrate
+V4L2_MPEG_AUDIO_AC3_BITRATE_32K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_AC3_BITRATE_32K  = 0,$/;"	e	enum:v4l2_mpeg_audio_ac3_bitrate
+V4L2_MPEG_AUDIO_AC3_BITRATE_384K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_AC3_BITRATE_384K = 14,$/;"	e	enum:v4l2_mpeg_audio_ac3_bitrate
+V4L2_MPEG_AUDIO_AC3_BITRATE_40K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_AC3_BITRATE_40K  = 1,$/;"	e	enum:v4l2_mpeg_audio_ac3_bitrate
+V4L2_MPEG_AUDIO_AC3_BITRATE_448K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_AC3_BITRATE_448K = 15,$/;"	e	enum:v4l2_mpeg_audio_ac3_bitrate
+V4L2_MPEG_AUDIO_AC3_BITRATE_48K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_AC3_BITRATE_48K  = 2,$/;"	e	enum:v4l2_mpeg_audio_ac3_bitrate
+V4L2_MPEG_AUDIO_AC3_BITRATE_512K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_AC3_BITRATE_512K = 16,$/;"	e	enum:v4l2_mpeg_audio_ac3_bitrate
+V4L2_MPEG_AUDIO_AC3_BITRATE_56K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_AC3_BITRATE_56K  = 3,$/;"	e	enum:v4l2_mpeg_audio_ac3_bitrate
+V4L2_MPEG_AUDIO_AC3_BITRATE_576K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_AC3_BITRATE_576K = 17,$/;"	e	enum:v4l2_mpeg_audio_ac3_bitrate
+V4L2_MPEG_AUDIO_AC3_BITRATE_640K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_AC3_BITRATE_640K = 18,$/;"	e	enum:v4l2_mpeg_audio_ac3_bitrate
+V4L2_MPEG_AUDIO_AC3_BITRATE_64K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_AC3_BITRATE_64K  = 4,$/;"	e	enum:v4l2_mpeg_audio_ac3_bitrate
+V4L2_MPEG_AUDIO_AC3_BITRATE_80K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_AC3_BITRATE_80K  = 5,$/;"	e	enum:v4l2_mpeg_audio_ac3_bitrate
+V4L2_MPEG_AUDIO_AC3_BITRATE_96K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_AC3_BITRATE_96K  = 6,$/;"	e	enum:v4l2_mpeg_audio_ac3_bitrate
+V4L2_MPEG_AUDIO_CRC_CRC16	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_CRC_CRC16 = 1,$/;"	e	enum:v4l2_mpeg_audio_crc
+V4L2_MPEG_AUDIO_CRC_NONE	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_CRC_NONE  = 0,$/;"	e	enum:v4l2_mpeg_audio_crc
+V4L2_MPEG_AUDIO_EMPHASIS_50_DIV_15_uS	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_EMPHASIS_50_DIV_15_uS = 1,$/;"	e	enum:v4l2_mpeg_audio_emphasis
+V4L2_MPEG_AUDIO_EMPHASIS_CCITT_J17	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_EMPHASIS_CCITT_J17    = 2,$/;"	e	enum:v4l2_mpeg_audio_emphasis
+V4L2_MPEG_AUDIO_EMPHASIS_NONE	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_EMPHASIS_NONE         = 0,$/;"	e	enum:v4l2_mpeg_audio_emphasis
+V4L2_MPEG_AUDIO_ENCODING_AAC	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_ENCODING_AAC     = 3,$/;"	e	enum:v4l2_mpeg_audio_encoding
+V4L2_MPEG_AUDIO_ENCODING_AC3	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_ENCODING_AC3     = 4,$/;"	e	enum:v4l2_mpeg_audio_encoding
+V4L2_MPEG_AUDIO_ENCODING_LAYER_1	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_ENCODING_LAYER_1 = 0,$/;"	e	enum:v4l2_mpeg_audio_encoding
+V4L2_MPEG_AUDIO_ENCODING_LAYER_2	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_ENCODING_LAYER_2 = 1,$/;"	e	enum:v4l2_mpeg_audio_encoding
+V4L2_MPEG_AUDIO_ENCODING_LAYER_3	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_ENCODING_LAYER_3 = 2,$/;"	e	enum:v4l2_mpeg_audio_encoding
+V4L2_MPEG_AUDIO_L1_BITRATE_128K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_128K = 3,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_160K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_160K = 4,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_192K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_192K = 5,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_224K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_224K = 6,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_256K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_256K = 7,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_288K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_288K = 8,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_320K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_320K = 9,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_32K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_32K  = 0,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_352K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_352K = 10,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_384K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_384K = 11,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_416K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_416K = 12,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_448K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_448K = 13,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_64K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_64K  = 1,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L1_BITRATE_96K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L1_BITRATE_96K  = 2,$/;"	e	enum:v4l2_mpeg_audio_l1_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_112K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_112K = 6,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_128K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_128K = 7,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_160K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_160K = 8,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_192K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_192K = 9,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_224K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_224K = 10,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_256K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_256K = 11,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_320K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_320K = 12,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_32K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_32K  = 0,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_384K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_384K = 13,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_48K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_48K  = 1,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_56K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_56K  = 2,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_64K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_64K  = 3,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_80K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_80K  = 4,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L2_BITRATE_96K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L2_BITRATE_96K  = 5,$/;"	e	enum:v4l2_mpeg_audio_l2_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_112K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_112K = 7,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_128K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_128K = 8,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_160K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_160K = 9,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_192K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_192K = 10,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_224K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_224K = 11,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_256K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_256K = 12,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_320K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_320K = 13,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_32K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_32K  = 0,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_40K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_40K  = 1,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_48K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_48K  = 2,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_56K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_56K  = 3,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_64K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_64K  = 4,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_80K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_80K  = 5,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_L3_BITRATE_96K	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_L3_BITRATE_96K  = 6,$/;"	e	enum:v4l2_mpeg_audio_l3_bitrate
+V4L2_MPEG_AUDIO_MODE_DUAL	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_MODE_DUAL         = 2,$/;"	e	enum:v4l2_mpeg_audio_mode
+V4L2_MPEG_AUDIO_MODE_EXTENSION_BOUND_12	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_MODE_EXTENSION_BOUND_12 = 2,$/;"	e	enum:v4l2_mpeg_audio_mode_extension
+V4L2_MPEG_AUDIO_MODE_EXTENSION_BOUND_16	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_MODE_EXTENSION_BOUND_16 = 3,$/;"	e	enum:v4l2_mpeg_audio_mode_extension
+V4L2_MPEG_AUDIO_MODE_EXTENSION_BOUND_4	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_MODE_EXTENSION_BOUND_4  = 0,$/;"	e	enum:v4l2_mpeg_audio_mode_extension
+V4L2_MPEG_AUDIO_MODE_EXTENSION_BOUND_8	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_MODE_EXTENSION_BOUND_8  = 1,$/;"	e	enum:v4l2_mpeg_audio_mode_extension
+V4L2_MPEG_AUDIO_MODE_JOINT_STEREO	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_MODE_JOINT_STEREO = 1,$/;"	e	enum:v4l2_mpeg_audio_mode
+V4L2_MPEG_AUDIO_MODE_MONO	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_MODE_MONO         = 3,$/;"	e	enum:v4l2_mpeg_audio_mode
+V4L2_MPEG_AUDIO_MODE_STEREO	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_MODE_STEREO       = 0,$/;"	e	enum:v4l2_mpeg_audio_mode
+V4L2_MPEG_AUDIO_SAMPLING_FREQ_32000	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_SAMPLING_FREQ_32000 = 2,$/;"	e	enum:v4l2_mpeg_audio_sampling_freq
+V4L2_MPEG_AUDIO_SAMPLING_FREQ_44100	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_SAMPLING_FREQ_44100 = 0,$/;"	e	enum:v4l2_mpeg_audio_sampling_freq
+V4L2_MPEG_AUDIO_SAMPLING_FREQ_48000	Common/videodev2.h	/^	V4L2_MPEG_AUDIO_SAMPLING_FREQ_48000 = 1,$/;"	e	enum:v4l2_mpeg_audio_sampling_freq
+V4L2_MPEG_CX2341X_VIDEO_CHROMA_SPATIAL_FILTER_TYPE_1D_HOR	Common/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_CHROMA_SPATIAL_FILTER_TYPE_1D_HOR = 1,$/;"	e	enum:v4l2_mpeg_cx2341x_video_chroma_spatial_filter_type
+V4L2_MPEG_CX2341X_VIDEO_CHROMA_SPATIAL_FILTER_TYPE_OFF	Common/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_CHROMA_SPATIAL_FILTER_TYPE_OFF    = 0,$/;"	e	enum:v4l2_mpeg_cx2341x_video_chroma_spatial_filter_type
+V4L2_MPEG_CX2341X_VIDEO_LUMA_SPATIAL_FILTER_TYPE_1D_HOR	Common/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_LUMA_SPATIAL_FILTER_TYPE_1D_HOR               = 1,$/;"	e	enum:v4l2_mpeg_cx2341x_video_luma_spatial_filter_type
+V4L2_MPEG_CX2341X_VIDEO_LUMA_SPATIAL_FILTER_TYPE_1D_VERT	Common/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_LUMA_SPATIAL_FILTER_TYPE_1D_VERT              = 2,$/;"	e	enum:v4l2_mpeg_cx2341x_video_luma_spatial_filter_type
+V4L2_MPEG_CX2341X_VIDEO_LUMA_SPATIAL_FILTER_TYPE_2D_HV_SEPARABLE	Common/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_LUMA_SPATIAL_FILTER_TYPE_2D_HV_SEPARABLE      = 3,$/;"	e	enum:v4l2_mpeg_cx2341x_video_luma_spatial_filter_type
+V4L2_MPEG_CX2341X_VIDEO_LUMA_SPATIAL_FILTER_TYPE_2D_SYM_NON_SEPARABLE	Common/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_LUMA_SPATIAL_FILTER_TYPE_2D_SYM_NON_SEPARABLE = 4,$/;"	e	enum:v4l2_mpeg_cx2341x_video_luma_spatial_filter_type
+V4L2_MPEG_CX2341X_VIDEO_LUMA_SPATIAL_FILTER_TYPE_OFF	Common/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_LUMA_SPATIAL_FILTER_TYPE_OFF                  = 0,$/;"	e	enum:v4l2_mpeg_cx2341x_video_luma_spatial_filter_type
+V4L2_MPEG_CX2341X_VIDEO_MEDIAN_FILTER_TYPE_DIAG	Common/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_MEDIAN_FILTER_TYPE_DIAG     = 4,$/;"	e	enum:v4l2_mpeg_cx2341x_video_median_filter_type
+V4L2_MPEG_CX2341X_VIDEO_MEDIAN_FILTER_TYPE_HOR	Common/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_MEDIAN_FILTER_TYPE_HOR      = 1,$/;"	e	enum:v4l2_mpeg_cx2341x_video_median_filter_type
+V4L2_MPEG_CX2341X_VIDEO_MEDIAN_FILTER_TYPE_HOR_VERT	Common/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_MEDIAN_FILTER_TYPE_HOR_VERT = 3,$/;"	e	enum:v4l2_mpeg_cx2341x_video_median_filter_type
+V4L2_MPEG_CX2341X_VIDEO_MEDIAN_FILTER_TYPE_OFF	Common/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_MEDIAN_FILTER_TYPE_OFF      = 0,$/;"	e	enum:v4l2_mpeg_cx2341x_video_median_filter_type
+V4L2_MPEG_CX2341X_VIDEO_MEDIAN_FILTER_TYPE_VERT	Common/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_MEDIAN_FILTER_TYPE_VERT     = 2,$/;"	e	enum:v4l2_mpeg_cx2341x_video_median_filter_type
+V4L2_MPEG_CX2341X_VIDEO_SPATIAL_FILTER_MODE_AUTO	Common/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_SPATIAL_FILTER_MODE_AUTO   = 1,$/;"	e	enum:v4l2_mpeg_cx2341x_video_spatial_filter_mode
+V4L2_MPEG_CX2341X_VIDEO_SPATIAL_FILTER_MODE_MANUAL	Common/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_SPATIAL_FILTER_MODE_MANUAL = 0,$/;"	e	enum:v4l2_mpeg_cx2341x_video_spatial_filter_mode
+V4L2_MPEG_CX2341X_VIDEO_TEMPORAL_FILTER_MODE_AUTO	Common/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_TEMPORAL_FILTER_MODE_AUTO   = 1,$/;"	e	enum:v4l2_mpeg_cx2341x_video_temporal_filter_mode
+V4L2_MPEG_CX2341X_VIDEO_TEMPORAL_FILTER_MODE_MANUAL	Common/videodev2.h	/^	V4L2_MPEG_CX2341X_VIDEO_TEMPORAL_FILTER_MODE_MANUAL = 0,$/;"	e	enum:v4l2_mpeg_cx2341x_video_temporal_filter_mode
+V4L2_MPEG_STREAM_TYPE_MPEG1_SS	Common/videodev2.h	/^	V4L2_MPEG_STREAM_TYPE_MPEG1_SS   = 2, \/* MPEG-1 system stream *\/$/;"	e	enum:v4l2_mpeg_stream_type
+V4L2_MPEG_STREAM_TYPE_MPEG1_VCD	Common/videodev2.h	/^	V4L2_MPEG_STREAM_TYPE_MPEG1_VCD  = 4, \/* MPEG-1 VCD-compatible stream *\/$/;"	e	enum:v4l2_mpeg_stream_type
+V4L2_MPEG_STREAM_TYPE_MPEG2_DVD	Common/videodev2.h	/^	V4L2_MPEG_STREAM_TYPE_MPEG2_DVD  = 3, \/* MPEG-2 DVD-compatible stream *\/$/;"	e	enum:v4l2_mpeg_stream_type
+V4L2_MPEG_STREAM_TYPE_MPEG2_PS	Common/videodev2.h	/^	V4L2_MPEG_STREAM_TYPE_MPEG2_PS   = 0, \/* MPEG-2 program stream *\/$/;"	e	enum:v4l2_mpeg_stream_type
+V4L2_MPEG_STREAM_TYPE_MPEG2_SVCD	Common/videodev2.h	/^	V4L2_MPEG_STREAM_TYPE_MPEG2_SVCD = 5, \/* MPEG-2 SVCD-compatible stream *\/$/;"	e	enum:v4l2_mpeg_stream_type
+V4L2_MPEG_STREAM_TYPE_MPEG2_TS	Common/videodev2.h	/^	V4L2_MPEG_STREAM_TYPE_MPEG2_TS   = 1, \/* MPEG-2 transport stream *\/$/;"	e	enum:v4l2_mpeg_stream_type
+V4L2_MPEG_STREAM_VBI_FMT_IVTV	Common/videodev2.h	/^	V4L2_MPEG_STREAM_VBI_FMT_IVTV = 1,  \/* VBI in private packets, IVTV format *\/$/;"	e	enum:v4l2_mpeg_stream_vbi_fmt
+V4L2_MPEG_STREAM_VBI_FMT_NONE	Common/videodev2.h	/^	V4L2_MPEG_STREAM_VBI_FMT_NONE = 0,  \/* No VBI in the MPEG stream *\/$/;"	e	enum:v4l2_mpeg_stream_vbi_fmt
+V4L2_MPEG_VIDEO_ASPECT_16x9	Common/videodev2.h	/^	V4L2_MPEG_VIDEO_ASPECT_16x9    = 2,$/;"	e	enum:v4l2_mpeg_video_aspect
+V4L2_MPEG_VIDEO_ASPECT_1x1	Common/videodev2.h	/^	V4L2_MPEG_VIDEO_ASPECT_1x1     = 0,$/;"	e	enum:v4l2_mpeg_video_aspect
+V4L2_MPEG_VIDEO_ASPECT_221x100	Common/videodev2.h	/^	V4L2_MPEG_VIDEO_ASPECT_221x100 = 3,$/;"	e	enum:v4l2_mpeg_video_aspect
+V4L2_MPEG_VIDEO_ASPECT_4x3	Common/videodev2.h	/^	V4L2_MPEG_VIDEO_ASPECT_4x3     = 1,$/;"	e	enum:v4l2_mpeg_video_aspect
+V4L2_MPEG_VIDEO_BITRATE_MODE_CBR	Common/videodev2.h	/^	V4L2_MPEG_VIDEO_BITRATE_MODE_CBR = 1,$/;"	e	enum:v4l2_mpeg_video_bitrate_mode
+V4L2_MPEG_VIDEO_BITRATE_MODE_VBR	Common/videodev2.h	/^	V4L2_MPEG_VIDEO_BITRATE_MODE_VBR = 0,$/;"	e	enum:v4l2_mpeg_video_bitrate_mode
+V4L2_MPEG_VIDEO_ENCODING_MPEG_1	Common/videodev2.h	/^	V4L2_MPEG_VIDEO_ENCODING_MPEG_1     = 0,$/;"	e	enum:v4l2_mpeg_video_encoding
+V4L2_MPEG_VIDEO_ENCODING_MPEG_2	Common/videodev2.h	/^	V4L2_MPEG_VIDEO_ENCODING_MPEG_2     = 1,$/;"	e	enum:v4l2_mpeg_video_encoding
+V4L2_MPEG_VIDEO_ENCODING_MPEG_4_AVC	Common/videodev2.h	/^	V4L2_MPEG_VIDEO_ENCODING_MPEG_4_AVC = 2,$/;"	e	enum:v4l2_mpeg_video_encoding
+V4L2_MSDMA_CODEC	Common/videodev2_s3c.h	/^	V4L2_MSDMA_CODEC             = 1,$/;"	e	enum:v4l2_msdma_input
+V4L2_MSDMA_PREVIEW	Common/videodev2_s3c.h	/^	V4L2_MSDMA_PREVIEW           = 2,$/;"	e	enum:v4l2_msdma_input
+V4L2_OUTPUT_TYPE_ANALOG	Common/videodev2.h	768;"	d
+V4L2_OUTPUT_TYPE_ANALOGVGAOVERLAY	Common/videodev2.h	769;"	d
+V4L2_OUTPUT_TYPE_MODULATOR	Common/videodev2.h	767;"	d
+V4L2_PIX_FMT_BGR24	Common/videodev2.h	290;"	d
+V4L2_PIX_FMT_BGR32	Common/videodev2.h	292;"	d
+V4L2_PIX_FMT_DV	Common/videodev2.h	335;"	d
+V4L2_PIX_FMT_ET61X251	Common/videodev2.h	343;"	d
+V4L2_PIX_FMT_GREY	Common/videodev2.h	294;"	d
+V4L2_PIX_FMT_HI240	Common/videodev2.h	317;"	d
+V4L2_PIX_FMT_HM12	Common/videodev2.h	318;"	d
+V4L2_PIX_FMT_JPEG	Common/videodev2.h	334;"	d
+V4L2_PIX_FMT_MJPEG	Common/videodev2.h	333;"	d
+V4L2_PIX_FMT_MPEG	Common/videodev2.h	336;"	d
+V4L2_PIX_FMT_NV12	Common/videodev2.h	310;"	d
+V4L2_PIX_FMT_NV21	Common/videodev2.h	311;"	d
+V4L2_PIX_FMT_PAC207	Common/videodev2.h	348;"	d
+V4L2_PIX_FMT_PAL8	Common/videodev2.h	296;"	d
+V4L2_PIX_FMT_PJPG	Common/videodev2.h	349;"	d
+V4L2_PIX_FMT_PWC1	Common/videodev2.h	341;"	d
+V4L2_PIX_FMT_PWC2	Common/videodev2.h	342;"	d
+V4L2_PIX_FMT_RGB24	Common/videodev2.h	291;"	d
+V4L2_PIX_FMT_RGB32	Common/videodev2.h	293;"	d
+V4L2_PIX_FMT_RGB332	Common/videodev2.h	284;"	d
+V4L2_PIX_FMT_RGB444	Common/videodev2.h	285;"	d
+V4L2_PIX_FMT_RGB555	Common/videodev2.h	286;"	d
+V4L2_PIX_FMT_RGB555X	Common/videodev2.h	288;"	d
+V4L2_PIX_FMT_RGB565	Common/videodev2.h	287;"	d
+V4L2_PIX_FMT_RGB565X	Common/videodev2.h	289;"	d
+V4L2_PIX_FMT_SBGGR16	Common/videodev2.h	330;"	d
+V4L2_PIX_FMT_SBGGR8	Common/videodev2.h	321;"	d
+V4L2_PIX_FMT_SGBRG8	Common/videodev2.h	322;"	d
+V4L2_PIX_FMT_SGRBG10	Common/videodev2.h	327;"	d
+V4L2_PIX_FMT_SGRBG10DPCM8	Common/videodev2.h	329;"	d
+V4L2_PIX_FMT_SN9C10X	Common/videodev2.h	340;"	d
+V4L2_PIX_FMT_SPCA501	Common/videodev2.h	344;"	d
+V4L2_PIX_FMT_SPCA505	Common/videodev2.h	345;"	d
+V4L2_PIX_FMT_SPCA508	Common/videodev2.h	346;"	d
+V4L2_PIX_FMT_SPCA561	Common/videodev2.h	347;"	d
+V4L2_PIX_FMT_UYVY	Common/videodev2.h	300;"	d
+V4L2_PIX_FMT_WNVA	Common/videodev2.h	339;"	d
+V4L2_PIX_FMT_Y16	Common/videodev2.h	295;"	d
+V4L2_PIX_FMT_Y41P	Common/videodev2.h	303;"	d
+V4L2_PIX_FMT_YUV32	Common/videodev2.h	307;"	d
+V4L2_PIX_FMT_YUV410	Common/videodev2.h	314;"	d
+V4L2_PIX_FMT_YUV411P	Common/videodev2.h	302;"	d
+V4L2_PIX_FMT_YUV420	Common/videodev2.h	315;"	d
+V4L2_PIX_FMT_YUV422P	Common/videodev2.h	301;"	d
+V4L2_PIX_FMT_YUV444	Common/videodev2.h	304;"	d
+V4L2_PIX_FMT_YUV555	Common/videodev2.h	305;"	d
+V4L2_PIX_FMT_YUV565	Common/videodev2.h	306;"	d
+V4L2_PIX_FMT_YUYV	Common/videodev2.h	299;"	d
+V4L2_PIX_FMT_YVU410	Common/videodev2.h	297;"	d
+V4L2_PIX_FMT_YVU420	Common/videodev2.h	298;"	d
+V4L2_PIX_FMT_YVYU	Common/videodev2.h	350;"	d
+V4L2_PIX_FMT_YYUV	Common/videodev2.h	316;"	d
+V4L2_PRIORITY_BACKGROUND	Common/videodev2.h	/^	V4L2_PRIORITY_BACKGROUND  = 1,$/;"	e	enum:v4l2_priority
+V4L2_PRIORITY_DEFAULT	Common/videodev2.h	/^	V4L2_PRIORITY_DEFAULT     = V4L2_PRIORITY_INTERACTIVE,$/;"	e	enum:v4l2_priority
+V4L2_PRIORITY_INTERACTIVE	Common/videodev2.h	/^	V4L2_PRIORITY_INTERACTIVE = 2,$/;"	e	enum:v4l2_priority
+V4L2_PRIORITY_RECORD	Common/videodev2.h	/^	V4L2_PRIORITY_RECORD      = 3,$/;"	e	enum:v4l2_priority
+V4L2_PRIORITY_UNSET	Common/videodev2.h	/^	V4L2_PRIORITY_UNSET       = 0,  \/* not initialized *\/$/;"	e	enum:v4l2_priority
+V4L2_SLICED_CAPTION_525	Common/videodev2.h	1311;"	d
+V4L2_SLICED_TELETEXT_B	Common/videodev2.h	1307;"	d
+V4L2_SLICED_VBI_525	Common/videodev2.h	1315;"	d
+V4L2_SLICED_VBI_625	Common/videodev2.h	1316;"	d
+V4L2_SLICED_VPS	Common/videodev2.h	1309;"	d
+V4L2_SLICED_WSS_625	Common/videodev2.h	1313;"	d
+V4L2_STD_525_60	Common/videodev2.h	693;"	d
+V4L2_STD_625_50	Common/videodev2.h	697;"	d
+V4L2_STD_ALL	Common/videodev2.h	705;"	d
+V4L2_STD_ATSC	Common/videodev2.h	701;"	d
+V4L2_STD_ATSC_16_VSB	Common/videodev2.h	652;"	d
+V4L2_STD_ATSC_8_VSB	Common/videodev2.h	651;"	d
+V4L2_STD_B	Common/videodev2.h	665;"	d
+V4L2_STD_DK	Common/videodev2.h	667;"	d
+V4L2_STD_GH	Common/videodev2.h	666;"	d
+V4L2_STD_MN	Common/videodev2.h	664;"	d
+V4L2_STD_NTSC	Common/videodev2.h	680;"	d
+V4L2_STD_NTSC_443	Common/videodev2.h	638;"	d
+V4L2_STD_NTSC_M	Common/videodev2.h	636;"	d
+V4L2_STD_NTSC_M_JP	Common/videodev2.h	637;"	d
+V4L2_STD_NTSC_M_KR	Common/videodev2.h	639;"	d
+V4L2_STD_PAL	Common/videodev2.h	676;"	d
+V4L2_STD_PAL_60	Common/videodev2.h	634;"	d
+V4L2_STD_PAL_B	Common/videodev2.h	622;"	d
+V4L2_STD_PAL_B1	Common/videodev2.h	623;"	d
+V4L2_STD_PAL_BG	Common/videodev2.h	670;"	d
+V4L2_STD_PAL_D	Common/videodev2.h	627;"	d
+V4L2_STD_PAL_D1	Common/videodev2.h	628;"	d
+V4L2_STD_PAL_DK	Common/videodev2.h	673;"	d
+V4L2_STD_PAL_G	Common/videodev2.h	624;"	d
+V4L2_STD_PAL_H	Common/videodev2.h	625;"	d
+V4L2_STD_PAL_I	Common/videodev2.h	626;"	d
+V4L2_STD_PAL_K	Common/videodev2.h	629;"	d
+V4L2_STD_PAL_M	Common/videodev2.h	631;"	d
+V4L2_STD_PAL_N	Common/videodev2.h	632;"	d
+V4L2_STD_PAL_Nc	Common/videodev2.h	633;"	d
+V4L2_STD_SECAM	Common/videodev2.h	686;"	d
+V4L2_STD_SECAM_B	Common/videodev2.h	641;"	d
+V4L2_STD_SECAM_D	Common/videodev2.h	642;"	d
+V4L2_STD_SECAM_DK	Common/videodev2.h	683;"	d
+V4L2_STD_SECAM_G	Common/videodev2.h	643;"	d
+V4L2_STD_SECAM_H	Common/videodev2.h	644;"	d
+V4L2_STD_SECAM_K	Common/videodev2.h	645;"	d
+V4L2_STD_SECAM_K1	Common/videodev2.h	646;"	d
+V4L2_STD_SECAM_L	Common/videodev2.h	647;"	d
+V4L2_STD_SECAM_LC	Common/videodev2.h	648;"	d
+V4L2_STD_UNKNOWN	Common/videodev2.h	704;"	d
+V4L2_TC_FLAG_COLORFRAME	Common/videodev2.h	457;"	d
+V4L2_TC_FLAG_DROPFRAME	Common/videodev2.h	456;"	d
+V4L2_TC_TYPE_24FPS	Common/videodev2.h	449;"	d
+V4L2_TC_TYPE_25FPS	Common/videodev2.h	450;"	d
+V4L2_TC_TYPE_30FPS	Common/videodev2.h	451;"	d
+V4L2_TC_TYPE_50FPS	Common/videodev2.h	452;"	d
+V4L2_TC_TYPE_60FPS	Common/videodev2.h	453;"	d
+V4L2_TC_USERBITS_8BITCHARS	Common/videodev2.h	460;"	d
+V4L2_TC_USERBITS_USERDEFINED	Common/videodev2.h	459;"	d
+V4L2_TC_USERBITS_field	Common/videodev2.h	458;"	d
+V4L2_TUNER_ANALOG_TV	Common/videodev2.h	/^	V4L2_TUNER_ANALOG_TV	     = 2,$/;"	e	enum:v4l2_tuner_type
+V4L2_TUNER_CAP_LANG1	Common/videodev2.h	1158;"	d
+V4L2_TUNER_CAP_LANG2	Common/videodev2.h	1156;"	d
+V4L2_TUNER_CAP_LOW	Common/videodev2.h	1153;"	d
+V4L2_TUNER_CAP_NORM	Common/videodev2.h	1154;"	d
+V4L2_TUNER_CAP_SAP	Common/videodev2.h	1157;"	d
+V4L2_TUNER_CAP_STEREO	Common/videodev2.h	1155;"	d
+V4L2_TUNER_DIGITAL_TV	Common/videodev2.h	/^	V4L2_TUNER_DIGITAL_TV	     = 3,$/;"	e	enum:v4l2_tuner_type
+V4L2_TUNER_MODE_LANG1	Common/videodev2.h	1172;"	d
+V4L2_TUNER_MODE_LANG1_LANG2	Common/videodev2.h	1173;"	d
+V4L2_TUNER_MODE_LANG2	Common/videodev2.h	1170;"	d
+V4L2_TUNER_MODE_MONO	Common/videodev2.h	1168;"	d
+V4L2_TUNER_MODE_SAP	Common/videodev2.h	1171;"	d
+V4L2_TUNER_MODE_STEREO	Common/videodev2.h	1169;"	d
+V4L2_TUNER_RADIO	Common/videodev2.h	/^	V4L2_TUNER_RADIO	     = 1,$/;"	e	enum:v4l2_tuner_type
+V4L2_TUNER_SUB_LANG1	Common/videodev2.h	1165;"	d
+V4L2_TUNER_SUB_LANG2	Common/videodev2.h	1163;"	d
+V4L2_TUNER_SUB_MONO	Common/videodev2.h	1161;"	d
+V4L2_TUNER_SUB_SAP	Common/videodev2.h	1164;"	d
+V4L2_TUNER_SUB_STEREO	Common/videodev2.h	1162;"	d
+V4L2_VBI_INTERLACED	Common/videodev2.h	1285;"	d
+V4L2_VBI_UNSYNC	Common/videodev2.h	1284;"	d
+VC1_CONFIG_DATA	FrameExtractor/VC1Frames.h	/^} VC1_CONFIG_DATA;$/;"	t	typeref:struct:__anon18
+VC1_DEC_CONF	MFC_API/SsbSipVC1Decode.h	/^typedef unsigned int	VC1_DEC_CONF;$/;"	t
+VC1_DEC_GETCONF_FRAM_NEED_COUNT	MFC_API/SsbSipVC1Decode.h	18;"	d
+VC1_DEC_GETCONF_PHYADDR_FRAM_BUF	MFC_API/SsbSipVC1Decode.h	17;"	d
+VC1_DEC_GETCONF_STREAMINFO	MFC_API/SsbSipVC1Decode.h	16;"	d
+VC1_DEC_SETCONF_POST_ROTATE	MFC_API/SsbSipVC1Decode.h	20;"	d
+VC1_FRM_LAYER	FrameExtractor/VC1Frames.c	/^} VC1_FRM_LAYER;$/;"	t	typeref:struct:__anon15	file:
+VC1_INPUT_FILE	display_4_windows.c	37;"	d	file:
+VC1_INPUT_FILE	display_test.c	36;"	d	file:
+VC1_SEQ_LAYER	FrameExtractor/VC1Frames.c	/^} VC1_SEQ_LAYER;$/;"	t	typeref:struct:__anon14	file:
+VERSION	Common/post.h	5;"	d
+VIDEO_BUFFER_SIZE	Common/MfcDriver.h	53;"	d
+VIDEO_BUFFER_SIZE	Common/mfc.h	53;"	d
+VIDEO_MAX_FRAME	Common/videodev2.h	72;"	d
+VIDIOC_CROPCAP	Common/videodev2.h	1436;"	d
+VIDIOC_CROPCAP_OLD	Common/videodev2.h	1474;"	d
+VIDIOC_DBG_G_REGISTER	Common/videodev2.h	1461;"	d
+VIDIOC_DBG_S_REGISTER	Common/videodev2.h	1460;"	d
+VIDIOC_DQBUF	Common/videodev2.h	1408;"	d
+VIDIOC_ENCODER_CMD	Common/videodev2.h	1456;"	d
+VIDIOC_ENUMAUDIO	Common/videodev2.h	1443;"	d
+VIDIOC_ENUMAUDOUT	Common/videodev2.h	1444;"	d
+VIDIOC_ENUMINPUT	Common/videodev2.h	1416;"	d
+VIDIOC_ENUMOUTPUT	Common/videodev2.h	1429;"	d
+VIDIOC_ENUMSTD	Common/videodev2.h	1415;"	d
+VIDIOC_ENUM_FMT	Common/videodev2.h	1399;"	d
+VIDIOC_ENUM_FRAMEINTERVALS	Common/videodev2.h	1454;"	d
+VIDIOC_ENUM_FRAMESIZES	Common/videodev2.h	1453;"	d
+VIDIOC_G_AUDIO	Common/videodev2.h	1421;"	d
+VIDIOC_G_AUDIO_OLD	Common/videodev2.h	1472;"	d
+VIDIOC_G_AUDOUT	Common/videodev2.h	1430;"	d
+VIDIOC_G_AUDOUT_OLD	Common/videodev2.h	1473;"	d
+VIDIOC_G_CHIP_IDENT	Common/videodev2.h	1463;"	d
+VIDIOC_G_CROP	Common/videodev2.h	1437;"	d
+VIDIOC_G_CTRL	Common/videodev2.h	1417;"	d
+VIDIOC_G_ENC_INDEX	Common/videodev2.h	1455;"	d
+VIDIOC_G_EXT_CTRLS	Common/videodev2.h	1449;"	d
+VIDIOC_G_FBUF	Common/videodev2.h	1404;"	d
+VIDIOC_G_FMT	Common/videodev2.h	1400;"	d
+VIDIOC_G_FREQUENCY	Common/videodev2.h	1434;"	d
+VIDIOC_G_INPUT	Common/videodev2.h	1425;"	d
+VIDIOC_G_JPEGCOMP	Common/videodev2.h	1439;"	d
+VIDIOC_G_MODULATOR	Common/videodev2.h	1432;"	d
+VIDIOC_G_OUTPUT	Common/videodev2.h	1427;"	d
+VIDIOC_G_PARM	Common/videodev2.h	1411;"	d
+VIDIOC_G_PRIORITY	Common/videodev2.h	1445;"	d
+VIDIOC_G_SLICED_VBI_CAP	Common/videodev2.h	1447;"	d
+VIDIOC_G_STD	Common/videodev2.h	1413;"	d
+VIDIOC_G_TUNER	Common/videodev2.h	1419;"	d
+VIDIOC_LOG_STATUS	Common/videodev2.h	1448;"	d
+VIDIOC_MSDMA_START	Common/videodev2_s3c.h	58;"	d
+VIDIOC_MSDMA_STOP	Common/videodev2_s3c.h	59;"	d
+VIDIOC_OVERLAY	Common/videodev2.h	1406;"	d
+VIDIOC_OVERLAY_OLD	Common/videodev2.h	1469;"	d
+VIDIOC_QBUF	Common/videodev2.h	1407;"	d
+VIDIOC_QUERYBUF	Common/videodev2.h	1403;"	d
+VIDIOC_QUERYCAP	Common/videodev2.h	1397;"	d
+VIDIOC_QUERYCTRL	Common/videodev2.h	1423;"	d
+VIDIOC_QUERYMENU	Common/videodev2.h	1424;"	d
+VIDIOC_QUERYSTD	Common/videodev2.h	1441;"	d
+VIDIOC_REQBUFS	Common/videodev2.h	1402;"	d
+VIDIOC_RESERVED	Common/videodev2.h	1398;"	d
+VIDIOC_STREAMOFF	Common/videodev2.h	1410;"	d
+VIDIOC_STREAMON	Common/videodev2.h	1409;"	d
+VIDIOC_S_AUDIO	Common/videodev2.h	1422;"	d
+VIDIOC_S_AUDOUT	Common/videodev2.h	1431;"	d
+VIDIOC_S_CAMERA_START	Common/videodev2_s3c.h	36;"	d
+VIDIOC_S_CAMERA_STOP	Common/videodev2_s3c.h	37;"	d
+VIDIOC_S_CROP	Common/videodev2.h	1438;"	d
+VIDIOC_S_CTRL	Common/videodev2.h	1418;"	d
+VIDIOC_S_CTRL_OLD	Common/videodev2.h	1471;"	d
+VIDIOC_S_EXT_CTRLS	Common/videodev2.h	1450;"	d
+VIDIOC_S_FBUF	Common/videodev2.h	1405;"	d
+VIDIOC_S_FMT	Common/videodev2.h	1401;"	d
+VIDIOC_S_FREQUENCY	Common/videodev2.h	1435;"	d
+VIDIOC_S_HW_FREQ_SEEK	Common/videodev2.h	1465;"	d
+VIDIOC_S_INPUT	Common/videodev2.h	1426;"	d
+VIDIOC_S_INTERLACE_MODE	Common/videodev2_s3c.h	62;"	d
+VIDIOC_S_JPEGCOMP	Common/videodev2.h	1440;"	d
+VIDIOC_S_MODULATOR	Common/videodev2.h	1433;"	d
+VIDIOC_S_MSDMA	Common/videodev2_s3c.h	60;"	d
+VIDIOC_S_OUTPUT	Common/videodev2.h	1428;"	d
+VIDIOC_S_PARM	Common/videodev2.h	1412;"	d
+VIDIOC_S_PARM_OLD	Common/videodev2.h	1470;"	d
+VIDIOC_S_PRIORITY	Common/videodev2.h	1446;"	d
+VIDIOC_S_STD	Common/videodev2.h	1414;"	d
+VIDIOC_S_TUNER	Common/videodev2.h	1420;"	d
+VIDIOC_TRY_ENCODER_CMD	Common/videodev2.h	1457;"	d
+VIDIOC_TRY_EXT_CTRLS	Common/videodev2.h	1451;"	d
+VIDIOC_TRY_FMT	Common/videodev2.h	1442;"	d
+VID_TYPE_CAPTURE	Common/videodev2.h	82;"	d
+VID_TYPE_CHROMAKEY	Common/videodev2.h	86;"	d
+VID_TYPE_CLIPPING	Common/videodev2.h	87;"	d
+VID_TYPE_FRAMERAM	Common/videodev2.h	88;"	d
+VID_TYPE_MJPEG_DECODER	Common/videodev2.h	94;"	d
+VID_TYPE_MJPEG_ENCODER	Common/videodev2.h	95;"	d
+VID_TYPE_MONOCHROME	Common/videodev2.h	90;"	d
+VID_TYPE_MPEG_DECODER	Common/videodev2.h	92;"	d
+VID_TYPE_MPEG_ENCODER	Common/videodev2.h	93;"	d
+VID_TYPE_OVERLAY	Common/videodev2.h	85;"	d
+VID_TYPE_SCALES	Common/videodev2.h	89;"	d
+VID_TYPE_SUBCAPTURE	Common/videodev2.h	91;"	d
+VID_TYPE_TELETEXT	Common/videodev2.h	84;"	d
+VID_TYPE_TUNER	Common/videodev2.h	83;"	d
+Version	JPEG_API/JPGApi.h	/^	char	Version[32]; $/;"	m	struct:tagExifFileInfo
+WhiteBalance	JPEG_API/JPGApi.h	/^	int		WhiteBalance; $/;"	m	struct:tagExifFileInfo
+Width	Common/lcd.h	/^	int Width;$/;"	m	struct:__anon26
+Width	JPEG_API/JPGApi.h	/^	UINT	Width;$/;"	m	struct:tagExifFileInfo
+XResolutionDen	JPEG_API/JPGApi.h	/^	UINT	XResolutionDen;$/;"	m	struct:tagExifFileInfo
+XResolutionNum	JPEG_API/JPGApi.h	/^	UINT	XResolutionNum;$/;"	m	struct:tagExifFileInfo
+YC420	Common/post.h	/^	YC420, YC422, \/\/ Non-interleave$/;"	e	enum:__anon39
+YC422	Common/post.h	/^	YC420, YC422, \/\/ Non-interleave$/;"	e	enum:__anon39
+YCBYCR	Common/post.h	/^	CRYCBY, CBYCRY, YCRYCB, YCBYCR, YUV444 \/\/ Interleave$/;"	e	enum:__anon39
+YCRYCB	Common/post.h	/^	CRYCBY, CBYCRY, YCRYCB, YCBYCR, YUV444 \/\/ Interleave$/;"	e	enum:__anon39
+YResolutionDen	JPEG_API/JPGApi.h	/^	UINT	YResolutionDen;$/;"	m	struct:tagExifFileInfo
+YResolutionNum	JPEG_API/JPGApi.h	/^	UINT	YResolutionNum;$/;"	m	struct:tagExifFileInfo
+YUV422_FRAME_BUFFER_SIZE_MAX	capture.c	69;"	d	file:
+YUV444	Common/post.h	/^	CRYCBY, CBYCRY, YCRYCB, YCBYCR, YUV444 \/\/ Interleave$/;"	e	enum:__anon39
+YUV_FRAME_BUFFER_SIZE	cam_dec_preview-On7LCD.c	69;"	d	file:
+YUV_FRAME_BUFFER_SIZE	yuanshi-cam_dec_preview.c	69;"	d	file:
+YUV_FRAME_BUFFER_SIZE_MAX	cam_dec_preview.c	70;"	d	file:
+YUV_FRAME_BUFFER_SIZE_MAX	cam_enc_dec_test.c	73;"	d	file:
+YUV_FRAME_BUFFER_SIZE_MAX	cam_encoder_test.c	69;"	d	file:
+YUV_FRAME_BUFFER_SIZE_MAX	capture.c	68;"	d	file:
+YUV_FRAME_NUM	cam_dec_preview-On7LCD.c	104;"	d	file:
+YUV_FRAME_NUM	cam_dec_preview.c	117;"	d	file:
+YUV_FRAME_NUM	cam_encoder_test.c	102;"	d	file:
+YUV_FRAME_NUM	capture.c	105;"	d	file:
+YUV_FRAME_NUM	yuanshi-cam_dec_preview.c	104;"	d	file:
+_MFCLIB_DEC	MFC_API/SsbSipMfcDecode.c	/^} _MFCLIB_DEC;$/;"	t	typeref:struct:__anon3	file:
+_MFCLIB_DEC_MAGIC_NUMBER	MFC_API/SsbSipMfcDecode.c	20;"	d	file:
+_MFCLIB_H264_DEC	MFC_API/SsbSipH264Decode.c	/^} _MFCLIB_H264_DEC;$/;"	t	typeref:struct:__anon13	file:
+_MFCLIB_H264_DEC_MAGIC_NUMBER	MFC_API/SsbSipH264Decode.c	20;"	d	file:
+_MFCLIB_H264_ENC	MFC_API/SsbSipH264Encode.c	/^} _MFCLIB_H264_ENC;$/;"	t	typeref:struct:__anon7	file:
+_MFCLIB_H264_ENC_MAGIC_NUMBER	MFC_API/SsbSipH264Encode.c	21;"	d	file:
+_MFCLIB_MPEG4_DEC	MFC_API/SsbSipMpeg4Decode.c	/^} _MFCLIB_MPEG4_DEC;$/;"	t	typeref:struct:__anon2	file:
+_MFCLIB_MPEG4_DEC_MAGIC_NUMBER	MFC_API/SsbSipMpeg4Decode.c	20;"	d	file:
+_MFCLIB_MPEG4_ENC	MFC_API/SsbSipMpeg4Encode.c	/^} _MFCLIB_MPEG4_ENC;$/;"	t	typeref:struct:__anon11	file:
+_MFCLIB_MPEG4_ENC_MAGIC_NUMBER	MFC_API/SsbSipMpeg4Encode.c	21;"	d	file:
+_MFCLIB_VC1_DEC	MFC_API/SsbSipVC1Decode.c	/^} _MFCLIB_VC1_DEC;$/;"	t	typeref:struct:__anon4	file:
+_MFCLIB_VC1_DEC_MAGIC_NUMBER	MFC_API/SsbSipVC1Decode.c	20;"	d	file:
+__JPG_API_H__	JPEG_API/JPGApi.h	18;"	d
+__LINUX_VIDEODEV2_H	Common/videodev2.h	57;"	d
+__SAMSUNG_SYSLSI_APDEV_CAM_DEC_PREVIEW_TEST_H__	cam_dec_preview.h	2;"	d
+__SAMSUNG_SYSLSI_APDEV_CAM_ENCODING_TEST_H__	cam_encoder_test.h	2;"	d
+__SAMSUNG_SYSLSI_APDEV_CAM_ENC_DEC_TEST_H__	cam_enc_dec_test.h	2;"	d
+__SAMSUNG_SYSLSI_APDEV_CAPTURE_H__	capture.h	2;"	d
+__SAMSUNG_SYSLSI_APDEV_DISPLAY_OPTIMIZATION1_TEST_H__	display_optimization1.h	2;"	d
+__SAMSUNG_SYSLSI_APDEV_DISPLAY_OPTIMIZATION2_TEST_H__	display_optimization2.h	2;"	d
+__SAMSUNG_SYSLSI_APDEV_DISPLAY_TEST_H__	display_test.h	2;"	d
+__SAMSUNG_SYSLSI_APDEV_JPEG_DISPLAY_H__	jpeg_display.h	2;"	d
+__SAMSUNG_SYSLSI_APDEV_LOG_MSG_H__	Common/LogMsg.h	2;"	d
+__SAMSUNG_SYSLSI_APDEV_MFCLIB_SSBSIPH264DECODE_H__	MFC_API/SsbSipH264Decode.h	2;"	d
+__SAMSUNG_SYSLSI_APDEV_MFCLIB_SSBSIPH264ENCODE_H__	MFC_API/SsbSipH264Encode.h	2;"	d
+__SAMSUNG_SYSLSI_APDEV_MFCLIB_SSBSIPMFCDECODE_H__	MFC_API/SsbSipMfcDecode.h	2;"	d
+__SAMSUNG_SYSLSI_APDEV_MFCLIB_SSBSIPMPEG4DECODE_H__	MFC_API/SsbSipMpeg4Decode.h	2;"	d
+__SAMSUNG_SYSLSI_APDEV_MFCLIB_SSBSIPMPEG4ENCODE_H__	MFC_API/SsbSipMpeg4Encode.h	2;"	d
+__SAMSUNG_SYSLSI_APDEV_MFCLIB_SSBSIPVC1DECODE_H__	MFC_API/SsbSipVC1Decode.h	2;"	d
+__SAMSUNG_SYSLSI_APDEV_MFC_DRV_PARAMS_H__	Common/MfcDrvParams.h	2;"	d
+__SAMSUNG_SYSLSI_APDEV_PERFORMANCE_H__	Common/performance.h	2;"	d
+__SAMSUNG_SYSLSI_APDEV_S3C_LCD_H__	Common/lcd.h	2;"	d
+__SAMSUNG_SYSLSI_APDEV_S3C_MFC_H__	Common/MfcDriver.h	2;"	d
+__SAMSUNG_SYSLSI_APDEV_S3C_MFC_H__	Common/mfc.h	2;"	d
+__SAMSUNG_SYSLSI_APDEV_S3C_POST_H__	Common/post.h	2;"	d
+__SAMSUNG_SYSLSI_APDEV_TEST_DISPLAY_4_WINDOWS_H__	display_4_windows.h	2;"	d
+__SAMSUNG_SYSLSI_AP_FILE_READ_H__	FrameExtractor/FileRead.h	9;"	d
+__SAMSUNG_SYSLSI_AP_FRAME_EXTRACTOR_H__	FrameExtractor/FrameExtractor.h	2;"	d
+__SAMSUNG_SYSLSI_AP_H263_FRAMES_H__	FrameExtractor/H263Frames.h	9;"	d
+__SAMSUNG_SYSLSI_AP_H264_FRAMES_H__	FrameExtractor/H264Frames.h	9;"	d
+__SAMSUNG_SYSLSI_AP_MPEG4_FRAMES_H__	FrameExtractor/MPEG4Frames.h	9;"	d
+__SAMSUNG_SYSLSI_AP_VC1_FRAMES_H__	FrameExtractor/VC1Frames.h	9;"	d
+add_pps_id	FrameExtractor/H264Frames.c	/^static void add_pps_id(unsigned short pic_parameter_set_id)$/;"	f	file:
+afc	Common/videodev2.h	/^	__s32			afc;$/;"	m	struct:v4l2_tuner
+audioset	Common/videodev2.h	/^	__u32	     audioset;		\/*  Associated audios (bitfield) *\/$/;"	m	struct:v4l2_input
+audioset	Common/videodev2.h	/^	__u32	     audioset;		\/*  Associated audios (bitfield) *\/$/;"	m	struct:v4l2_output
+audmode	Common/videodev2.h	/^	__u32			audmode;$/;"	m	struct:v4l2_tuner
+base	Common/videodev2.h	/^	void                    *base;$/;"	m	struct:v4l2_framebuffer
+bitmap	Common/videodev2.h	/^	void			__user *bitmap;$/;"	m	struct:v4l2_window
+bitrate	MFC_API/SsbSipH264Encode.c	/^	int bitrate;$/;"	m	struct:__anon8	file:
+bitrate	MFC_API/SsbSipH264Encode.c	/^	unsigned int  	framerate, bitrate;$/;"	m	struct:__anon7	file:
+bitrate	MFC_API/SsbSipMpeg4Encode.c	/^	int bitrate;$/;"	m	struct:__anon12	file:
+bitrate	MFC_API/SsbSipMpeg4Encode.c	/^	unsigned int  	framerate, bitrate;$/;"	m	struct:__anon11	file:
+bounds	Common/videodev2.h	/^	struct v4l2_rect        bounds;$/;"	m	struct:v4l2_cropcap	typeref:struct:v4l2_cropcap::v4l2_rect
+bpp	Common/lcd.h	/^	int bpp;$/;"	m	struct:__anon27
+buff_addr_t	Common/post.h	/^} buff_addr_t;$/;"	t	typeref:struct:__anon43
+bus_info	Common/videodev2.h	/^	__u8	bus_info[32];	\/* "PCI:" + pci_name(pci_dev) *\/$/;"	m	struct:v4l2_capability
+bytesperline	Common/videodev2.h	/^	__u32            	bytesperline;	\/* for padding, zero if unused *\/$/;"	m	struct:v4l2_pix_format
+bytesused	Common/videodev2.h	/^	__u32			bytesused;$/;"	m	struct:v4l2_buffer
+c	Common/videodev2.h	/^	struct v4l2_rect        c;$/;"	m	struct:v4l2_clip	typeref:struct:v4l2_clip::v4l2_rect
+c	Common/videodev2.h	/^	struct v4l2_rect        c;$/;"	m	struct:v4l2_crop	typeref:struct:v4l2_crop::v4l2_rect
+cam_c_fp	cam_dec_preview-On7LCD.c	/^static int cam_c_fp = -1;$/;"	v	file:
+cam_c_fp	cam_dec_preview.c	/^static int cam_c_fp = -1;$/;"	v	file:
+cam_c_fp	cam_enc_dec_test.c	/^static int cam_c_fp = -1;$/;"	v	file:
+cam_c_fp	cam_encoder_test.c	/^static int cam_c_fp = -1;$/;"	v	file:
+cam_c_fp	capture.c	/^static int cam_c_fp = -1;$/;"	v	file:
+cam_c_fp	yuanshi-cam_dec_preview.c	/^static int cam_c_fp = -1;$/;"	v	file:
+cam_c_init	cam_dec_preview-On7LCD.c	/^static int cam_c_init(void)$/;"	f	file:
+cam_c_init	cam_dec_preview.c	/^static int cam_c_init(void)$/;"	f	file:
+cam_c_init	cam_enc_dec_test.c	/^static int cam_c_init(void)$/;"	f	file:
+cam_c_init	cam_encoder_test.c	/^static int cam_c_init(void)$/;"	f	file:
+cam_c_init	capture.c	/^static int cam_c_init(void)$/;"	f	file:
+cam_c_init	yuanshi-cam_dec_preview.c	/^static int cam_c_init(void)$/;"	f	file:
+cam_p_fp	cam_dec_preview-On7LCD.c	/^static int cam_p_fp = -1;$/;"	v	file:
+cam_p_fp	cam_dec_preview.c	/^static int cam_p_fp = -1;$/;"	v	file:
+cam_p_fp	cam_enc_dec_test.c	/^static int cam_p_fp = -1;$/;"	v	file:
+cam_p_fp	cam_encoder_test.c	/^static int cam_p_fp = -1;$/;"	v	file:
+cam_p_fp	capture.c	/^static int cam_p_fp = -1;$/;"	v	file:
+cam_p_fp	yuanshi-cam_dec_preview.c	/^static int cam_p_fp = -1;$/;"	v	file:
+cam_p_init	cam_dec_preview-On7LCD.c	/^static int cam_p_init(void) $/;"	f	file:
+cam_p_init	cam_dec_preview.c	/^static int cam_p_init(void) $/;"	f	file:
+cam_p_init	cam_enc_dec_test.c	/^static int cam_p_init(void) $/;"	f	file:
+cam_p_init	cam_encoder_test.c	/^static int cam_p_init(void) $/;"	f	file:
+cam_p_init	capture.c	/^static int cam_p_init(void) $/;"	f	file:
+cam_p_init	yuanshi-cam_dec_preview.c	/^static int cam_p_init(void) $/;"	f	file:
+cap	cam_enc_dec_test.c	/^static	struct v4l2_capability cap;$/;"	v	typeref:struct:v4l2_capability	file:
+cap_flag	capture.c	/^static int		cap_flag;$/;"	v	file:
+capabilities	Common/videodev2.h	/^	__u32	capabilities;	\/* Device capabilities *\/$/;"	m	struct:v4l2_capability
+capability	Common/videodev2.h	/^	__u32			capability;$/;"	m	struct:v4l2_framebuffer
+capability	Common/videodev2.h	/^	__u32			capability;$/;"	m	struct:v4l2_modulator
+capability	Common/videodev2.h	/^	__u32			capability;$/;"	m	struct:v4l2_tuner
+capability	Common/videodev2.h	/^	__u32		   capability;	  \/*  Supported modes *\/$/;"	m	struct:v4l2_captureparm
+capability	Common/videodev2.h	/^	__u32		   capability;	 \/*  Supported modes *\/$/;"	m	struct:v4l2_outputparm
+capability	Common/videodev2.h	/^	__u32	capability;$/;"	m	struct:v4l2_audio
+capability	Common/videodev2.h	/^	__u32	capability;$/;"	m	struct:v4l2_audioout
+capture	Common/videodev2.h	/^		struct v4l2_captureparm	capture;$/;"	m	union:v4l2_streamparm::__anon52	typeref:struct:v4l2_streamparm::__anon52::v4l2_captureparm
+capture	capture.c	/^static void capture()$/;"	f	file:
+capture_thread	capture.c	/^void capture_thread(void)$/;"	f
+capturemode	Common/videodev2.h	/^	__u32		   capturemode;	  \/*  Current mode *\/$/;"	m	struct:v4l2_captureparm
+card	Common/videodev2.h	/^	__u8	card[32];	\/* i.e. "Hauppauge WinTV" *\/$/;"	m	struct:v4l2_capability
+chromakey	Common/videodev2.h	/^	__u32			chromakey;$/;"	m	struct:v4l2_window
+clipcount	Common/videodev2.h	/^	__u32			clipcount;$/;"	m	struct:v4l2_window
+clips	Common/videodev2.h	/^	struct v4l2_clip	__user *clips;$/;"	m	struct:v4l2_window	typeref:struct:v4l2_window::__user
+cmd	Common/videodev2.h	/^	__u32 cmd;$/;"	m	struct:v4l2_encoder_cmd
+codec_Height	cam_encoder_test.c	/^static int codec_Height=0;$/;"	v	file:
+codec_Width	cam_encoder_test.c	/^static int codec_Width=0;$/;"	v	file:
+colorspace	Common/videodev2.h	/^	enum v4l2_colorspace	colorspace;$/;"	m	struct:v4l2_pix_format	typeref:enum:v4l2_pix_format::v4l2_colorspace
+const_04	FrameExtractor/VC1Frames.c	/^	unsigned int   const_04;$/;"	m	struct:__anon14	file:
+const_0C	FrameExtractor/VC1Frames.c	/^	unsigned int   const_0C;$/;"	m	struct:__anon14	file:
+const_C5	FrameExtractor/VC1Frames.c	/^	unsigned int   const_C5   : 8;$/;"	m	struct:__anon14	file:
+consumer_idx	cam_enc_dec_test.c	/^static int 			producer_idx, consumer_idx;$/;"	v	file:
+consumer_idx	display_optimization1.c	/^static int			producer_idx, consumer_idx;$/;"	v	file:
+consumer_idx	display_optimization2.c	/^static int			producer_idx, consumer_idx;$/;"	v	file:
+cont_offset	FrameExtractor/FrameExtractor.h	/^	int              cont_offset;$/;"	m	struct:stFRAMEX_CTX
+controls	Common/videodev2.h	/^	struct v4l2_ext_control *controls;$/;"	m	struct:v4l2_ext_controls	typeref:struct:v4l2_ext_controls::v4l2_ext_control
+count	Common/videodev2.h	/^	__u32			count;$/;"	m	struct:v4l2_requestbuffers
+count	Common/videodev2.h	/^	__u32	count[2];$/;"	m	struct:v4l2_vbi_format
+count	Common/videodev2.h	/^	__u32 count;$/;"	m	struct:v4l2_ext_controls
+ctrl_class	Common/videodev2.h	/^	__u32 ctrl_class;$/;"	m	struct:v4l2_ext_controls
+data	Common/videodev2.h	/^			__u32 data[8];$/;"	m	struct:v4l2_encoder_cmd::__anon49::__anon50
+data	Common/videodev2.h	/^	__u8    data[48];$/;"	m	struct:v4l2_sliced_vbi_data
+dataSize	JPEG_API/JPGApi.c	/^	UINT32	dataSize;$/;"	m	struct:tagJPG_DEC_PROC_PARAM	file:
+dataSize	JPEG_API/JPGApi.c	/^	UINT32	dataSize;$/;"	m	struct:tagJPG_ENC_PROC_PARAM	file:
+debugPrint	JPEG_API/JPGApi.c	/^	UINT	debugPrint;$/;"	m	struct:tagJPG_CTX	file:
+decParam	JPEG_API/JPGApi.c	/^	JPG_DEC_PROC_PARAM	*decParam;$/;"	m	struct:tagJPG_CTX	file:
+decType	JPEG_API/JPGApi.c	/^	ENCDEC_TYPE_T	decType;$/;"	m	struct:tagJPG_DEC_PROC_PARAM	file:
+dec_exe	Common/MfcDrvParams.h	/^	MFC_DEC_EXE_ARG			dec_exe;$/;"	m	union:__anon35
+dec_fb_fd	cam_dec_preview-On7LCD.c	/^static int dec_fb_fd = -1;$/;"	v	file:
+dec_fb_fd	cam_dec_preview.c	/^static int dec_fb_fd = -1;$/;"	v	file:
+dec_fb_fd	cam_enc_dec_test.c	/^static int dec_fb_fd = -1;$/;"	v	file:
+dec_fb_fd	yuanshi-cam_dec_preview.c	/^static int dec_fb_fd = -1;$/;"	v	file:
+dec_frame_cnt	cam_enc_dec_test.c	/^static int 		enc_frame_cnt, dec_frame_cnt;$/;"	v	file:
+dec_handle	cam_dec_preview-On7LCD.c	/^static void 	*enc_handle, *dec_handle;$/;"	v	file:
+dec_handle	cam_dec_preview.c	/^static void 	*enc_handle, *dec_handle;$/;"	v	file:
+dec_handle	cam_enc_dec_test.c	/^static void 	*enc_handle, *dec_handle;$/;"	v	file:
+dec_handle	yuanshi-cam_dec_preview.c	/^static void 	*enc_handle, *dec_handle;$/;"	v	file:
+dec_init	Common/MfcDrvParams.h	/^	MFC_DEC_INIT_ARG		dec_init;$/;"	m	union:__anon35
+decoder	MFC_API/SsbSipMfcDecode.c	/^	int     		decoder;$/;"	m	struct:__anon3	file:
+decoding_thread	cam_dec_preview-On7LCD.c	/^void decoding_thread(void *arg)$/;"	f
+decoding_thread	cam_dec_preview.c	/^void decoding_thread(void *arg)$/;"	f
+decoding_thread	cam_enc_dec_test.c	/^void decoding_thread(void)$/;"	f
+decoding_thread	yuanshi-cam_dec_preview.c	/^void decoding_thread(void *arg)$/;"	f
+default_value	Common/videodev2.h	/^	__s32		     default_value;$/;"	m	struct:v4l2_queryctrl
+defrect	Common/videodev2.h	/^	struct v4l2_rect        defrect;$/;"	m	struct:v4l2_cropcap	typeref:struct:v4l2_cropcap::v4l2_rect
+delim_insert	FrameExtractor/FrameExtractor.h	/^	int              delim_insert;$/;"	m	struct:stFRAMEX_CTX
+delim_leng	FrameExtractor/FrameExtractor.h	/^	int              delim_leng;$/;"	m	struct:stFRAMEX_CTX
+delim_ptr	FrameExtractor/FrameExtractor.h	/^	unsigned char   *delim_ptr;$/;"	m	struct:stFRAMEX_CTX
+delimiter_h264	cam_dec_preview-On7LCD.c	/^static unsigned char delimiter_h264[4]  = {0x00, 0x00, 0x00, 0x01};$/;"	v	file:
+delimiter_h264	cam_dec_preview.c	/^static unsigned char delimiter_h264[4]  = {0x00, 0x00, 0x00, 0x01};$/;"	v	file:
+delimiter_h264	display_4_windows.c	/^static unsigned char delimiter_h264[4]  = {0x00, 0x00, 0x00, 0x01};$/;"	v	file:
+delimiter_h264	display_optimization1.c	/^static unsigned char delimiter_h264[4]  = {0x00, 0x00, 0x00, 0x01};$/;"	v	file:
+delimiter_h264	display_optimization2.c	/^static unsigned char delimiter_h264[4]  = {0x00, 0x00, 0x00, 0x01};$/;"	v	file:
+delimiter_h264	display_test.c	/^static unsigned char delimiter_h264[4]  = {0x00, 0x00, 0x00, 0x01};$/;"	v	file:
+delimiter_h264	yuanshi-cam_dec_preview.c	/^static unsigned char delimiter_h264[4]  = {0x00, 0x00, 0x00, 0x01};$/;"	v	file:
+delimiter_mpeg4	display_4_windows.c	/^static unsigned char delimiter_mpeg4[] = {0x00, 0x00, 0x01 };$/;"	v	file:
+delimiter_mpeg4	display_test.c	/^static unsigned char delimiter_mpeg4[3] = {0x00, 0x00, 0x01};$/;"	v	file:
+denominator	Common/videodev2.h	/^	__u32   denominator;$/;"	m	struct:v4l2_fract
+description	Common/videodev2.h	/^	__u8		    description[32];   \/* Description string *\/$/;"	m	struct:v4l2_fmtdesc
+discrete	Common/videodev2.h	/^		struct v4l2_fract		discrete;$/;"	m	union:v4l2_frmivalenum::__anon46	typeref:struct:v4l2_frmivalenum::__anon46::v4l2_fract
+discrete	Common/videodev2.h	/^		struct v4l2_frmsize_discrete	discrete;$/;"	m	union:v4l2_frmsizeenum::__anon45	typeref:struct:v4l2_frmsizeenum::__anon45::v4l2_frmsize_discrete
+draw	cam_dec_preview-On7LCD.c	/^static void draw(char *dest, char *src, int width, int height, int bpp)$/;"	f	file:
+draw	cam_dec_preview.c	/^static void draw(char *dest, char *src, int width, int height, int bpp)$/;"	f	file:
+draw	cam_enc_dec_test.c	/^static void draw(char *dest, char *src, int width, int height, int bpp)$/;"	f	file:
+draw	cam_encoder_test.c	/^static void draw(char *dest, char *src, int width, int height, int bpp)$/;"	f	file:
+draw	capture.c	/^static void draw(char *dest, char *src, int width, int height, int bpp)$/;"	f	file:
+draw	yuanshi-cam_dec_preview.c	/^static void draw(char *dest, char *src, int width, int height, int bpp)$/;"	f	file:
+driver	Common/videodev2.h	/^	__u8	driver[16];	\/* i.e. "bttv" *\/$/;"	m	struct:v4l2_capability
+dst_buf_addr_phy	Common/post.h	/^	unsigned int dst_buf_addr_phy;		\/\/ Base Address of the Destination Image : Physical Address$/;"	m	struct:__anon42
+dst_color_space	Common/post.h	/^	s3c_color_space_t dst_color_space; 	\/\/ Color Space of the Destination Image$/;"	m	struct:__anon42
+dst_full_height	Common/post.h	/^	unsigned int dst_full_height; 		\/\/ Destination Image Full Height (Virtual screen size)$/;"	m	struct:__anon42
+dst_full_width	Common/post.h	/^	unsigned int dst_full_width; 		\/\/ Destination Image Full Width (Virtual screen size)$/;"	m	struct:__anon42
+dst_height	Common/post.h	/^	unsigned int dst_height; 			\/\/ Destination Image Height$/;"	m	struct:__anon42
+dst_start_x	Common/post.h	/^	unsigned int dst_start_x; 			\/\/ Destination Image Start width offset$/;"	m	struct:__anon42
+dst_start_y	Common/post.h	/^	unsigned int dst_start_y; 			\/\/ Destination Image Start height offset$/;"	m	struct:__anon42
+dst_width	Common/post.h	/^	unsigned int dst_width; 			\/\/ Destination Image Width$/;"	m	struct:__anon42
+empty	cam_enc_dec_test.c	/^static sem_t 		full, empty;$/;"	v	file:
+empty	display_optimization1.c	/^static sem_t		empty;$/;"	v	file:
+empty	display_optimization2.c	/^static sem_t		empty;$/;"	v	file:
+encParam	JPEG_API/JPGApi.c	/^	JPG_ENC_PROC_PARAM	*encParam;$/;"	m	struct:tagJPG_CTX	file:
+encType	JPEG_API/JPGApi.c	/^	ENCDEC_TYPE_T	encType;$/;"	m	struct:tagJPG_ENC_PROC_PARAM	file:
+enc_exe	Common/MfcDrvParams.h	/^	MFC_ENC_EXE_ARG			enc_exe;$/;"	m	union:__anon35
+enc_frame_cnt	cam_enc_dec_test.c	/^static int 		enc_frame_cnt, dec_frame_cnt;$/;"	v	file:
+enc_handle	cam_dec_preview-On7LCD.c	/^static void 	*enc_handle, *dec_handle;$/;"	v	file:
+enc_handle	cam_dec_preview.c	/^static void 	*enc_handle, *dec_handle;$/;"	v	file:
+enc_handle	cam_enc_dec_test.c	/^static void 	*enc_handle, *dec_handle;$/;"	v	file:
+enc_handle	yuanshi-cam_dec_preview.c	/^static void 	*enc_handle, *dec_handle;$/;"	v	file:
+enc_hdr_size	MFC_API/SsbSipH264Encode.c	/^	int		enc_hdr_size;$/;"	m	struct:__anon7	file:
+enc_hdr_size	MFC_API/SsbSipMpeg4Encode.c	/^	int		enc_hdr_size;$/;"	m	struct:__anon11	file:
+enc_info_t	MFC_API/SsbSipH264Encode.c	/^} enc_info_t;$/;"	t	typeref:struct:__anon8	file:
+enc_info_t	MFC_API/SsbSipMpeg4Encode.c	/^} enc_info_t;$/;"	t	typeref:struct:__anon12	file:
+enc_init	Common/MfcDrvParams.h	/^	MFC_ENC_INIT_ARG		enc_init;$/;"	m	union:__anon35
+enc_strm_size	MFC_API/SsbSipH264Encode.c	/^	int     enc_strm_size;$/;"	m	struct:__anon7	file:
+enc_strm_size	MFC_API/SsbSipMpeg4Encode.c	/^	int     enc_strm_size;$/;"	m	struct:__anon11	file:
+encoded_fp	cam_dec_preview-On7LCD.c	/^static FILE *encoded_fp;$/;"	v	file:
+encoded_fp	cam_dec_preview.c	/^static FILE *encoded_fp;$/;"	v	file:
+encoded_fp	cam_encoder_test.c	/^static FILE *encoded_fp;$/;"	v	file:
+encoded_fp	yuanshi-cam_dec_preview.c	/^static FILE *encoded_fp;$/;"	v	file:
+encoding_flag	cam_dec_preview-On7LCD.c	/^static int 		encoding_flag = FALSE;$/;"	v	file:
+encoding_flag	cam_dec_preview.c	/^static int 		encoding_flag = FALSE;$/;"	v	file:
+encoding_flag	cam_encoder_test.c	/^static int 		encoding_flag = FALSE;$/;"	v	file:
+encoding_flag	yuanshi-cam_dec_preview.c	/^static int 		encoding_flag = FALSE;$/;"	v	file:
+encoding_thread	cam_dec_preview-On7LCD.c	/^void encoding_thread(void)$/;"	f
+encoding_thread	cam_dec_preview.c	/^void encoding_thread(void)$/;"	f
+encoding_thread	cam_enc_dec_test.c	/^void encoding_thread(void)$/;"	f
+encoding_thread	cam_encoder_test.c	/^void encoding_thread(void)$/;"	f
+encoding_thread	yuanshi-cam_dec_preview.c	/^void encoding_thread(void)$/;"	f
+entries	Common/videodev2.h	/^	__u32 entries;$/;"	m	struct:v4l2_enc_idx
+entries_cap	Common/videodev2.h	/^	__u32 entries_cap;$/;"	m	struct:v4l2_enc_idx
+entry	Common/videodev2.h	/^	struct v4l2_enc_idx_entry entry[V4L2_ENC_IDX_ENTRIES];$/;"	m	struct:v4l2_enc_idx	typeref:struct:v4l2_enc_idx::v4l2_enc_idx_entry
+error_idx	Common/videodev2.h	/^	__u32 error_idx;$/;"	m	struct:v4l2_ext_controls
+exit_from_app	cam_dec_preview-On7LCD.c	/^static void exit_from_app() $/;"	f	file:
+exit_from_app	cam_dec_preview.c	/^static void exit_from_app() $/;"	f	file:
+exit_from_app	cam_enc_dec_test.c	/^static void exit_from_app() $/;"	f	file:
+exit_from_app	cam_encoder_test.c	/^static void exit_from_app() $/;"	f	file:
+exit_from_app	capture.c	/^static void exit_from_app() $/;"	f	file:
+exit_from_app	yuanshi-cam_dec_preview.c	/^static void exit_from_app() $/;"	f	file:
+extendedmode	Common/videodev2.h	/^	__u32		   extendedmode;  \/*  Driver-specific extensions *\/$/;"	m	struct:v4l2_captureparm
+extendedmode	Common/videodev2.h	/^	__u32		   extendedmode; \/*  Driver-specific extensions *\/$/;"	m	struct:v4l2_outputparm
+fInit	MFC_API/SsbSipH264Decode.c	/^	int     fInit;$/;"	m	struct:__anon13	file:
+fInit	MFC_API/SsbSipH264Encode.c	/^	int     fInit;$/;"	m	struct:__anon7	file:
+fInit	MFC_API/SsbSipMfcDecode.c	/^	int		fInit;$/;"	m	struct:__anon3	file:
+fInit	MFC_API/SsbSipMpeg4Decode.c	/^	int     fInit;$/;"	m	struct:__anon2	file:
+fInit	MFC_API/SsbSipMpeg4Encode.c	/^	int     fInit;$/;"	m	struct:__anon11	file:
+fInit	MFC_API/SsbSipVC1Decode.c	/^	int     fInit;$/;"	m	struct:__anon4	file:
+fb_addr	display_optimization1.c	/^static char		*fb_addr;	$/;"	v	file:
+fb_addr	display_optimization2.c	/^static char		*fb_addr;	$/;"	v	file:
+fb_addr	display_test.c	/^static char			*fb_addr;	$/;"	v	file:
+fb_addr1	display_4_windows.c	/^static char			*fb_addr1, *fb_addr2, *fb_addr3, *fb_addr4;	$/;"	v	file:
+fb_addr2	display_4_windows.c	/^static char			*fb_addr1, *fb_addr2, *fb_addr3, *fb_addr4;	$/;"	v	file:
+fb_addr3	display_4_windows.c	/^static char			*fb_addr1, *fb_addr2, *fb_addr3, *fb_addr4;	$/;"	v	file:
+fb_addr4	display_4_windows.c	/^static char			*fb_addr1, *fb_addr2, *fb_addr3, *fb_addr4;	$/;"	v	file:
+fb_fd	display_optimization1.c	/^static int		fb_fd;$/;"	v	file:
+fb_fd	display_optimization2.c	/^static int		pp_fd, fb_fd;$/;"	v	file:
+fb_fd	display_test.c	/^static int			pp_fd, fb_fd;$/;"	v	file:
+fb_fd1	display_4_windows.c	/^static int			fb_fd1, fb_fd2, fb_fd3, fb_fd4;$/;"	v	file:
+fb_fd2	display_4_windows.c	/^static int			fb_fd1, fb_fd2, fb_fd3, fb_fd4;$/;"	v	file:
+fb_fd3	display_4_windows.c	/^static int			fb_fd1, fb_fd2, fb_fd3, fb_fd4;$/;"	v	file:
+fb_fd4	display_4_windows.c	/^static int			fb_fd1, fb_fd2, fb_fd3, fb_fd4;$/;"	v	file:
+fb_init	cam_dec_preview-On7LCD.c	/^static int fb_init(int win_num, int bpp, int x, int y, int width, int height, unsigned int *addr)$/;"	f	file:
+fb_init	cam_dec_preview.c	/^static int fb_init(int win_num, int bpp, int x, int y, int width, int height, unsigned int *addr)$/;"	f	file:
+fb_init	cam_enc_dec_test.c	/^static int fb_init(int win_num, int bpp, int x, int y, int width, int height, unsigned int *addr)$/;"	f	file:
+fb_init	cam_encoder_test.c	/^static int fb_init(int win_num, int bpp, int x, int y, int width, int height, unsigned int *addr)$/;"	f	file:
+fb_init	capture.c	/^static int fb_init(int win_num, int bpp, int x, int y, int width, int height, unsigned int *addr)$/;"	f	file:
+fb_init	jpeg_display.c	/^static int fb_init(int win_num, int bpp, int x, int y, int width, int height, unsigned int *addr)$/;"	f	file:
+fb_init	yuanshi-cam_dec_preview.c	/^static int fb_init(int win_num, int bpp, int x, int y, int width, int height, unsigned int *addr)$/;"	f	file:
+fb_size	cam_dec_preview-On7LCD.c	/^static int		fb_size;$/;"	v	file:
+fb_size	cam_dec_preview.c	/^static int		fb_size;$/;"	v	file:
+fb_size	display_optimization1.c	/^static int		fb_size;$/;"	v	file:
+fb_size	display_optimization2.c	/^static int		fb_size;$/;"	v	file:
+fb_size	display_test.c	/^static int			fb_size;$/;"	v	file:
+fb_size	yuanshi-cam_dec_preview.c	/^static int		fb_size;$/;"	v	file:
+fb_size1	display_4_windows.c	/^static int			fb_size1, fb_size2, fb_size3, fb_size4;$/;"	v	file:
+fb_size2	display_4_windows.c	/^static int			fb_size1, fb_size2, fb_size3, fb_size4;$/;"	v	file:
+fb_size3	display_4_windows.c	/^static int			fb_size1, fb_size2, fb_size3, fb_size4;$/;"	v	file:
+fb_size4	display_4_windows.c	/^static int			fb_size1, fb_size2, fb_size3, fb_size4;$/;"	v	file:
+field	Common/videodev2.h	/^	__u32   field;          \/* 0: first field, 1: second field *\/$/;"	m	struct:v4l2_sliced_vbi_data
+field	Common/videodev2.h	/^	enum v4l2_field		field;$/;"	m	struct:v4l2_buffer	typeref:enum:v4l2_buffer::v4l2_field
+field	Common/videodev2.h	/^	enum v4l2_field  	field;$/;"	m	struct:v4l2_pix_format	typeref:enum:v4l2_pix_format::v4l2_field
+field	Common/videodev2.h	/^	enum v4l2_field  	field;$/;"	m	struct:v4l2_window	typeref:enum:v4l2_window::v4l2_field
+fileSize	JPEG_API/JPGApi.c	/^	UINT32	fileSize;$/;"	m	struct:tagJPG_DEC_PROC_PARAM	file:
+fileSize	JPEG_API/JPGApi.c	/^	UINT32	fileSize;$/;"	m	struct:tagJPG_ENC_PROC_PARAM	file:
+file_size	cam_dec_preview-On7LCD.c	/^static int		file_size;$/;"	v	file:
+file_size	cam_dec_preview.c	/^static int		file_size;$/;"	v	file:
+file_size	display_optimization1.c	/^static int		file_size;$/;"	v	file:
+file_size	display_optimization2.c	/^static int		file_size;$/;"	v	file:
+file_size	display_test.c	/^static int			file_size;$/;"	v	file:
+file_size	yuanshi-cam_dec_preview.c	/^static int		file_size;$/;"	v	file:
+file_size1	display_4_windows.c	/^static int			file_size1, file_size2, file_size3, file_size4;$/;"	v	file:
+file_size2	display_4_windows.c	/^static int			file_size1, file_size2, file_size3, file_size4;$/;"	v	file:
+file_size3	display_4_windows.c	/^static int			file_size1, file_size2, file_size3, file_size4;$/;"	v	file:
+file_size4	display_4_windows.c	/^static int			file_size1, file_size2, file_size3, file_size4;$/;"	v	file:
+film_cnt	cam_dec_preview-On7LCD.c	/^static int		film_cnt;$/;"	v	file:
+film_cnt	cam_dec_preview.c	/^static int		film_cnt;$/;"	v	file:
+film_cnt	cam_encoder_test.c	/^static int		film_cnt;$/;"	v	file:
+film_cnt	capture.c	/^static int		film_cnt;$/;"	v	file:
+film_cnt	yuanshi-cam_dec_preview.c	/^static int		film_cnt;$/;"	v	file:
+find_one	FrameExtractor/MPEG4Frames.c	/^static int find_one(unsigned int bits8)$/;"	f	file:
+find_pps_id	FrameExtractor/H264Frames.c	/^static int find_pps_id(unsigned short pic_parameter_set_id)$/;"	f	file:
+finished	cam_dec_preview-On7LCD.c	/^static int 		finished;$/;"	v	file:
+finished	cam_dec_preview.c	/^static int 		finished;$/;"	v	file:
+finished	cam_enc_dec_test.c	/^static int 		finished;$/;"	v	file:
+finished	cam_encoder_test.c	/^static int 		finished;$/;"	v	file:
+finished	capture.c	/^static int		finished;$/;"	v	file:
+finished	yuanshi-cam_dec_preview.c	/^static int 		finished;$/;"	v	file:
+first_h263_frame	FrameExtractor/H263Frames.c	/^static int first_h263_frame(void *fp, unsigned char buf[])$/;"	f	file:
+first_mb	FrameExtractor/H264Frames.c	/^	unsigned int   first_mb;$/;"	m	struct:tagH264_SLICE_INFO	file:
+flags	Common/videodev2.h	/^	__u32			flags;$/;"	m	struct:v4l2_buffer
+flags	Common/videodev2.h	/^	__u32			flags;$/;"	m	struct:v4l2_framebuffer
+flags	Common/videodev2.h	/^	__u32	flags;			\/* V4L2_VBI_* *\/$/;"	m	struct:v4l2_vbi_format
+flags	Common/videodev2.h	/^	__u32	flags;$/;"	m	struct:v4l2_timecode
+flags	Common/videodev2.h	/^	__u32                flags;$/;"	m	struct:v4l2_queryctrl
+flags	Common/videodev2.h	/^	__u32               flags;$/;"	m	struct:v4l2_fmtdesc
+flags	Common/videodev2.h	/^	__u32 flags;$/;"	m	struct:v4l2_enc_idx_entry
+flags	Common/videodev2.h	/^	__u32 flags;$/;"	m	struct:v4l2_encoder_cmd
+fmt	Common/videodev2.h	/^	struct v4l2_pix_format	fmt;$/;"	m	struct:v4l2_framebuffer	typeref:struct:v4l2_framebuffer::v4l2_pix_format
+fmt	Common/videodev2.h	/^	} fmt;$/;"	m	struct:v4l2_format	typeref:union:v4l2_format::__anon51
+frameRateDiv	MFC_API/SsbSipH264Encode.c	/^	int frameRateDiv;$/;"	m	struct:__anon8	file:
+frameRateDiv	MFC_API/SsbSipMpeg4Encode.c	/^	int frameRateDiv;$/;"	m	struct:__anon12	file:
+frameRateRes	MFC_API/SsbSipH264Encode.c	/^	int frameRateRes;$/;"	m	struct:__anon8	file:
+frameRateRes	MFC_API/SsbSipMpeg4Encode.c	/^	int frameRateRes;$/;"	m	struct:__anon12	file:
+frame_cnt	display_optimization1.c	/^static int			frame_cnt;$/;"	v	file:
+frame_cnt	display_optimization2.c	/^static int			frame_cnt;$/;"	v	file:
+frame_count	cam_dec_preview-On7LCD.c	/^static int		frame_count;$/;"	v	file:
+frame_count	cam_dec_preview.c	/^static int		frame_count;$/;"	v	file:
+frame_count	cam_encoder_test.c	/^static int		frame_count;$/;"	v	file:
+frame_count	yuanshi-cam_dec_preview.c	/^static int		frame_count;$/;"	v	file:
+frame_mbs_only_flag	FrameExtractor/H264Frames.c	/^static unsigned int   frame_mbs_only_flag = 0;$/;"	v	file:
+frame_need_cnt	display_optimization1.c	/^static int			frame_need_cnt[2];$/;"	v	file:
+frame_need_cnt	display_optimization2.c	/^static int			frame_need_cnt[2];$/;"	v	file:
+frame_num	FrameExtractor/H264Frames.c	/^	unsigned int   frame_num;$/;"	m	struct:tagH264_SLICE_INFO	file:
+frame_number	cam_enc_dec_test.h	/^	int				frame_number;$/;"	m	struct:__anon1
+frame_number	display_optimization1.c	/^	int				frame_number;$/;"	m	struct:__anon23	file:
+frame_number	display_optimization2.c	/^	int				frame_number;$/;"	m	struct:__anon24	file:
+frame_size	FrameExtractor/VC1Frames.c	/^	unsigned int   frame_size : 24;$/;"	m	struct:__anon15	file:
+framelines	Common/videodev2.h	/^	__u32		     framelines;$/;"	m	struct:v4l2_standard
+frameperiod	Common/videodev2.h	/^	struct v4l2_fract    frameperiod; \/* Frames, not fields *\/$/;"	m	struct:v4l2_standard	typeref:struct:v4l2_standard::v4l2_fract
+framerate	MFC_API/SsbSipH264Encode.c	/^	unsigned int  	framerate, bitrate;$/;"	m	struct:__anon7	file:
+framerate	MFC_API/SsbSipMpeg4Encode.c	/^	unsigned int  	framerate, bitrate;$/;"	m	struct:__anon11	file:
+frames	Common/videodev2.h	/^	__u8	frames;$/;"	m	struct:v4l2_timecode
+frequency	Common/videodev2.h	/^	__u32		      frequency;$/;"	m	struct:v4l2_frequency
+full	cam_enc_dec_test.c	/^static sem_t 		full, empty;$/;"	v	file:
+full	display_optimization1.c	/^static sem_t		full;$/;"	v	file:
+full	display_optimization2.c	/^static sem_t		full;$/;"	v	file:
+g_LCD_Height	cam_dec_preview.c	/^static int g_LCD_Height=	0;$/;"	v	file:
+g_LCD_Height	cam_enc_dec_test.c	/^static int g_LCD_Height=	0;$/;"	v	file:
+g_LCD_Height	cam_encoder_test.c	/^static int g_LCD_Height=	0;$/;"	v	file:
+g_LCD_Height	capture.c	/^static int g_LCD_Height=	0;$/;"	v	file:
+g_LCD_Height	jpeg_display.c	/^static int g_LCD_Height=	0;$/;"	v	file:
+g_LCD_Width	cam_dec_preview.c	/^static int g_LCD_Width =	0;$/;"	v	file:
+g_LCD_Width	cam_enc_dec_test.c	/^static int g_LCD_Width =	0;$/;"	v	file:
+g_LCD_Width	cam_encoder_test.c	/^static int g_LCD_Width =	0;$/;"	v	file:
+g_LCD_Width	capture.c	/^static int g_LCD_Width =	0;$/;"	v	file:
+g_LCD_Width	jpeg_display.c	/^static int g_LCD_Width =	0;$/;"	v	file:
+g_Thumbnail_Height	capture.c	/^static int g_Thumbnail_Height =0;$/;"	v	file:
+g_Thumbnail_Width	capture.c	/^static int g_Thumbnail_Width =0;$/;"	v	file:
+g_YUV422_Frame_Buffer_Size	capture.c	/^static int g_YUV422_Frame_Buffer_Size=  0;$/;"	v	file:
+g_YUV_Frame_Buffer_Size	cam_dec_preview.c	/^static int g_YUV_Frame_Buffer_Size=  0;$/;"	v	file:
+g_YUV_Frame_Buffer_Size	cam_enc_dec_test.c	/^static int g_YUV_Frame_Buffer_Size=  0;$/;"	v	file:
+g_YUV_Frame_Buffer_Size	cam_encoder_test.c	/^static int g_YUV_Frame_Buffer_Size=     0;$/;"	v	file:
+g_YUV_Frame_Buffer_Size	capture.c	/^static int g_YUV_Frame_Buffer_Size=  0;$/;"	v	file:
+g_codec_Height	cam_dec_preview.c	/^static int g_codec_Height=0;$/;"	v	file:
+g_codec_Height	cam_enc_dec_test.c	/^static int g_codec_Height=0;$/;"	v	file:
+g_codec_Height	capture.c	/^static int g_codec_Height=0;$/;"	v	file:
+g_codec_Width	cam_dec_preview.c	/^static int g_codec_Width=0;$/;"	v	file:
+g_codec_Width	cam_enc_dec_test.c	/^static int g_codec_Width=0;$/;"	v	file:
+g_codec_Width	capture.c	/^static int g_codec_Width=0;$/;"	v	file:
+g_preview_Height	cam_dec_preview.c	/^static int g_preview_Height = 0;$/;"	v	file:
+g_preview_Height	cam_enc_dec_test.c	/^static int g_preview_Height = 0;$/;"	v	file:
+g_preview_Height	capture.c	/^static int g_preview_Height = 0;$/;"	v	file:
+g_preview_Width	cam_dec_preview.c	/^static int g_preview_Width = 0;$/;"	v	file:
+g_preview_Width	cam_enc_dec_test.c	/^static int g_preview_Width = 0;$/;"	v	file:
+g_preview_Width	capture.c	/^static int g_preview_Width = 0;$/;"	v	file:
+g_preview_X	cam_dec_preview.c	/^static int g_preview_X = 0;$/;"	v	file:
+g_preview_X	cam_enc_dec_test.c	/^static int g_preview_X = 0;$/;"	v	file:
+g_preview_X	capture.c	/^static int g_preview_X = 0;$/;"	v	file:
+g_preview_Y	cam_dec_preview.c	/^static int g_preview_Y = 0;$/;"	v	file:
+g_preview_Y	cam_enc_dec_test.c	/^static int g_preview_Y = 0;$/;"	v	file:
+g_preview_Y	capture.c	/^static int g_preview_Y = 0;$/;"	v	file:
+get_buf_addr	Common/MfcDrvParams.h	/^	MFC_GET_BUF_ADDR_ARG	get_buf_addr;$/;"	m	union:__anon35
+get_config	Common/MfcDrvParams.h	/^	MFC_GET_CONFIG_ARG		get_config;$/;"	m	union:__anon35
+get_h263_picture_info	FrameExtractor/H263Frames.c	/^static void get_h263_picture_info(unsigned char picture_header[], H263_PICTURE_INFO *h263_picture_info)$/;"	f	file:
+get_h264_slice_info	FrameExtractor/H264Frames.c	/^static void get_h264_slice_info(unsigned char slice_header[], H264_SLICE_INFO *h264_slice_info)$/;"	f	file:
+getlcdsize	test.c	/^static int getlcdsize()$/;"	f	file:
+global_alpha	Common/videodev2.h	/^	__u8                    global_alpha;$/;"	m	struct:v4l2_window
+gopNum	MFC_API/SsbSipH264Encode.c	/^	int gopNum;$/;"	m	struct:__anon8	file:
+gopNum	MFC_API/SsbSipMpeg4Encode.c	/^	int gopNum;$/;"	m	struct:__anon12	file:
+gop_num	MFC_API/SsbSipH264Encode.c	/^	unsigned int  	gop_num;$/;"	m	struct:__anon7	file:
+gop_num	MFC_API/SsbSipMpeg4Encode.c	/^	unsigned int  	gop_num;$/;"	m	struct:__anon11	file:
+h263_delimiter	FrameExtractor/H263Frames.c	/^static unsigned char h263_delimiter[3];$/;"	v	file:
+hOpen	MFC_API/SsbSipH264Decode.c	/^	int		hOpen;$/;"	m	struct:__anon13	file:
+hOpen	MFC_API/SsbSipH264Encode.c	/^	int  	hOpen;$/;"	m	struct:__anon7	file:
+hOpen	MFC_API/SsbSipMfcDecode.c	/^	int		hOpen;$/;"	m	struct:__anon3	file:
+hOpen	MFC_API/SsbSipMpeg4Decode.c	/^	int		hOpen;$/;"	m	struct:__anon2	file:
+hOpen	MFC_API/SsbSipMpeg4Encode.c	/^	int  	hOpen;$/;"	m	struct:__anon11	file:
+hOpen	MFC_API/SsbSipVC1Decode.c	/^	int		hOpen;$/;"	m	struct:__anon4	file:
+handle	cam_encoder_test.c	/^static void 	*handle; $/;"	v	file:
+handle	display_optimization1.c	/^static void		*handle;$/;"	v	file:
+handle	display_optimization2.c	/^static void		*handle;$/;"	v	file:
+handle	display_test.c	/^static void			*handle;$/;"	v	file:
+handle1	display_4_windows.c	/^static void			*handle1, *handle2, *handle3, *handle4;$/;"	v	file:
+handle2	display_4_windows.c	/^static void			*handle1, *handle2, *handle3, *handle4;$/;"	v	file:
+handle3	display_4_windows.c	/^static void			*handle1, *handle2, *handle3, *handle4;$/;"	v	file:
+handle4	display_4_windows.c	/^static void			*handle1, *handle2, *handle3, *handle4;$/;"	v	file:
+height	Common/lcd.h	/^	int height;$/;"	m	struct:__anon27
+height	Common/videodev2.h	/^	__s32   height;$/;"	m	struct:v4l2_rect
+height	Common/videodev2.h	/^	__u32			height;		\/* Frame height *\/$/;"	m	struct:v4l2_frmivalenum
+height	Common/videodev2.h	/^	__u32			height;		\/* Frame height [pixel] *\/$/;"	m	struct:v4l2_frmsize_discrete
+height	Common/videodev2.h	/^	__u32			height;$/;"	m	struct:v4l2_pix_format
+height	Common/videodev2_s3c.h	/^	__u32			height;		\/* MSDMA INPUT : Source Y size *\/$/;"	m	struct:v4l2_msdma_format
+height	FrameExtractor/H263Frames.c	/^	unsigned int height;$/;"	m	struct:tagH263_PICTURE_INFO	file:
+height	FrameExtractor/H263Frames.h	/^	int  width, height;$/;"	m	struct:__anon20
+height	FrameExtractor/H264Frames.h	/^	int  width, height;$/;"	m	struct:__anon21
+height	FrameExtractor/MPEG4Frames.h	/^	int  width, height;$/;"	m	struct:__anon19
+height	FrameExtractor/VC1Frames.h	/^	int  width, height;$/;"	m	struct:__anon18
+height	JPEG_API/JPGApi.c	/^	UINT32	height;$/;"	m	struct:tagJPG_DEC_PROC_PARAM	file:
+height	JPEG_API/JPGApi.c	/^	UINT32	height;$/;"	m	struct:tagJPG_ENC_PROC_PARAM	file:
+height	MFC_API/SsbSipH264Decode.c	/^	unsigned int     width, height;	$/;"	m	struct:__anon13	file:
+height	MFC_API/SsbSipH264Decode.h	/^	int height;$/;"	m	struct:__anon10
+height	MFC_API/SsbSipH264Encode.c	/^	int height;$/;"	m	struct:__anon8	file:
+height	MFC_API/SsbSipH264Encode.c	/^	unsigned int  	width, height;$/;"	m	struct:__anon7	file:
+height	MFC_API/SsbSipMfcDecode.c	/^	unsigned int	width, height;	$/;"	m	struct:__anon3	file:
+height	MFC_API/SsbSipMfcDecode.h	/^	int height;$/;"	m	struct:__anon6
+height	MFC_API/SsbSipMpeg4Decode.c	/^	unsigned int     width, height;	$/;"	m	struct:__anon2	file:
+height	MFC_API/SsbSipMpeg4Decode.h	/^	int height;$/;"	m	struct:__anon9
+height	MFC_API/SsbSipMpeg4Encode.c	/^	int height;$/;"	m	struct:__anon12	file:
+height	MFC_API/SsbSipMpeg4Encode.c	/^	unsigned int  	width, height;$/;"	m	struct:__anon11	file:
+height	MFC_API/SsbSipVC1Decode.c	/^	unsigned int	width, height;$/;"	m	struct:__anon4	file:
+height	MFC_API/SsbSipVC1Decode.h	/^	int height;$/;"	m	struct:__anon5
+hours	Common/videodev2.h	/^	__u8	hours;$/;"	m	struct:v4l2_timecode
+id	Common/videodev2.h	/^	__u32		     id;$/;"	m	struct:v4l2_control
+id	Common/videodev2.h	/^	__u32		     id;$/;"	m	struct:v4l2_queryctrl
+id	Common/videodev2.h	/^	__u32		id;$/;"	m	struct:v4l2_querymenu
+id	Common/videodev2.h	/^	__u32   id;$/;"	m	struct:v4l2_sliced_vbi_data
+id	Common/videodev2.h	/^	__u32 id;$/;"	m	struct:v4l2_ext_control
+id	Common/videodev2.h	/^	v4l2_std_id          id;$/;"	m	struct:v4l2_standard
+ident	Common/videodev2.h	/^	__u32 ident;       \/* chip identifier as specified in <media\/v4l2-chip-ident.h> *\/$/;"	m	struct:v4l2_chip_ident
+in_addr	cam_dec_preview-On7LCD.c	/^static char		*in_addr;$/;"	v	file:
+in_addr	cam_dec_preview.c	/^static char		*in_addr;$/;"	v	file:
+in_addr	display_optimization1.c	/^static char		*in_addr;$/;"	v	file:
+in_addr	display_optimization2.c	/^static char		*in_addr;$/;"	v	file:
+in_addr	display_test.c	/^static char			*in_addr;$/;"	v	file:
+in_addr	yuanshi-cam_dec_preview.c	/^static char		*in_addr;$/;"	v	file:
+in_addr1	display_4_windows.c	/^static char			*in_addr1, *in_addr2, *in_addr3, *in_addr4;$/;"	v	file:
+in_addr2	display_4_windows.c	/^static char			*in_addr1, *in_addr2, *in_addr3, *in_addr4;$/;"	v	file:
+in_addr3	display_4_windows.c	/^static char			*in_addr1, *in_addr2, *in_addr3, *in_addr4;$/;"	v	file:
+in_addr4	display_4_windows.c	/^static char			*in_addr1, *in_addr2, *in_addr3, *in_addr4;$/;"	v	file:
+in_bitrate	Common/MfcDrvParams.h	/^	int in_bitrate;			\/\/ [IN]  Encoding parameter: Bitrate (kbps)$/;"	m	struct:__anon28
+in_config_param	Common/MfcDrvParams.h	/^	int in_config_param;			\/\/ [IN]  Configurable parameter type$/;"	m	struct:__anon33
+in_config_param	Common/MfcDrvParams.h	/^	int in_config_param;			\/\/ [IN]  Configurable parameter type$/;"	m	struct:__anon34
+in_config_param2	Common/MfcDrvParams.h	/^	int in_config_param2;$/;"	m	struct:__anon33
+in_config_value	Common/MfcDrvParams.h	/^	int in_config_value[3];			\/\/ [IN]  Values to be set for the configurable parameter.$/;"	m	struct:__anon34
+in_fd	cam_dec_preview-On7LCD.c	/^static int		in_fd;$/;"	v	file:
+in_fd	cam_dec_preview.c	/^static int		in_fd;$/;"	v	file:
+in_fd	display_optimization1.c	/^static int		in_fd;$/;"	v	file:
+in_fd	display_optimization2.c	/^static int		in_fd;$/;"	v	file:
+in_fd	display_test.c	/^static int			in_fd;$/;"	v	file:
+in_fd	yuanshi-cam_dec_preview.c	/^static int		in_fd;$/;"	v	file:
+in_fd1	display_4_windows.c	/^static int			in_fd1, in_fd2, in_fd3, in_fd4;$/;"	v	file:
+in_fd2	display_4_windows.c	/^static int			in_fd1, in_fd2, in_fd3, in_fd4;$/;"	v	file:
+in_fd3	display_4_windows.c	/^static int			in_fd1, in_fd2, in_fd3, in_fd4;$/;"	v	file:
+in_fd4	display_4_windows.c	/^static int			in_fd1, in_fd2, in_fd3, in_fd4;$/;"	v	file:
+in_filename1	display_4_windows.c	/^static char			in_filename1[128], in_filename2[128], in_filename3[128], in_filename4[128];$/;"	v	file:
+in_filename2	display_4_windows.c	/^static char			in_filename1[128], in_filename2[128], in_filename3[128], in_filename4[128];$/;"	v	file:
+in_filename3	display_4_windows.c	/^static char			in_filename1[128], in_filename2[128], in_filename3[128], in_filename4[128];$/;"	v	file:
+in_filename4	display_4_windows.c	/^static char			in_filename1[128], in_filename2[128], in_filename3[128], in_filename4[128];$/;"	v	file:
+in_frameRateDiv	Common/MfcDrvParams.h	/^	int in_frameRateDiv;	\/\/ [IN]  Encoding parameter: Frame rate (Divider)$/;"	m	struct:__anon28
+in_frameRateRes	Common/MfcDrvParams.h	/^	int in_frameRateRes;	\/\/ [IN]  Encoding parameter: Frame rate (Res)$/;"	m	struct:__anon28
+in_gopNum	Common/MfcDrvParams.h	/^	int in_gopNum;			\/\/ [IN]  Encoding parameter: GOP Number (interval of I-frame)$/;"	m	struct:__anon28
+in_height	Common/MfcDrvParams.h	/^	int in_height;			\/\/ [IN]  height of YUV420 frame to be encoded$/;"	m	struct:__anon28
+in_strmSize	Common/MfcDrvParams.h	/^	int in_strmSize;		\/\/ [IN]  Size of video stream filled in STRM_BUF$/;"	m	struct:__anon30
+in_strmSize	Common/MfcDrvParams.h	/^	int in_strmSize;		\/\/ [IN]  Size of video stream filled in STRM_BUF$/;"	m	struct:__anon31
+in_type	FrameExtractor/FrameExtractor.h	/^	FRAMEX_IN_TYPE   in_type;$/;"	m	struct:stFRAMEX_CTX
+in_usr_data	Common/MfcDrvParams.h	/^	int in_usr_data;		\/\/ [IN]  User data for translating Kernel-mode address to User-mode address$/;"	m	struct:__anon32
+in_usr_data2	Common/MfcDrvParams.h	/^	int in_usr_data2;$/;"	m	struct:__anon32
+in_width	Common/MfcDrvParams.h	/^	int in_width;			\/\/ [IN]  width  of YUV420 frame to be encoded$/;"	m	struct:__anon28
+index	Common/videodev2.h	/^	__u32			index;		\/* Frame format index *\/$/;"	m	struct:v4l2_frmivalenum
+index	Common/videodev2.h	/^	__u32			index;		\/* Frame size number *\/$/;"	m	struct:v4l2_frmsizeenum
+index	Common/videodev2.h	/^	__u32			index;$/;"	m	struct:v4l2_buffer
+index	Common/videodev2.h	/^	__u32			index;$/;"	m	struct:v4l2_modulator
+index	Common/videodev2.h	/^	__u32		     index;$/;"	m	struct:v4l2_standard
+index	Common/videodev2.h	/^	__u32		    index;             \/* Format number      *\/$/;"	m	struct:v4l2_fmtdesc
+index	Common/videodev2.h	/^	__u32		index;$/;"	m	struct:v4l2_querymenu
+index	Common/videodev2.h	/^	__u32	     index;		\/*  Which input *\/$/;"	m	struct:v4l2_input
+index	Common/videodev2.h	/^	__u32	     index;		\/*  Which output *\/$/;"	m	struct:v4l2_output
+index	Common/videodev2.h	/^	__u32	index;$/;"	m	struct:v4l2_audio
+index	Common/videodev2.h	/^	__u32	index;$/;"	m	struct:v4l2_audioout
+index	Common/videodev2.h	/^	__u32                   index;$/;"	m	struct:v4l2_tuner
+initDecodeParam	JPEG_API/JPGApi.c	/^static void initDecodeParam(void)$/;"	f	file:
+initEncodeParam	JPEG_API/JPGApi.c	/^static void initEncodeParam(void)$/;"	f	file:
+input	Common/videodev2.h	/^	__u32			input;$/;"	m	struct:v4l2_buffer
+input_path	Common/videodev2_s3c.h	/^	enum v4l2_msdma_input  	input_path;$/;"	m	struct:v4l2_msdma_format	typeref:enum:v4l2_msdma_format::v4l2_msdma_input
+io_size	Common/videodev2.h	/^	__u32   io_size;$/;"	m	struct:v4l2_sliced_vbi_format
+jCtx	JPEG_API/JPGApi.c	/^JPG_CTX *jCtx;$/;"	v
+jpeg_markers	Common/videodev2.h	/^	__u32 jpeg_markers;     \/* Which markers should go into the JPEG$/;"	m	struct:v4l2_jpegcompression
+jpg_fp	capture.c	/^static FILE *jpg_fp = NULL;$/;"	v	file:
+key	FrameExtractor/VC1Frames.c	/^	unsigned int   key        : 1;$/;"	m	struct:__anon15	file:
+key	cam_dec_preview-On7LCD.c	/^static int		key;$/;"	v	file:
+key	cam_dec_preview.c	/^static int		key;$/;"	v	file:
+key	cam_enc_dec_test.c	/^static int		key;$/;"	v	file:
+key	yuanshi-cam_dec_preview.c	/^static int		key;$/;"	v	file:
+last_frame1	display_4_windows.c	/^static int			last_frame1, last_frame2, last_frame3, last_frame4;$/;"	v	file:
+last_frame2	display_4_windows.c	/^static int			last_frame1, last_frame2, last_frame3, last_frame4;$/;"	v	file:
+last_frame3	display_4_windows.c	/^static int			last_frame1, last_frame2, last_frame3, last_frame4;$/;"	v	file:
+last_frame4	display_4_windows.c	/^static int			last_frame1, last_frame2, last_frame3, last_frame4;$/;"	v	file:
+lcdsize	cam_dec_preview-On7LCD.c	/^static int lcdsize[6][2] = {{320,240}, {480,272}, {640,480}, {800,480}, {800,600},{1024,768}};$/;"	v	file:
+lcdsize	cam_dec_preview.c	/^static int lcdsize[6][2] = {{320,240}, {480,272}, {640,480}, {800,480}, {800,600},{1024,768}};$/;"	v	file:
+lcdsize	cam_enc_dec_test.c	/^static int lcdsize[6][2] = {{320,240}, {480,272}, {640,480}, {800,480}, {800,600},{1024,768}};$/;"	v	file:
+lcdsize	cam_encoder_test.c	/^static int lcdsize[6][2] = {{320,240}, {480,272}, {640,480}, {800,480}, {800,600},{1024,768}};$/;"	v	file:
+lcdsize	capture.c	/^static int lcdsize[6][2] = {{320,240}, {480,272}, {640,480}, {800,480}, {800,600},{1024,768}};$/;"	v	file:
+lcdsize	display_4_windows.c	/^static int lcdsize[6][2] = {{320,240}, {480,272}, {640,480}, {800,480}, {800,600},{1024,768}};$/;"	v	file:
+lcdsize	display_optimization1.c	/^static int lcdsize[6][2] = {{320,240}, {480,272}, {640,480}, {800,480}, {800,600},{1024,768}};$/;"	v	file:
+lcdsize	display_optimization2.c	/^static int lcdsize[6][2] = {{320,240}, {480,272}, {640,480}, {800,480}, {800,600},{1024,768}};$/;"	v	file:
+lcdsize	display_test.c	/^static int lcdsize[6][2] = {{320,240}, {480,272}, {640,480}, {800,480}, {800,600},{1024,768}};$/;"	v	file:
+lcdsize	jpeg_display.c	/^static int lcdsize[6][2] = {{320,240}, {480,272}, {640,480}, {800,480}, {800,600},{1024,768}};$/;"	v	file:
+lcdsize	yuanshi-cam_dec_preview.c	/^static int lcdsize[6][2] = {{320,240}, {480,272}, {640,480}, {800,480}, {800,600},{1024,768}};$/;"	v	file:
+left	Common/videodev2.h	/^	__s32   left;$/;"	m	struct:v4l2_rect
+length	Common/videodev2.h	/^	__u32			length;$/;"	m	struct:v4l2_buffer
+length	Common/videodev2.h	/^	__u32 length;$/;"	m	struct:v4l2_enc_idx_entry
+level_str	Common/LogMsg.c	/^static const char *level_str[] = {"TRACE", "WARNING", "ERROR"};$/;"	v	file:
+line	Common/videodev2.h	/^	__u32   line;           \/* 1-23 *\/$/;"	m	struct:v4l2_sliced_vbi_data
+log2_max_frame_num_minus4	FrameExtractor/H264Frames.c	/^static unsigned int   log2_max_frame_num_minus4 = 0;$/;"	v	file:
+log_level	Common/LogMsg.c	/^static const LOG_LEVEL log_level = LOG_TRACE;$/;"	v	file:
+m	Common/videodev2.h	/^	} m;$/;"	m	struct:v4l2_buffer	typeref:union:v4l2_buffer::__anon47
+magic	MFC_API/SsbSipH264Decode.c	/^	int   	magic;$/;"	m	struct:__anon13	file:
+magic	MFC_API/SsbSipH264Encode.c	/^	int   	magic;$/;"	m	struct:__anon7	file:
+magic	MFC_API/SsbSipMfcDecode.c	/^	int		magic;$/;"	m	struct:__anon3	file:
+magic	MFC_API/SsbSipMpeg4Decode.c	/^	int   	magic;$/;"	m	struct:__anon2	file:
+magic	MFC_API/SsbSipMpeg4Encode.c	/^	int   	magic;$/;"	m	struct:__anon11	file:
+magic	MFC_API/SsbSipVC1Decode.c	/^	int		magic;$/;"	m	struct:__anon4	file:
+main	test.c	/^int main(int argc, char **argv)$/;"	f
+makeExifFile	JPEG_API/JPGApi.c	/^static JPEG_ERRORTYPE makeExifFile(char *ExifOut, UINT *totalLen)$/;"	f	file:
+makeExifParam	capture.c	/^static void makeExifParam(ExifFileInfo *exifFileInfo)$/;"	f	file:
+makeThumbImage	JPEG_API/JPGApi.c	/^static JPEG_ERRORTYPE makeThumbImage(int dev_fd)$/;"	f	file:
+map_dma_f1	Common/lcd.h	/^	unsigned int map_dma_f1;$/;"	m	struct:s3c_fb_dma_info
+map_dma_f2	Common/lcd.h	/^	unsigned int map_dma_f2;$/;"	m	struct:s3c_fb_dma_info
+mappedAddr	JPEG_API/JPGApi.c	/^	char	*mappedAddr;$/;"	m	struct:tagJPG_CTX	file:
+mapped_addr	MFC_API/SsbSipH264Decode.c	/^	unsigned char	*mapped_addr;$/;"	m	struct:__anon13	file:
+mapped_addr	MFC_API/SsbSipH264Encode.c	/^	unsigned char	*mapped_addr;$/;"	m	struct:__anon7	file:
+mapped_addr	MFC_API/SsbSipMfcDecode.c	/^	unsigned char	*mapped_addr;$/;"	m	struct:__anon3	file:
+mapped_addr	MFC_API/SsbSipMpeg4Decode.c	/^	unsigned char	*mapped_addr;$/;"	m	struct:__anon2	file:
+mapped_addr	MFC_API/SsbSipMpeg4Encode.c	/^	unsigned char	*mapped_addr;$/;"	m	struct:__anon11	file:
+mapped_addr	MFC_API/SsbSipVC1Decode.c	/^	unsigned char	*mapped_addr;	$/;"	m	struct:__anon4	file:
+match_chip	Common/videodev2.h	/^	__u32 match_chip;  \/* Match this chip, meaning determined by match_type *\/$/;"	m	struct:v4l2_chip_ident
+match_chip	Common/videodev2.h	/^	__u32 match_chip; \/* Match this chip, meaning determined by match_type *\/$/;"	m	struct:v4l2_register
+match_type	Common/videodev2.h	/^	__u32 match_type;  \/* Match type *\/$/;"	m	struct:v4l2_chip_ident
+match_type	Common/videodev2.h	/^	__u32 match_type; \/* Match type *\/$/;"	m	struct:v4l2_register
+max	Common/videodev2.h	/^	struct v4l2_fract	max;		\/* Maximum frame interval [s] *\/$/;"	m	struct:v4l2_frmival_stepwise	typeref:struct:v4l2_frmival_stepwise::v4l2_fract
+max_height	Common/videodev2.h	/^	__u32			max_height;	\/* Maximum frame height [pixel] *\/$/;"	m	struct:v4l2_frmsize_stepwise
+max_width	Common/videodev2.h	/^	__u32			max_width;	\/* Maximum frame width [pixel] *\/$/;"	m	struct:v4l2_frmsize_stepwise
+maximum	Common/videodev2.h	/^	__s32		     maximum;$/;"	m	struct:v4l2_queryctrl
+measureTime	Common/performance.c	/^unsigned int measureTime(struct timeval *start, struct timeval *stop)$/;"	f
+memory	Common/videodev2.h	/^	enum v4l2_memory        memory;$/;"	m	struct:v4l2_buffer	typeref:enum:v4l2_buffer::v4l2_memory
+memory	Common/videodev2.h	/^	enum v4l2_memory        memory;$/;"	m	struct:v4l2_requestbuffers	typeref:enum:v4l2_requestbuffers::v4l2_memory
+mfc_decoder_exe	cam_enc_dec_test.c	/^unsigned int mfc_decoder_exe(void *handle, char *buf, int size)$/;"	f
+mfc_decoder_free	cam_enc_dec_test.c	/^void mfc_decoder_free(void *handle)$/;"	f
+mfc_decoder_init	cam_enc_dec_test.c	/^void *mfc_decoder_init(char *encoded_buf, int encoded_size)$/;"	f
+mfc_encoder_exe	cam_dec_preview-On7LCD.c	/^void *mfc_encoder_exe(void *handle, unsigned char *yuv_buf, int frame_size, int first_frame, long *size)$/;"	f
+mfc_encoder_exe	cam_dec_preview.c	/^void *mfc_encoder_exe(void *handle, unsigned char *yuv_buf, int frame_size, int first_frame, long *size)$/;"	f
+mfc_encoder_exe	cam_enc_dec_test.c	/^void *mfc_encoder_exe(void *handle, unsigned char *yuv_buf, int frame_size, int first_frame, long *size)$/;"	f
+mfc_encoder_exe	cam_encoder_test.c	/^void *mfc_encoder_exe(void *handle, unsigned char *yuv_buf, int frame_size, int first_frame, long *size)$/;"	f
+mfc_encoder_exe	yuanshi-cam_dec_preview.c	/^void *mfc_encoder_exe(void *handle, unsigned char *yuv_buf, int frame_size, int first_frame, long *size)$/;"	f
+mfc_encoder_free	cam_dec_preview-On7LCD.c	/^void mfc_encoder_free(void *handle)$/;"	f
+mfc_encoder_free	cam_dec_preview.c	/^void mfc_encoder_free(void *handle)$/;"	f
+mfc_encoder_free	cam_enc_dec_test.c	/^void mfc_encoder_free(void *handle)$/;"	f
+mfc_encoder_free	cam_encoder_test.c	/^void mfc_encoder_free(void *handle)$/;"	f
+mfc_encoder_free	yuanshi-cam_dec_preview.c	/^void mfc_encoder_free(void *handle)$/;"	f
+mfc_encoder_init	cam_dec_preview-On7LCD.c	/^void *mfc_encoder_init(int width, int height, int frame_rate, int bitrate, int gop_num)$/;"	f
+mfc_encoder_init	cam_dec_preview.c	/^void *mfc_encoder_init(int width, int height, int frame_rate, int bitrate, int gop_num)$/;"	f
+mfc_encoder_init	cam_enc_dec_test.c	/^void *mfc_encoder_init(int width, int height, int frame_rate, int bitrate, int gop_num)$/;"	f
+mfc_encoder_init	cam_encoder_test.c	/^void *mfc_encoder_init(int width, int height, int frame_rate, int bitrate, int gop_num)$/;"	f
+mfc_encoder_init	yuanshi-cam_dec_preview.c	/^void *mfc_encoder_init(int width, int height, int frame_rate, int bitrate, int gop_num)$/;"	f
+min	Common/videodev2.h	/^	struct v4l2_fract	min;		\/* Minimum frame interval [s] *\/$/;"	m	struct:v4l2_frmival_stepwise	typeref:struct:v4l2_frmival_stepwise::v4l2_fract
+min_height	Common/videodev2.h	/^	__u32			min_height;	\/* Minimum frame height [pixel] *\/$/;"	m	struct:v4l2_frmsize_stepwise
+min_width	Common/videodev2.h	/^	__u32			min_width;	\/* Minimum frame width [pixel] *\/$/;"	m	struct:v4l2_frmsize_stepwise
+minimum	Common/videodev2.h	/^	__s32		     minimum;	\/* Note signedness *\/$/;"	m	struct:v4l2_queryctrl
+minutes	Common/videodev2.h	/^	__u8	minutes;$/;"	m	struct:v4l2_timecode
+mode	Common/videodev2.h	/^	__u32	mode;$/;"	m	struct:v4l2_audio
+mode	Common/videodev2.h	/^	__u32	mode;$/;"	m	struct:v4l2_audioout
+modulator	Common/videodev2.h	/^	__u32	     modulator;         \/*  Associated modulator *\/$/;"	m	struct:v4l2_output
+modulename	Common/LogMsg.c	/^static const char *modulename = "APPLICATIONS";$/;"	v	file:
+mutex	cam_dec_preview-On7LCD.c	/^static pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+mutex	cam_dec_preview.c	/^static pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+mutex	cam_encoder_test.c	/^static pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+mutex	yuanshi-cam_dec_preview.c	/^static pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+nFrameLeng	display_optimization1.c	/^static int nFrameLeng;$/;"	v	file:
+nFrameLeng	display_optimization2.c	/^static int nFrameLeng;$/;"	v	file:
+name	Common/videodev2.h	/^	__u8			name[32];$/;"	m	struct:v4l2_modulator
+name	Common/videodev2.h	/^	__u8			name[32];$/;"	m	struct:v4l2_tuner
+name	Common/videodev2.h	/^	__u8		     name[24];$/;"	m	struct:v4l2_standard
+name	Common/videodev2.h	/^	__u8		     name[32];	\/* Whatever *\/$/;"	m	struct:v4l2_queryctrl
+name	Common/videodev2.h	/^	__u8		name[32];	\/* Whatever *\/$/;"	m	struct:v4l2_querymenu
+name	Common/videodev2.h	/^	__u8	     name[32];		\/*  Label *\/$/;"	m	struct:v4l2_input
+name	Common/videodev2.h	/^	__u8	     name[32];		\/*  Label *\/$/;"	m	struct:v4l2_output
+name	Common/videodev2.h	/^	__u8	name[32];$/;"	m	struct:v4l2_audio
+name	Common/videodev2.h	/^	__u8	name[32];$/;"	m	struct:v4l2_audioout
+next	Common/videodev2.h	/^	struct v4l2_clip	__user *next;$/;"	m	struct:v4l2_clip	typeref:struct:v4l2_clip::__user
+next_delimiter	FrameExtractor/FrameExtractor.c	/^static int next_delimiter(FRAMEX_CTX *pCTX, FILE *fpin, unsigned char *outbuf, const int outbuf_size, int *n_fill)$/;"	f	file:
+next_delimiter_mem	FrameExtractor/FrameExtractor.c	/^static int next_delimiter_mem(FRAMEX_CTX *pCTX, FRAMEX_STRM_PTR *strm_ptr, unsigned char *outbuf, const int outbuf_size, int *n_fill)$/;"	f	file:
+next_frame_peek	FrameExtractor/FrameExtractor.c	/^static int next_frame_peek(FRAMEX_CTX *pCTX, FILE *fpin, unsigned char *peekbuf, const int peek_size, int *n_fill)$/;"	f	file:
+next_frame_peek_mem	FrameExtractor/FrameExtractor.c	/^static int next_frame_peek_mem(FRAMEX_CTX *pCTX, FRAMEX_STRM_PTR *strm_ptr, unsigned char *peekbuf, const int peek_size, int *n_fill)$/;"	f	file:
+next_h263_frame	FrameExtractor/H263Frames.c	/^static int next_h263_frame(void *fp,$/;"	f	file:
+num_bits	FrameExtractor/MPEG4Frames.c	/^static int num_bits(unsigned int bits)$/;"	f	file:
+num_frames	FrameExtractor/VC1Frames.c	/^	unsigned int   num_frames : 24;$/;"	m	struct:__anon14	file:
+numerator	Common/videodev2.h	/^	__u32   numerator;$/;"	m	struct:v4l2_fract
+offset	Common/lcd.h	/^	int offset;$/;"	m	struct:__anon27
+offset	Common/videodev2.h	/^		__u32           offset;$/;"	m	union:v4l2_buffer::__anon47
+offset	Common/videodev2.h	/^	__u32	offset;$/;"	m	struct:v4l2_vbi_format
+offset	Common/videodev2.h	/^	__u64 offset;$/;"	m	struct:v4l2_enc_idx_entry
+out_buf_addr	Common/MfcDrvParams.h	/^	int out_buf_addr;		\/\/ [OUT] Buffer address$/;"	m	struct:__anon32
+out_buf_size	Common/MfcDrvParams.h	/^	int out_buf_size;		\/\/ [OUT] Size of buffer address$/;"	m	struct:__anon32
+out_config_value	Common/MfcDrvParams.h	/^	int out_config_value[2];		\/\/ [IN]  Values to get for the configurable parameter.$/;"	m	struct:__anon33
+out_config_value_old	Common/MfcDrvParams.h	/^	int out_config_value_old[2];	\/\/ [OUT] Old values of the configurable parameters$/;"	m	struct:__anon34
+out_encoded_size	Common/MfcDrvParams.h	/^	int out_encoded_size;	\/\/ [OUT] Length of Encoded video stream$/;"	m	struct:__anon29
+out_header_size	Common/MfcDrvParams.h	/^	int out_header_size;	\/\/ [OUT] Length of video stream header$/;"	m	struct:__anon29
+out_height	Common/MfcDrvParams.h	/^	int out_height;			\/\/ [OUT] height of YUV420 frame$/;"	m	struct:__anon30
+out_path	Common/post.h	/^	s3c_pp_out_path_t out_path; 	    \/\/ output and run mode (DMA_ONESHOT or FIFO_FREERUN)$/;"	m	struct:__anon42
+out_width	Common/MfcDrvParams.h	/^	int out_width;			\/\/ [OUT] width  of YUV420 frame$/;"	m	struct:__anon30
+output	Common/videodev2.h	/^		struct v4l2_outputparm	output;$/;"	m	union:v4l2_streamparm::__anon52	typeref:struct:v4l2_streamparm::__anon52::v4l2_outputparm
+outputmode	Common/videodev2.h	/^	__u32		   outputmode;	 \/*  Current mode *\/$/;"	m	struct:v4l2_outputparm
+p_buf	MFC_API/SsbSipH264Decode.c	/^	void   *p_buf;$/;"	m	struct:__anon13	file:
+p_buf	MFC_API/SsbSipMfcDecode.c	/^	void	*p_buf;$/;"	m	struct:__anon3	file:
+p_buf	MFC_API/SsbSipMpeg4Decode.c	/^	void   *p_buf;$/;"	m	struct:__anon2	file:
+p_buf	MFC_API/SsbSipVC1Decode.c	/^	void	*p_buf;$/;"	m	struct:__anon4	file:
+p_cur	FrameExtractor/FileRead.h	/^	unsigned char *p_cur;$/;"	m	struct:__anon22
+p_cur	FrameExtractor/FrameExtractor.h	/^	unsigned char *p_cur;$/;"	m	struct:__anon17
+p_end	FrameExtractor/FileRead.h	/^	unsigned char *p_end;$/;"	m	struct:__anon22
+p_end	FrameExtractor/FrameExtractor.h	/^	unsigned char *p_end;$/;"	m	struct:__anon17
+p_start	FrameExtractor/FileRead.h	/^	unsigned char *p_start;$/;"	m	struct:__anon22
+p_start	FrameExtractor/FrameExtractor.h	/^	unsigned char *p_start;$/;"	m	struct:__anon17
+parm	Common/videodev2.h	/^	} parm;$/;"	m	struct:v4l2_streamparm	typeref:union:v4l2_streamparm::__anon52
+phy_addr	display_optimization1.c	/^	unsigned int	phy_addr;$/;"	m	struct:__anon23	file:
+phy_addr	display_optimization2.c	/^	unsigned int	phy_addr;$/;"	m	struct:__anon24	file:
+pic_parameter_set_id	FrameExtractor/H264Frames.c	/^	unsigned short pic_parameter_set_id;$/;"	m	struct:tagH264_SLICE_INFO	file:
+pic_parameter_set_id_arr	FrameExtractor/H264Frames.c	/^static unsigned short pic_parameter_set_id_arr[32] = {0xFFFF, };$/;"	v	file:
+picture_coding_type	FrameExtractor/H263Frames.c	/^	unsigned int picture_coding_type;$/;"	m	struct:tagH263_PICTURE_INFO	file:
+pix	Common/videodev2.h	/^		struct v4l2_pix_format		pix;     \/* V4L2_BUF_TYPE_VIDEO_CAPTURE *\/$/;"	m	union:v4l2_format::__anon51	typeref:struct:v4l2_format::__anon51::v4l2_pix_format
+pixel_format	Common/videodev2.h	/^	__u32			pixel_format;	\/* Pixel format *\/$/;"	m	struct:v4l2_frmivalenum
+pixel_format	Common/videodev2.h	/^	__u32			pixel_format;	\/* Pixel format *\/$/;"	m	struct:v4l2_frmsizeenum
+pixelaspect	Common/videodev2.h	/^	struct v4l2_fract       pixelaspect;$/;"	m	struct:v4l2_cropcap	typeref:struct:v4l2_cropcap::v4l2_fract
+pixelformat	Common/videodev2.h	/^	__u32			pixelformat;$/;"	m	struct:v4l2_pix_format
+pixelformat	Common/videodev2.h	/^	__u32		    pixelformat;       \/* Format fourcc      *\/$/;"	m	struct:v4l2_fmtdesc
+pixelformat	Common/videodev2_s3c.h	/^	__u32			pixelformat;$/;"	m	struct:v4l2_msdma_format
+post_phy_addr	Common/post.h	/^	unsigned int post_phy_addr;$/;"	m	struct:__anon43
+post_virt_addr	Common/post.h	/^	unsigned char *post_virt_addr;$/;"	m	struct:__anon43
+pp_fd	cam_dec_preview-On7LCD.c	/^static int		pp_fd;$/;"	v	file:
+pp_fd	cam_dec_preview.c	/^static int		pp_fd;$/;"	v	file:
+pp_fd	cam_enc_dec_test.c	/^static int		pp_fd;$/;"	v	file:
+pp_fd	display_optimization1.c	/^static int		pp_fd;$/;"	v	file:
+pp_fd	display_optimization2.c	/^static int		pp_fd, fb_fd;$/;"	v	file:
+pp_fd	display_test.c	/^static int			pp_fd, fb_fd;$/;"	v	file:
+pp_fd	yuanshi-cam_dec_preview.c	/^static int		pp_fd;$/;"	v	file:
+pp_fd1	display_4_windows.c	/^static int			pp_fd1, pp_fd2, pp_fd3, pp_fd4;$/;"	v	file:
+pp_fd2	display_4_windows.c	/^static int			pp_fd1, pp_fd2, pp_fd3, pp_fd4;$/;"	v	file:
+pp_fd3	display_4_windows.c	/^static int			pp_fd1, pp_fd2, pp_fd3, pp_fd4;$/;"	v	file:
+pp_fd4	display_4_windows.c	/^static int			pp_fd1, pp_fd2, pp_fd3, pp_fd4;$/;"	v	file:
+pp_params	Common/post.h	/^}pp_params;$/;"	t	typeref:struct:__anon41
+pre_fb_fd	cam_dec_preview-On7LCD.c	/^static int pre_fb_fd = -1;$/;"	v	file:
+pre_fb_fd	cam_dec_preview.c	/^static int pre_fb_fd = -1;$/;"	v	file:
+pre_fb_fd	cam_enc_dec_test.c	/^static int pre_fb_fd = -1;$/;"	v	file:
+pre_fb_fd	cam_encoder_test.c	/^static int pre_fb_fd = -1;$/;"	v	file:
+pre_fb_fd	capture.c	/^static int pre_fb_fd = -1;$/;"	v	file:
+pre_fb_fd	yuanshi-cam_dec_preview.c	/^static int pre_fb_fd = -1;$/;"	v	file:
+pre_phy_addr	Common/post.h	/^	unsigned int pre_phy_addr;$/;"	m	struct:__anon43
+pre_virt_addr	Common/post.h	/^	unsigned char *pre_virt_addr;$/;"	m	struct:__anon43
+preview	cam_enc_dec_test.c	/^static	struct v4l2_framebuffer preview;$/;"	v	typeref:struct:v4l2_framebuffer	file:
+preview_fmt	cam_enc_dec_test.c	/^static	struct v4l2_pix_format preview_fmt;$/;"	v	typeref:struct:v4l2_pix_format	file:
+print_menu	test.c	/^static void print_menu(void)$/;"	f	file:
+print_menu_lcd	test.c	/^static void print_menu_lcd(void)$/;"	f	file:
+priv	Common/videodev2.h	/^	__u32			priv;		\/* private data, depends on pixelformat *\/$/;"	m	struct:v4l2_pix_format
+producer_idx	cam_enc_dec_test.c	/^static int 			producer_idx, consumer_idx;$/;"	v	file:
+producer_idx	display_optimization1.c	/^static int			producer_idx, consumer_idx;$/;"	v	file:
+producer_idx	display_optimization2.c	/^static int			producer_idx, consumer_idx;$/;"	v	file:
+pth	cam_dec_preview-On7LCD.c	/^static pthread_t 	pth, pth2;$/;"	v	file:
+pth	cam_dec_preview.c	/^static pthread_t 	pth, pth2;$/;"	v	file:
+pth	cam_enc_dec_test.c	/^static pthread_t 	pth, pth2, pth3;$/;"	v	file:
+pth	cam_encoder_test.c	/^static pthread_t 	pth;$/;"	v	file:
+pth	capture.c	/^static pthread_t 	pth;$/;"	v	file:
+pth	yuanshi-cam_dec_preview.c	/^static pthread_t 	pth, pth2;$/;"	v	file:
+pth2	cam_dec_preview-On7LCD.c	/^static pthread_t 	pth, pth2;$/;"	v	file:
+pth2	cam_dec_preview.c	/^static pthread_t 	pth, pth2;$/;"	v	file:
+pth2	cam_enc_dec_test.c	/^static pthread_t 	pth, pth2, pth3;$/;"	v	file:
+pth2	yuanshi-cam_dec_preview.c	/^static pthread_t 	pth, pth2;$/;"	v	file:
+pth3	cam_enc_dec_test.c	/^static pthread_t 	pth, pth2, pth3;$/;"	v	file:
+pts	Common/videodev2.h	/^	__u64 pts;$/;"	m	struct:v4l2_enc_idx_entry
+q_instance	cam_enc_dec_test.h	/^} q_instance;$/;"	t	typeref:struct:__anon1
+q_instance	display_optimization1.c	/^} q_instance;$/;"	t	typeref:struct:__anon23	file:
+q_instance	display_optimization2.c	/^} q_instance;$/;"	t	typeref:struct:__anon24	file:
+quality	Common/videodev2.h	/^	int quality;$/;"	m	struct:v4l2_jpegcompression
+quality	JPEG_API/JPGApi.c	/^	IMAGE_QUALITY_TYPE_T quality;$/;"	m	struct:tagJPG_ENC_PROC_PARAM	file:
+queue	cam_enc_dec_test.c	/^static q_instance	queue[SHARED_BUF_NUM];$/;"	v	file:
+queue	display_optimization1.c	/^static q_instance	queue[10];$/;"	v	file:
+queue	display_optimization2.c	/^static q_instance	queue[10];$/;"	v	file:
+rangehigh	Common/videodev2.h	/^	__u32			rangehigh;$/;"	m	struct:v4l2_modulator
+rangehigh	Common/videodev2.h	/^	__u32			rangehigh;$/;"	m	struct:v4l2_tuner
+rangelow	Common/videodev2.h	/^	__u32			rangelow;$/;"	m	struct:v4l2_modulator
+rangelow	Common/videodev2.h	/^	__u32			rangelow;$/;"	m	struct:v4l2_tuner
+raw	Common/videodev2.h	/^		} raw;$/;"	m	union:v4l2_encoder_cmd::__anon49	typeref:struct:v4l2_encoder_cmd::__anon49::__anon50
+raw_data	Common/videodev2.h	/^		__u8	raw_data[200];                   \/* user-defined *\/$/;"	m	union:v4l2_format::__anon51
+raw_data	Common/videodev2.h	/^		__u8	raw_data[200];  \/* user-defined *\/$/;"	m	union:v4l2_streamparm::__anon52
+read_bits	FrameExtractor/H263Frames.c	/^static unsigned int read_bits(unsigned char bytes[], int num_read, int *bit_offset)$/;"	f	file:
+read_bits	FrameExtractor/H264Frames.c	/^static unsigned int read_bits(unsigned char bytes[], int num_read, int *bit_offset)$/;"	f	file:
+read_bits	FrameExtractor/MPEG4Frames.c	/^static unsigned int read_bits(unsigned char bytes[], int num_read, int *bit_offset)$/;"	f	file:
+read_data	cam_dec_preview-On7LCD.c	/^static int read_data(int fp, char *buf, int width, int height, int bpp)$/;"	f	file:
+read_data	cam_dec_preview.c	/^static int read_data(int fp, char *buf, int width, int height, int bpp)$/;"	f	file:
+read_data	cam_enc_dec_test.c	/^static int read_data(int fp, char *buf, int width, int height, int bpp)$/;"	f	file:
+read_data	cam_encoder_test.c	/^static int read_data(int fp, char *buf, int width, int height, int bpp)$/;"	f	file:
+read_data	capture.c	/^static int read_data(int fp, char *buf, int width, int height, int bpp)$/;"	f	file:
+read_data	yuanshi-cam_dec_preview.c	/^static int read_data(int fp, char *buf, int width, int height, int bpp)$/;"	f	file:
+readbuffers	Common/videodev2.h	/^	__u32              readbuffers;   \/*  # of buffers for read *\/$/;"	m	struct:v4l2_captureparm
+reg	Common/videodev2.h	/^	__u64 reg;$/;"	m	struct:v4l2_register
+rendering	display_optimization1.c	/^static void *rendering(void *arg)$/;"	f	file:
+rendering	display_optimization2.c	/^static void *rendering(void *arg)$/;"	f	file:
+res	FrameExtractor/VC1Frames.c	/^	unsigned int   res        : 7;$/;"	m	struct:__anon15	file:
+reserved	Common/videodev2.h	/^		void *reserved;$/;"	m	union:v4l2_ext_control::__anon48
+reserved	Common/videodev2.h	/^	__u32			reserved;$/;"	m	struct:v4l2_buffer
+reserved	Common/videodev2.h	/^	__u32			reserved[2];$/;"	m	struct:v4l2_requestbuffers
+reserved	Common/videodev2.h	/^	__u32			reserved[4];$/;"	m	struct:v4l2_modulator
+reserved	Common/videodev2.h	/^	__u32			reserved[4];$/;"	m	struct:v4l2_tuner
+reserved	Common/videodev2.h	/^	__u32		      reserved[8];$/;"	m	struct:v4l2_frequency
+reserved	Common/videodev2.h	/^	__u32		      reserved[8];$/;"	m	struct:v4l2_hw_freq_seek
+reserved	Common/videodev2.h	/^	__u32		     reserved[2];$/;"	m	struct:v4l2_queryctrl
+reserved	Common/videodev2.h	/^	__u32		     reserved[4];$/;"	m	struct:v4l2_standard
+reserved	Common/videodev2.h	/^	__u32		    reserved[4];$/;"	m	struct:v4l2_fmtdesc
+reserved	Common/videodev2.h	/^	__u32		   reserved[4];$/;"	m	struct:v4l2_captureparm
+reserved	Common/videodev2.h	/^	__u32		   reserved[4];$/;"	m	struct:v4l2_outputparm
+reserved	Common/videodev2.h	/^	__u32		reserved;$/;"	m	struct:v4l2_querymenu
+reserved	Common/videodev2.h	/^	__u32	     reserved[4];$/;"	m	struct:v4l2_input
+reserved	Common/videodev2.h	/^	__u32	     reserved[4];$/;"	m	struct:v4l2_output
+reserved	Common/videodev2.h	/^	__u32	reserved[2];			\/* Reserved space for future use *\/$/;"	m	struct:v4l2_frmivalenum
+reserved	Common/videodev2.h	/^	__u32	reserved[2];		\/* must be zero *\/$/;"	m	struct:v4l2_vbi_format
+reserved	Common/videodev2.h	/^	__u32	reserved[2];$/;"	m	struct:v4l2_audio
+reserved	Common/videodev2.h	/^	__u32	reserved[2];$/;"	m	struct:v4l2_audioout
+reserved	Common/videodev2.h	/^	__u32	reserved[4];$/;"	m	struct:v4l2_capability
+reserved	Common/videodev2.h	/^	__u32   reserved;       \/* must be 0 *\/$/;"	m	struct:v4l2_sliced_vbi_data
+reserved	Common/videodev2.h	/^	__u32   reserved[2];			\/* Reserved space for future use *\/$/;"	m	struct:v4l2_frmsizeenum
+reserved	Common/videodev2.h	/^	__u32   reserved[2];            \/* must be zero *\/$/;"	m	struct:v4l2_sliced_vbi_format
+reserved	Common/videodev2.h	/^	__u32   reserved[3];    \/* must be 0 *\/$/;"	m	struct:v4l2_sliced_vbi_cap
+reserved	Common/videodev2.h	/^	__u32 reserved[2];$/;"	m	struct:v4l2_enc_idx_entry
+reserved	Common/videodev2.h	/^	__u32 reserved[2];$/;"	m	struct:v4l2_ext_controls
+reserved	Common/videodev2.h	/^	__u32 reserved[4];$/;"	m	struct:v4l2_enc_idx
+reserved2	Common/videodev2.h	/^	__u32 reserved2[2];$/;"	m	struct:v4l2_ext_control
+ret_code	Common/MfcDrvParams.h	/^	int ret_code;					\/\/ [OUT] Return code$/;"	m	struct:__anon33
+ret_code	Common/MfcDrvParams.h	/^	int ret_code;					\/\/ [OUT] Return code$/;"	m	struct:__anon34
+ret_code	Common/MfcDrvParams.h	/^	int ret_code;			\/\/ [OUT] Return code$/;"	m	struct:__anon28
+ret_code	Common/MfcDrvParams.h	/^	int ret_code;			\/\/ [OUT] Return code$/;"	m	struct:__anon29
+ret_code	Common/MfcDrvParams.h	/^	int ret_code;			\/\/ [OUT] Return code$/;"	m	struct:__anon30
+ret_code	Common/MfcDrvParams.h	/^	int ret_code;			\/\/ [OUT] Return code$/;"	m	struct:__anon31
+ret_code	Common/MfcDrvParams.h	/^	int ret_code;			\/\/ [OUT] Return code$/;"	m	struct:__anon32
+revision	Common/videodev2.h	/^	__u32 revision;    \/* chip revision, chip specific *\/$/;"	m	struct:v4l2_chip_ident
+rxsubchans	Common/videodev2.h	/^	__u32			rxsubchans;$/;"	m	struct:v4l2_tuner
+s3c_color_space_t	Common/post.h	/^} s3c_color_space_t;$/;"	t	typeref:enum:__anon39
+s3c_fb_dma_info	Common/lcd.h	/^struct s3c_fb_dma_info$/;"	s
+s3c_pp_out_path_t	Common/post.h	/^} s3c_pp_out_path_t;$/;"	t	typeref:enum:__anon38
+s3c_pp_params_t	Common/post.h	/^} s3c_pp_params_t;$/;"	t	typeref:struct:__anon42
+s3c_pp_path_t	Common/post.h	/^} s3c_pp_path_t;$/;"	t	typeref:enum:__anon36
+s3c_pp_run_mode_t	Common/post.h	/^} s3c_pp_run_mode_t;$/;"	t	typeref:enum:__anon37
+s3c_pp_scan_mode_t	Common/post.h	/^} s3c_pp_scan_mode_t;$/;"	t	typeref:enum:__anon40
+s3c_win_info_t	Common/lcd.h	/^} s3c_win_info_t;$/;"	t	typeref:struct:__anon26
+sampleMode	JPEG_API/JPGApi.c	/^	SAMPLE_MODE_T	sampleMode;$/;"	m	struct:tagJPG_DEC_PROC_PARAM	file:
+sampleMode	JPEG_API/JPGApi.c	/^	SAMPLE_MODE_T	sampleMode;$/;"	m	struct:tagJPG_ENC_PROC_PARAM	file:
+sample_format	Common/videodev2.h	/^	__u32	sample_format;		\/* V4L2_PIX_FMT_* *\/$/;"	m	struct:v4l2_vbi_format
+samples_per_line	Common/videodev2.h	/^	__u32	samples_per_line;$/;"	m	struct:v4l2_vbi_format
+sampling_rate	Common/videodev2.h	/^	__u32	sampling_rate;		\/* in 1 Hz *\/$/;"	m	struct:v4l2_vbi_format
+scalDownYUV422	JPEG_API/JPGApi.c	/^static void scalDownYUV422(char *srcBuf, INT32 srcWidth, INT32 srcHeight, $/;"	f	file:
+scan_mode	Common/post.h	/^    s3c_pp_scan_mode_t scan_mode;       \/\/ INTERLACE_MODE, PROGRESSIVE_MODE$/;"	m	struct:__anon42
+se_v	FrameExtractor/H264Frames.c	/^static signed int se_v(unsigned char bytes[], int *bit_offset)$/;"	f	file:
+seconds	Common/videodev2.h	/^	__u8	seconds;$/;"	m	struct:v4l2_timecode
+seek_upward	Common/videodev2.h	/^	__u32		      seek_upward;$/;"	m	struct:v4l2_hw_freq_seek
+sequence	Common/videodev2.h	/^	__u32			sequence;$/;"	m	struct:v4l2_buffer
+service_lines	Common/videodev2.h	/^	__u16   service_lines[2][24];$/;"	m	struct:v4l2_sliced_vbi_cap
+service_lines	Common/videodev2.h	/^	__u16   service_lines[2][24];$/;"	m	struct:v4l2_sliced_vbi_format
+service_set	Common/videodev2.h	/^	__u16   service_set;$/;"	m	struct:v4l2_sliced_vbi_cap
+service_set	Common/videodev2.h	/^	__u16   service_set;$/;"	m	struct:v4l2_sliced_vbi_format
+set_config	Common/MfcDrvParams.h	/^	MFC_SET_CONFIG_ARG      set_config;$/;"	m	union:__anon35
+sig_del	cam_dec_preview-On7LCD.c	/^static void sig_del(int signo)$/;"	f	file:
+sig_del	cam_dec_preview.c	/^static void sig_del(int signo)$/;"	f	file:
+sig_del	cam_enc_dec_test.c	/^static void sig_del(int signo)$/;"	f	file:
+sig_del	cam_encoder_test.c	/^static void sig_del(int signo)$/;"	f	file:
+sig_del	capture.c	/^static void sig_del(int signo)$/;"	f	file:
+sig_del	display_4_windows.c	/^static void sig_del(int signo)$/;"	f	file:
+sig_del	yuanshi-cam_dec_preview.c	/^static void sig_del(int signo)$/;"	f	file:
+sig_del_h264	cam_dec_preview-On7LCD.c	/^static void sig_del_h264(int signo)$/;"	f	file:
+sig_del_h264	cam_dec_preview.c	/^static void sig_del_h264(int signo)$/;"	f	file:
+sig_del_h264	display_optimization2.c	/^static void sig_del_h264(int signo)$/;"	f	file:
+sig_del_h264	display_test.c	/^static void sig_del_h264(int signo)$/;"	f	file:
+sig_del_h264	yuanshi-cam_dec_preview.c	/^static void sig_del_h264(int signo)$/;"	f	file:
+sig_del_mpeg4	display_test.c	/^static void sig_del_mpeg4(int signo)$/;"	f	file:
+sig_del_vc1	display_test.c	/^static void sig_del_vc1(int signo)$/;"	f	file:
+signal	Common/videodev2.h	/^	__s32			signal;$/;"	m	struct:v4l2_tuner
+signal_ctrl_c	cam_dec_preview-On7LCD.c	/^static void signal_ctrl_c(void)$/;"	f	file:
+signal_ctrl_c	cam_dec_preview.c	/^static void signal_ctrl_c(void)$/;"	f	file:
+signal_ctrl_c	cam_enc_dec_test.c	/^static void signal_ctrl_c(void)$/;"	f	file:
+signal_ctrl_c	cam_encoder_test.c	/^static void signal_ctrl_c(void)$/;"	f	file:
+signal_ctrl_c	capture.c	/^static void signal_ctrl_c(void)$/;"	f	file:
+signal_ctrl_c	yuanshi-cam_dec_preview.c	/^static void signal_ctrl_c(void)$/;"	f	file:
+size	MFC_API/SsbSipH264Decode.c	/^	int     size;$/;"	m	struct:__anon13	file:
+size	MFC_API/SsbSipMfcDecode.c	/^	int		size;$/;"	m	struct:__anon3	file:
+size	MFC_API/SsbSipMpeg4Decode.c	/^	int     size;$/;"	m	struct:__anon2	file:
+size	MFC_API/SsbSipVC1Decode.c	/^	int		size;$/;"	m	struct:__anon4	file:
+size	cam_enc_dec_test.h	/^	int				size;$/;"	m	struct:__anon1
+sizeimage	Common/videodev2.h	/^	__u32          		sizeimage;$/;"	m	struct:v4l2_pix_format
+slice_type	FrameExtractor/H264Frames.c	/^	unsigned short slice_type;$/;"	m	struct:tagH264_SLICE_INFO	file:
+sliced	Common/videodev2.h	/^		struct v4l2_sliced_vbi_format	sliced;  \/* V4L2_BUF_TYPE_SLICED_VBI_CAPTURE *\/$/;"	m	union:v4l2_format::__anon51	typeref:struct:v4l2_format::__anon51::v4l2_sliced_vbi_format
+src_buf_addr_phy	Common/post.h	/^	unsigned int src_buf_addr_phy; 		\/\/ Base Address of the Source Image : Physical Address$/;"	m	struct:__anon42
+src_color_space	Common/post.h	/^	s3c_color_space_t src_color_space; 	\/\/ Color Space of the Source Image$/;"	m	struct:__anon42
+src_full_height	Common/post.h	/^	unsigned int src_full_height;		\/\/ Source Image Full Height (Virtual screen size)$/;"	m	struct:__anon42
+src_full_width	Common/post.h	/^	unsigned int src_full_width;		\/\/ Source Image Full Width (Virtual screen size)$/;"	m	struct:__anon42
+src_height	Common/post.h	/^	unsigned int src_height; 			\/\/ Source Image Height$/;"	m	struct:__anon42
+src_next_buf_addr_phy	Common/post.h	/^	unsigned int src_next_buf_addr_phy; \/\/ Base Address of Source Image to be displayed next time in FIFO_FREERUN Mode$/;"	m	struct:__anon41
+src_next_buf_addr_phy	Common/post.h	/^	unsigned int src_next_buf_addr_phy; \/\/ Base Address of Source Image to be displayed next time in FIFO_FREERUN Mode$/;"	m	struct:__anon42
+src_start_x	Common/post.h	/^	unsigned int src_start_x; 			\/\/ Source Image Start width offset$/;"	m	struct:__anon42
+src_start_y	Common/post.h	/^	unsigned int src_start_y; 			\/\/ Source Image Start height offset$/;"	m	struct:__anon42
+src_width	Common/post.h	/^	unsigned int src_width;				\/\/ Source Image Width$/;"	m	struct:__anon42
+stFRAMEX_CTX	FrameExtractor/FrameExtractor.h	/^typedef struct stFRAMEX_CTX$/;"	s
+start	Common/videodev2.h	/^	__s32	start[2];$/;"	m	struct:v4l2_vbi_format
+status	Common/videodev2.h	/^	__u32	     status;$/;"	m	struct:v4l2_input
+std	Common/videodev2.h	/^	v4l2_std_id  std;$/;"	m	struct:v4l2_input
+std	Common/videodev2.h	/^	v4l2_std_id  std;$/;"	m	struct:v4l2_output
+step	Common/videodev2.h	/^	__s32		     step;$/;"	m	struct:v4l2_queryctrl
+step	Common/videodev2.h	/^	struct v4l2_fract	step;		\/* Frame interval step size [s] *\/$/;"	m	struct:v4l2_frmival_stepwise	typeref:struct:v4l2_frmival_stepwise::v4l2_fract
+step_height	Common/videodev2.h	/^	__u32			step_height;	\/* Frame height step size [pixel] *\/$/;"	m	struct:v4l2_frmsize_stepwise
+step_width	Common/videodev2.h	/^	__u32			step_width;	\/* Frame width step size [pixel] *\/$/;"	m	struct:v4l2_frmsize_stepwise
+stepwise	Common/videodev2.h	/^		struct v4l2_frmival_stepwise	stepwise;$/;"	m	union:v4l2_frmivalenum::__anon46	typeref:struct:v4l2_frmivalenum::__anon46::v4l2_frmival_stepwise
+stepwise	Common/videodev2.h	/^		struct v4l2_frmsize_stepwise	stepwise;$/;"	m	union:v4l2_frmsizeenum::__anon45	typeref:struct:v4l2_frmsizeenum::__anon45::v4l2_frmsize_stepwise
+strmType	MFC_API/SsbSipMpeg4Encode.c	/^	int		strmType;$/;"	m	struct:__anon11	file:
+struct_a_horz	FrameExtractor/VC1Frames.c	/^	unsigned int   struct_a_horz;$/;"	m	struct:__anon14	file:
+struct_a_vert	FrameExtractor/VC1Frames.c	/^	unsigned int   struct_a_vert;$/;"	m	struct:__anon14	file:
+struct_b_1	FrameExtractor/VC1Frames.c	/^	unsigned int   struct_b_1;$/;"	m	struct:__anon14	file:
+struct_b_2	FrameExtractor/VC1Frames.c	/^	unsigned int   struct_b_2;$/;"	m	struct:__anon14	file:
+struct_b_3	FrameExtractor/VC1Frames.c	/^	unsigned int   struct_b_3;$/;"	m	struct:__anon14	file:
+struct_c	FrameExtractor/VC1Frames.c	/^	unsigned int   struct_c;$/;"	m	struct:__anon14	file:
+tagENCDEC_TYPE_T	JPEG_API/JPGApi.c	/^typedef enum tagENCDEC_TYPE_T{$/;"	g	file:
+tagExifFileInfo	JPEG_API/JPGApi.h	/^typedef struct tagExifFileInfo{$/;"	s
+tagH263_PICTURE_INFO	FrameExtractor/H263Frames.c	/^typedef struct tagH263_PICTURE_INFO$/;"	s	file:
+tagH264_SLICE_INFO	FrameExtractor/H264Frames.c	/^typedef struct tagH264_SLICE_INFO$/;"	s	file:
+tagIMAGE_QUALITY_TYPE_T	JPEG_API/JPGApi.h	/^typedef enum tagIMAGE_QUALITY_TYPE_T{$/;"	g
+tagJPEGConf	JPEG_API/JPGApi.h	/^typedef enum tagJPEGConf{$/;"	g
+tagJPEG_ERRORTYPE	JPEG_API/JPGApi.h	/^typedef enum tagJPEG_ERRORTYPE{$/;"	g
+tagJPEG_SCALER	JPEG_API/JPGApi.h	/^typedef enum tagJPEG_SCALER{$/;"	g
+tagJPG_CTX	JPEG_API/JPGApi.c	/^typedef struct tagJPG_CTX{$/;"	s	file:
+tagJPG_DEC_PROC_PARAM	JPEG_API/JPGApi.c	/^typedef struct tagJPG_DEC_PROC_PARAM{$/;"	s	file:
+tagJPG_ENC_PROC_PARAM	JPEG_API/JPGApi.c	/^typedef struct tagJPG_ENC_PROC_PARAM{$/;"	s	file:
+tagSAMPLE_MODE_T	JPEG_API/JPGApi.h	/^typedef enum tagSAMPLE_MODE_T{$/;"	g
+termination_thread	cam_enc_dec_test.c	/^void termination_thread(void)$/;"	f
+th	display_optimization1.c	/^static pthread_t	th;$/;"	v	file:
+th	display_optimization2.c	/^static pthread_t	th;$/;"	v	file:
+thumbEncParam	JPEG_API/JPGApi.c	/^	JPG_ENC_PROC_PARAM	*thumbEncParam;$/;"	m	struct:tagJPG_CTX	file:
+thumbnailFlag	JPEG_API/JPGApi.c	/^	UINT8	thumbnailFlag;$/;"	m	struct:tagJPG_CTX	file:
+timecode	Common/videodev2.h	/^	struct v4l2_timecode	timecode;$/;"	m	struct:v4l2_buffer	typeref:struct:v4l2_buffer::v4l2_timecode
+timeperframe	Common/videodev2.h	/^	struct v4l2_fract  timeperframe;  \/*  Time per frame in .1us units *\/$/;"	m	struct:v4l2_captureparm	typeref:struct:v4l2_captureparm::v4l2_fract
+timeperframe	Common/videodev2.h	/^	struct v4l2_fract  timeperframe; \/*  Time per frame in seconds *\/$/;"	m	struct:v4l2_outputparm	typeref:struct:v4l2_outputparm::v4l2_fract
+timestamp	Common/videodev2.h	/^	struct timeval		timestamp;$/;"	m	struct:v4l2_buffer	typeref:struct:v4l2_buffer::timeval
+timestamp	FrameExtractor/VC1Frames.c	/^	unsigned int   timestamp;$/;"	m	struct:__anon15	file:
+top	Common/videodev2.h	/^	__s32   top;$/;"	m	struct:v4l2_rect
+tuner	Common/videodev2.h	/^	__u32		      tuner;$/;"	m	struct:v4l2_frequency
+tuner	Common/videodev2.h	/^	__u32		      tuner;$/;"	m	struct:v4l2_hw_freq_seek
+tuner	Common/videodev2.h	/^	__u32        tuner;             \/*  Associated tuner *\/$/;"	m	struct:v4l2_input
+txsubchans	Common/videodev2.h	/^	__u32			txsubchans;$/;"	m	struct:v4l2_modulator
+type	Common/videodev2.h	/^	__u32			type;		\/* Frame interval type the device supports. *\/$/;"	m	struct:v4l2_frmivalenum
+type	Common/videodev2.h	/^	__u32			type;		\/* Frame size type the device supports. *\/$/;"	m	struct:v4l2_frmsizeenum
+type	Common/videodev2.h	/^	__u32	     type;		\/*  Type of input *\/$/;"	m	struct:v4l2_input
+type	Common/videodev2.h	/^	__u32	     type;		\/*  Type of output *\/$/;"	m	struct:v4l2_output
+type	Common/videodev2.h	/^	__u32	type;$/;"	m	struct:v4l2_timecode
+type	Common/videodev2.h	/^	enum v4l2_buf_type      type;$/;"	m	struct:v4l2_buffer	typeref:enum:v4l2_buffer::v4l2_buf_type
+type	Common/videodev2.h	/^	enum v4l2_buf_type      type;$/;"	m	struct:v4l2_crop	typeref:enum:v4l2_crop::v4l2_buf_type
+type	Common/videodev2.h	/^	enum v4l2_buf_type      type;$/;"	m	struct:v4l2_cropcap	typeref:enum:v4l2_cropcap::v4l2_buf_type
+type	Common/videodev2.h	/^	enum v4l2_buf_type      type;$/;"	m	struct:v4l2_requestbuffers	typeref:enum:v4l2_requestbuffers::v4l2_buf_type
+type	Common/videodev2.h	/^	enum v4l2_buf_type  type;              \/* buffer type        *\/$/;"	m	struct:v4l2_fmtdesc	typeref:enum:v4l2_fmtdesc::v4l2_buf_type
+type	Common/videodev2.h	/^	enum v4l2_buf_type type;$/;"	m	struct:v4l2_format	typeref:enum:v4l2_format::v4l2_buf_type
+type	Common/videodev2.h	/^	enum v4l2_buf_type type;$/;"	m	struct:v4l2_sliced_vbi_cap	typeref:enum:v4l2_sliced_vbi_cap::v4l2_buf_type
+type	Common/videodev2.h	/^	enum v4l2_buf_type type;$/;"	m	struct:v4l2_streamparm	typeref:enum:v4l2_streamparm::v4l2_buf_type
+type	Common/videodev2.h	/^	enum v4l2_ctrl_type  type;$/;"	m	struct:v4l2_queryctrl	typeref:enum:v4l2_queryctrl::v4l2_ctrl_type
+type	Common/videodev2.h	/^	enum v4l2_tuner_type    type;$/;"	m	struct:v4l2_tuner	typeref:enum:v4l2_tuner::v4l2_tuner_type
+type	Common/videodev2.h	/^	enum v4l2_tuner_type  type;$/;"	m	struct:v4l2_frequency	typeref:enum:v4l2_frequency::v4l2_tuner_type
+type	Common/videodev2.h	/^	enum v4l2_tuner_type  type;$/;"	m	struct:v4l2_hw_freq_seek	typeref:enum:v4l2_hw_freq_seek::v4l2_tuner_type
+u_n	FrameExtractor/H264Frames.c	/^static unsigned int u_n(unsigned char bytes[], int n_bits, int *bit_offset)$/;"	f	file:
+ue_v	FrameExtractor/H264Frames.c	/^static unsigned int ue_v(unsigned char bytes[], int *bit_offset)$/;"	f	file:
+userbits	Common/videodev2.h	/^	__u8	userbits[4];$/;"	m	struct:v4l2_timecode
+userptr	Common/videodev2.h	/^		unsigned long   userptr;$/;"	m	union:v4l2_buffer::__anon47
+v4l2_audio	Common/videodev2.h	/^struct v4l2_audio {$/;"	s
+v4l2_audioout	Common/videodev2.h	/^struct v4l2_audioout {$/;"	s
+v4l2_buf_type	Common/videodev2.h	/^enum v4l2_buf_type {$/;"	g
+v4l2_buffer	Common/videodev2.h	/^struct v4l2_buffer {$/;"	s
+v4l2_capability	Common/videodev2.h	/^struct v4l2_capability {$/;"	s
+v4l2_captureparm	Common/videodev2.h	/^struct v4l2_captureparm {$/;"	s
+v4l2_chip_ident	Common/videodev2.h	/^struct v4l2_chip_ident {$/;"	s
+v4l2_clip	Common/videodev2.h	/^struct v4l2_clip {$/;"	s
+v4l2_colorspace	Common/videodev2.h	/^enum v4l2_colorspace {$/;"	g
+v4l2_control	Common/videodev2.h	/^struct v4l2_control {$/;"	s
+v4l2_crop	Common/videodev2.h	/^struct v4l2_crop {$/;"	s
+v4l2_cropcap	Common/videodev2.h	/^struct v4l2_cropcap {$/;"	s
+v4l2_ctrl_type	Common/videodev2.h	/^enum v4l2_ctrl_type {$/;"	g
+v4l2_enc_idx	Common/videodev2.h	/^struct v4l2_enc_idx {$/;"	s
+v4l2_enc_idx_entry	Common/videodev2.h	/^struct v4l2_enc_idx_entry {$/;"	s
+v4l2_encoder_cmd	Common/videodev2.h	/^struct v4l2_encoder_cmd {$/;"	s
+v4l2_exposure_auto_type	Common/videodev2.h	/^enum  v4l2_exposure_auto_type {$/;"	g
+v4l2_ext_control	Common/videodev2.h	/^struct v4l2_ext_control {$/;"	s
+v4l2_ext_controls	Common/videodev2.h	/^struct v4l2_ext_controls {$/;"	s
+v4l2_field	Common/videodev2.h	/^enum v4l2_field {$/;"	g
+v4l2_fmtdesc	Common/videodev2.h	/^struct v4l2_fmtdesc {$/;"	s
+v4l2_format	Common/videodev2.h	/^struct v4l2_format {$/;"	s
+v4l2_fourcc	Common/videodev2.h	103;"	d
+v4l2_fract	Common/videodev2.h	/^struct v4l2_fract {$/;"	s
+v4l2_framebuffer	Common/videodev2.h	/^struct v4l2_framebuffer {$/;"	s
+v4l2_frequency	Common/videodev2.h	/^struct v4l2_frequency {$/;"	s
+v4l2_frmival_stepwise	Common/videodev2.h	/^struct v4l2_frmival_stepwise {$/;"	s
+v4l2_frmivalenum	Common/videodev2.h	/^struct v4l2_frmivalenum {$/;"	s
+v4l2_frmivaltypes	Common/videodev2.h	/^enum v4l2_frmivaltypes {$/;"	g
+v4l2_frmsize_discrete	Common/videodev2.h	/^struct v4l2_frmsize_discrete {$/;"	s
+v4l2_frmsize_stepwise	Common/videodev2.h	/^struct v4l2_frmsize_stepwise {$/;"	s
+v4l2_frmsizeenum	Common/videodev2.h	/^struct v4l2_frmsizeenum {$/;"	s
+v4l2_frmsizetypes	Common/videodev2.h	/^enum v4l2_frmsizetypes {$/;"	g
+v4l2_hw_freq_seek	Common/videodev2.h	/^struct v4l2_hw_freq_seek {$/;"	s
+v4l2_input	Common/videodev2.h	/^struct v4l2_input {$/;"	s
+v4l2_jpegcompression	Common/videodev2.h	/^struct v4l2_jpegcompression {$/;"	s
+v4l2_memory	Common/videodev2.h	/^enum v4l2_memory {$/;"	g
+v4l2_modulator	Common/videodev2.h	/^struct v4l2_modulator {$/;"	s
+v4l2_mpeg_audio_ac3_bitrate	Common/videodev2.h	/^enum v4l2_mpeg_audio_ac3_bitrate {$/;"	g
+v4l2_mpeg_audio_crc	Common/videodev2.h	/^enum v4l2_mpeg_audio_crc {$/;"	g
+v4l2_mpeg_audio_emphasis	Common/videodev2.h	/^enum v4l2_mpeg_audio_emphasis {$/;"	g
+v4l2_mpeg_audio_encoding	Common/videodev2.h	/^enum v4l2_mpeg_audio_encoding {$/;"	g
+v4l2_mpeg_audio_l1_bitrate	Common/videodev2.h	/^enum v4l2_mpeg_audio_l1_bitrate {$/;"	g
+v4l2_mpeg_audio_l2_bitrate	Common/videodev2.h	/^enum v4l2_mpeg_audio_l2_bitrate {$/;"	g
+v4l2_mpeg_audio_l3_bitrate	Common/videodev2.h	/^enum v4l2_mpeg_audio_l3_bitrate {$/;"	g
+v4l2_mpeg_audio_mode	Common/videodev2.h	/^enum v4l2_mpeg_audio_mode {$/;"	g
+v4l2_mpeg_audio_mode_extension	Common/videodev2.h	/^enum v4l2_mpeg_audio_mode_extension {$/;"	g
+v4l2_mpeg_audio_sampling_freq	Common/videodev2.h	/^enum v4l2_mpeg_audio_sampling_freq {$/;"	g
+v4l2_mpeg_cx2341x_video_chroma_spatial_filter_type	Common/videodev2.h	/^enum v4l2_mpeg_cx2341x_video_chroma_spatial_filter_type {$/;"	g
+v4l2_mpeg_cx2341x_video_luma_spatial_filter_type	Common/videodev2.h	/^enum v4l2_mpeg_cx2341x_video_luma_spatial_filter_type {$/;"	g
+v4l2_mpeg_cx2341x_video_median_filter_type	Common/videodev2.h	/^enum v4l2_mpeg_cx2341x_video_median_filter_type {$/;"	g
+v4l2_mpeg_cx2341x_video_spatial_filter_mode	Common/videodev2.h	/^enum v4l2_mpeg_cx2341x_video_spatial_filter_mode {$/;"	g
+v4l2_mpeg_cx2341x_video_temporal_filter_mode	Common/videodev2.h	/^enum v4l2_mpeg_cx2341x_video_temporal_filter_mode {$/;"	g
+v4l2_mpeg_stream_type	Common/videodev2.h	/^enum v4l2_mpeg_stream_type {$/;"	g
+v4l2_mpeg_stream_vbi_fmt	Common/videodev2.h	/^enum v4l2_mpeg_stream_vbi_fmt {$/;"	g
+v4l2_mpeg_video_aspect	Common/videodev2.h	/^enum v4l2_mpeg_video_aspect {$/;"	g
+v4l2_mpeg_video_bitrate_mode	Common/videodev2.h	/^enum v4l2_mpeg_video_bitrate_mode {$/;"	g
+v4l2_mpeg_video_encoding	Common/videodev2.h	/^enum v4l2_mpeg_video_encoding {$/;"	g
+v4l2_msdma_format	Common/videodev2_s3c.h	/^struct v4l2_msdma_format$/;"	s
+v4l2_msdma_input	Common/videodev2_s3c.h	/^enum v4l2_msdma_input {$/;"	g
+v4l2_output	Common/videodev2.h	/^struct v4l2_output {$/;"	s
+v4l2_outputparm	Common/videodev2.h	/^struct v4l2_outputparm {$/;"	s
+v4l2_pix_format	Common/videodev2.h	/^struct v4l2_pix_format {$/;"	s
+v4l2_power_line_frequency	Common/videodev2.h	/^enum v4l2_power_line_frequency {$/;"	g
+v4l2_priority	Common/videodev2.h	/^enum v4l2_priority {$/;"	g
+v4l2_queryctrl	Common/videodev2.h	/^struct v4l2_queryctrl {$/;"	s
+v4l2_querymenu	Common/videodev2.h	/^struct v4l2_querymenu {$/;"	s
+v4l2_rect	Common/videodev2.h	/^struct v4l2_rect {$/;"	s
+v4l2_register	Common/videodev2.h	/^struct v4l2_register {$/;"	s
+v4l2_requestbuffers	Common/videodev2.h	/^struct v4l2_requestbuffers {$/;"	s
+v4l2_sliced_vbi_cap	Common/videodev2.h	/^struct v4l2_sliced_vbi_cap {$/;"	s
+v4l2_sliced_vbi_data	Common/videodev2.h	/^struct v4l2_sliced_vbi_data {$/;"	s
+v4l2_sliced_vbi_format	Common/videodev2.h	/^struct v4l2_sliced_vbi_format {$/;"	s
+v4l2_standard	Common/videodev2.h	/^struct v4l2_standard {$/;"	s
+v4l2_std_id	Common/videodev2.h	/^typedef __u64 v4l2_std_id;$/;"	t
+v4l2_streamparm	Common/videodev2.h	/^struct v4l2_streamparm {$/;"	s
+v4l2_timecode	Common/videodev2.h	/^struct v4l2_timecode {$/;"	s
+v4l2_tuner	Common/videodev2.h	/^struct v4l2_tuner {$/;"	s
+v4l2_tuner_type	Common/videodev2.h	/^enum v4l2_tuner_type {$/;"	g
+v4l2_vbi_format	Common/videodev2.h	/^struct v4l2_vbi_format {$/;"	s
+v4l2_window	Common/videodev2.h	/^struct v4l2_window {$/;"	s
+v_height	Common/lcd.h	/^	int v_height;$/;"	m	struct:__anon27
+v_width	Common/lcd.h	/^	int v_width;$/;"	m	struct:__anon27
+val	Common/videodev2.h	/^	__u64 val;$/;"	m	struct:v4l2_register
+value	Common/videodev2.h	/^		__s32 value;$/;"	m	union:v4l2_ext_control::__anon48
+value	Common/videodev2.h	/^	__s32		     value;$/;"	m	struct:v4l2_control
+value64	Common/videodev2.h	/^		__s64 value64;$/;"	m	union:v4l2_ext_control::__anon48
+vbi	Common/videodev2.h	/^		struct v4l2_vbi_format		vbi;     \/* V4L2_BUF_TYPE_VBI_CAPTURE *\/$/;"	m	union:v4l2_format::__anon51	typeref:struct:v4l2_format::__anon51::v4l2_vbi_format
+version	Common/videodev2.h	/^	__u32   version;        \/* should use KERNEL_VERSION() *\/$/;"	m	struct:v4l2_capability
+vir_addr	cam_enc_dec_test.h	/^	unsigned int	vir_addr;$/;"	m	struct:__anon1
+vir_addr	display_optimization1.c	/^	unsigned int	vir_addr;$/;"	m	struct:__anon23	file:
+vir_addr	display_optimization2.c	/^	unsigned int	vir_addr;$/;"	m	struct:__anon24	file:
+vs_info_t	Common/lcd.h	/^}vs_info_t;$/;"	t	typeref:struct:__anon27
+w	Common/videodev2.h	/^	struct v4l2_rect        w;$/;"	m	struct:v4l2_window	typeref:struct:v4l2_window::v4l2_rect
+width	Common/lcd.h	/^	int width;$/;"	m	struct:__anon27
+width	Common/videodev2.h	/^	__s32   width;$/;"	m	struct:v4l2_rect
+width	Common/videodev2.h	/^	__u32			width;		\/* Frame width *\/$/;"	m	struct:v4l2_frmivalenum
+width	Common/videodev2.h	/^	__u32			width;		\/* Frame width [pixel] *\/$/;"	m	struct:v4l2_frmsize_discrete
+width	Common/videodev2.h	/^	__u32         		width;$/;"	m	struct:v4l2_pix_format
+width	Common/videodev2_s3c.h	/^	__u32         		width;		\/* MSDMA INPUT : Source X size *\/$/;"	m	struct:v4l2_msdma_format
+width	FrameExtractor/H263Frames.c	/^	unsigned int width;$/;"	m	struct:tagH263_PICTURE_INFO	file:
+width	FrameExtractor/H263Frames.h	/^	int  width, height;$/;"	m	struct:__anon20
+width	FrameExtractor/H264Frames.h	/^	int  width, height;$/;"	m	struct:__anon21
+width	FrameExtractor/MPEG4Frames.h	/^	int  width, height;$/;"	m	struct:__anon19
+width	FrameExtractor/VC1Frames.h	/^	int  width, height;$/;"	m	struct:__anon18
+width	JPEG_API/JPGApi.c	/^	UINT32	width;$/;"	m	struct:tagJPG_DEC_PROC_PARAM	file:
+width	JPEG_API/JPGApi.c	/^	UINT32	width;$/;"	m	struct:tagJPG_ENC_PROC_PARAM	file:
+width	MFC_API/SsbSipH264Decode.c	/^	unsigned int     width, height;	$/;"	m	struct:__anon13	file:
+width	MFC_API/SsbSipH264Decode.h	/^	int width;$/;"	m	struct:__anon10
+width	MFC_API/SsbSipH264Encode.c	/^	int width;$/;"	m	struct:__anon8	file:
+width	MFC_API/SsbSipH264Encode.c	/^	unsigned int  	width, height;$/;"	m	struct:__anon7	file:
+width	MFC_API/SsbSipMfcDecode.c	/^	unsigned int	width, height;	$/;"	m	struct:__anon3	file:
+width	MFC_API/SsbSipMfcDecode.h	/^	int width;$/;"	m	struct:__anon6
+width	MFC_API/SsbSipMpeg4Decode.c	/^	unsigned int     width, height;	$/;"	m	struct:__anon2	file:
+width	MFC_API/SsbSipMpeg4Decode.h	/^	int width;$/;"	m	struct:__anon9
+width	MFC_API/SsbSipMpeg4Encode.c	/^	int width;$/;"	m	struct:__anon12	file:
+width	MFC_API/SsbSipMpeg4Encode.c	/^	unsigned int  	width, height;$/;"	m	struct:__anon11	file:
+width	MFC_API/SsbSipVC1Decode.c	/^	unsigned int	width, height;$/;"	m	struct:__anon4	file:
+width	MFC_API/SsbSipVC1Decode.h	/^	int width;$/;"	m	struct:__anon5
+win	Common/videodev2.h	/^		struct v4l2_window		win;     \/* V4L2_BUF_TYPE_VIDEO_OVERLAY *\/$/;"	m	union:v4l2_format::__anon51	typeref:struct:v4l2_format::__anon51::v4l2_window
+win0_fb_addr	cam_dec_preview-On7LCD.c	/^static char *win0_fb_addr = NULL;$/;"	v	file:
+win0_fb_addr	cam_dec_preview.c	/^static char *win0_fb_addr = NULL;$/;"	v	file:
+win0_fb_addr	cam_enc_dec_test.c	/^static char *win0_fb_addr = NULL;$/;"	v	file:
+win0_fb_addr	cam_encoder_test.c	/^static char *win0_fb_addr = NULL;$/;"	v	file:
+win0_fb_addr	capture.c	/^static char *win0_fb_addr = NULL;$/;"	v	file:
+win0_fb_addr	yuanshi-cam_dec_preview.c	/^static char *win0_fb_addr = NULL;$/;"	v	file:
+win1_fb_addr	cam_dec_preview-On7LCD.c	/^static char *win1_fb_addr = NULL;$/;"	v	file:
+win1_fb_addr	cam_dec_preview.c	/^static char *win1_fb_addr = NULL;$/;"	v	file:
+win1_fb_addr	cam_enc_dec_test.c	/^static char	*win1_fb_addr = NULL;	$/;"	v	file:
+win1_fb_addr	yuanshi-cam_dec_preview.c	/^static char *win1_fb_addr = NULL;$/;"	v	file:
+wrap_around	Common/videodev2.h	/^	__u32		      wrap_around;$/;"	m	struct:v4l2_hw_freq_seek
+writebuffers	Common/videodev2.h	/^	__u32              writebuffers; \/*  # of buffers for write *\/$/;"	m	struct:v4l2_outputparm

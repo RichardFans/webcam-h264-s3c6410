@@ -53,12 +53,8 @@ struct v4l2_dev {
 	v4l2_img_proc_t         proc;
     void*                   arg;
 
-    app_t                   app;
-    app_event_t             ev; 
+    tst_t                   t;
 };
-
-
-static void v4l2_app_handler(int fd, void *arg);
 
 /*
  * 初始化用户控制项
@@ -495,6 +491,7 @@ static int v4l2_init(v4l2_dev_t vd, __u32 fmt_nr, __u32 frm_nr)
     struct v4l2_cropcap cropcap;
     struct v4l2_crop crop;
 
+
 	if (-1 == v4l2_ioctl(v->fd, VIDIOC_QUERYCAP, &cap)) {
         perror("VIDIOC_QUERYCAP");
         return -1;
@@ -625,21 +622,22 @@ static inline int v4l2_uninit(v4l2_dev_t vd) {
     return v4l2_mmap_free(vd);
 }
 
-static void v4l2_app_handler(int fd, void *arg)
+void v4l2_process(v4l2_dev_t vd)
 {
-	struct v4l2_dev *v = arg;
+	struct v4l2_dev *v = vd;
 	struct v4l2_buffer buf;
+    int r;
 
-    if (fd != v->fd) {
-        pr_debug("fd = %d, v->fd = %d.\n", fd, v->fd);
-        return;
-    }
-
+    //tst_print_and_start(v->t, "v4l2_app_handler start");
     buf.type   = v->ffmts[v->cur_fmt].fmt.type;
     buf.memory = V4L2_MEMORY_MMAP;	
     /* 从队列中取出一个buf */
-    if (-1 == xioctl(v->fd, VIDIOC_DQBUF, &buf)) {
-        perror("VIDIOC_STREAMOFF");
+	do {
+		r = xioctl (v->fd, VIDIOC_DQBUF, &buf);
+	} while (-1 == r && EAGAIN == errno);
+
+    if (-1 == r) {
+        perror("VIDIOC_DQBUF");
         exit(EXIT_FAILURE);
     }	
 
@@ -648,13 +646,26 @@ static void v4l2_app_handler(int fd, void *arg)
         v->proc(v->buf[buf.index].start, buf.bytesused, v->arg);
 
     /* 送回队列 */
-    if (-1 == xioctl(v->fd, VIDIOC_QBUF, &buf)) {
-        perror("VIDIOC_STREAMOFF");
+	do {
+		r = xioctl (v->fd, VIDIOC_QBUF, &buf);
+	} while (-1 == r && EAGAIN == errno);
+
+    if (-1 == r) {
+        perror("VIDIOC_QBUF");
         exit(EXIT_FAILURE);
     }	
+
+    //tst_print_and_start(v->t, "v4l2_app_handler end");
 }
 
-v4l2_dev_t v4l2_create2(app_t app, const char *dev, struct v4l2_format *fmt) 
+/**
+ * @fmt 只能是:
+ * V4L2_PIX_FMT_RGB24
+ * V4L2_PIX_FMT_BGR24
+ * V4L2_PIX_FMT_YUV420
+ * V4L2_PIX_FMT_YVU420
+ */
+v4l2_dev_t v4l2_create2(const char *dev, struct v4l2_format *fmt) 
 {
     struct v4l2_dev *v = calloc(1, sizeof(struct v4l2_dev));
     if (!v) {
@@ -673,15 +684,11 @@ v4l2_dev_t v4l2_create2(app_t app, const char *dev, struct v4l2_format *fmt)
     if (-1 == (v4l2_init2(v, fmt))) 
         goto err_open;
 
-    v->ev = app_event_create(v->fd);
-    if (NULL == v->ev) 
-        goto err_init;
-    app_event_add_notifier(v->ev, NOTIFIER_READ, v4l2_app_handler, v);
-    v->app = app;
+    //v->t = tst_create();
 
 	return v;
-err_init:
-    v4l2_uninit(v);
+//err_init:
+  //  v4l2_uninit(v);
 err_open:
     v4l2_close(v->fd);
 err_mem:
@@ -689,7 +696,7 @@ err_mem:
     return NULL;
 }
 
-v4l2_dev_t v4l2_create(app_t app, const char *dev, __u32 fmt_nr, __u32 frm_nr) 
+v4l2_dev_t v4l2_create(const char *dev, __u32 fmt_nr, __u32 frm_nr) 
 {
     struct v4l2_dev *v = calloc(1, sizeof(struct v4l2_dev));
     if (!v) {
@@ -700,7 +707,7 @@ v4l2_dev_t v4l2_create(app_t app, const char *dev, __u32 fmt_nr, __u32 frm_nr)
 	if (NULL == dev)
 		dev = DEF_V4L_DEV;
 
-    if (-1 == (v->fd = v4l2_open(dev, O_RDWR | O_NONBLOCK))) {
+    if (-1 == (v->fd = v4l2_open(dev, O_RDWR))) {
         perror(dev);
         goto err_mem;
     }
@@ -708,15 +715,7 @@ v4l2_dev_t v4l2_create(app_t app, const char *dev, __u32 fmt_nr, __u32 frm_nr)
     if (-1 == (v4l2_init(v, fmt_nr, frm_nr))) 
         goto err_open;
 
-    v->ev = app_event_create(v->fd);
-    if (NULL == v->ev) 
-        goto err_init;
-    app_event_add_notifier(v->ev, NOTIFIER_READ, v4l2_app_handler, v);
-    v->app = app;
-
 	return v;
-err_init:
-    v4l2_uninit(v);
 err_open:
     v4l2_close(v->fd);
 err_mem:
@@ -729,7 +728,6 @@ void v4l2_free(v4l2_dev_t vd)
 	struct v4l2_dev *v = vd;
     v4l2_uninit(v);
     v4l2_close(v->fd);
-    app_event_free(v->ev);
     free(v);
 }
 
@@ -774,8 +772,7 @@ int v4l2_start_capture(v4l2_dev_t vd)
         perror("VIDIOC_STREAMON");
         return -1;
     }	
-
-    return app_add_event(v->app, v->ev);  
+    return 0;
 }
 
 int v4l2_stop_capture(v4l2_dev_t vd)
@@ -787,14 +784,6 @@ int v4l2_stop_capture(v4l2_dev_t vd)
         perror("VIDIOC_STREAMOFF");
         return -1;
     }	
-	return app_del_event(v->app, v->ev);
+	return 0;
 }
-
-#if 0
-int main(int argc, char *argv[])
-{
-    v4l2_dev_t v = v4l2_create(NULL, 0, 0);
-    return 0;
-}
-#endif
 

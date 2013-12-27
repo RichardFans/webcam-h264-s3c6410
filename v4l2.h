@@ -1,8 +1,6 @@
 #ifndef	__V4L2_H__
 	#define __V4L2_H__
 
-#include "app.h"
-
 #define DEF_V4L_DEV  		"/dev/video0"
 
 typedef struct v4l2_dev *v4l2_dev_t;
@@ -14,6 +12,7 @@ typedef void (*v4l2_img_proc_t)(const void *p, int size, void *arg);
 #define MAX_FMT_TYPE_NR     128
 #define MAX_FRM_SIZ_NR      32
 
+#include <stdbool.h>
 #include <linux/types.h>
 #include <linux/videodev2.h>
 /* v4l2 用户控制项结构 */
@@ -52,11 +51,13 @@ __u32 v4l2_get_cur_fmt_nr(v4l2_dev_t vd);
 __u32 v4l2_get_cur_frm_nr(v4l2_dev_t vd);
 
 v4l2_img_proc_t v4l2_set_img_proc(v4l2_dev_t vd, v4l2_img_proc_t proc, void *arg);
+void v4l2_process(v4l2_dev_t vd);
+
 int v4l2_start_capture(v4l2_dev_t vd);
 int v4l2_stop_capture(v4l2_dev_t vd);
 
-v4l2_dev_t v4l2_create(app_t app, const char *dev, __u32 fmt_nr, __u32 frm_nr);
-v4l2_dev_t v4l2_create2(app_t app, const char *dev, struct v4l2_format *fmt);
+v4l2_dev_t v4l2_create(const char *dev, __u32 fmt_nr, __u32 frm_nr);
+v4l2_dev_t v4l2_create2(const char *dev, struct v4l2_format *fmt);
 void v4l2_free(v4l2_dev_t vd);
 
 #endif	//__V4L2_H__

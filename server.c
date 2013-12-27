@@ -22,9 +22,9 @@
 #define VIDEO_HEIGHT 240
 
 #ifdef HW_VC   /* 软件编码fps=15，硬件编码fps=20 */
-#define VIDEO_FPS 20.0
-#else
 #define VIDEO_FPS 15.0
+#else
+#define VIDEO_FPS 8.0
 #endif
 
 #define TARGET_IP "192.168.1.5"
@@ -52,17 +52,18 @@ struct app_timer {
 void timer_handler(void *arg)
 {
     Ctx *c= (Ctx*)arg;
+    tst_start(c->t);  //test
     // 抓
     Picture pic;
     capture_get_picture(c->capture, &pic);
 
+    tst_print_and_start(c->t, "capture_get_picture"); //test
     // 压
     const void *outdata;
     int outlen;
-    tst_start(c->t);  //test
     int rc = vc_compress(c->encoder, pic.data, pic.stride, &outdata, &outlen);
     if (rc < 0) return;
-    //tst_print_and_start(c->t, "vc_compress"); //test
+    tst_print_and_start(c->t, "vc_compress"); //test
 
     // 发
     sender_send(c->sender, outdata, outlen);
@@ -73,7 +74,7 @@ int main (int argc, char **argv)
 	Ctx c;
     c.a = app_create(8);
 
-	c.capture = capture_open(c.a, argv[1], VIDEO_WIDTH, VIDEO_HEIGHT, PIX_FMT_YUV420P);
+	c.capture = capture_open(argv[1], VIDEO_WIDTH, VIDEO_HEIGHT, PIX_FMT_YUV420P);
 	if (c.capture == NULL) {
 		fprintf(stderr, "ERR: %s\n", strerror(errno));
 		exit(-1);

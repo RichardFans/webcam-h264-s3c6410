@@ -2,10 +2,9 @@
 #define _capture__hh
 
 #include "types.h"
-#include "app.h"
 
 // 打开 usb webcam 设备， 设置输出大小， 输出类型
-void *capture_open (app_t a, const char *dev_name, int v_width, int v_height, PixelFormat fmt);
+void *capture_open (const char *dev_name, int v_width, int v_height, PixelFormat fmt);
 int capture_get_picture (void *id, Picture *pic);
 int capture_close (void *id);
 

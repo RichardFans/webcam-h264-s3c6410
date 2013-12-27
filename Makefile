@@ -9,7 +9,7 @@ LIBS :=   $(shell pkg-config --libs libavformat libavcodec libswscale libavutil 
 INC:= $(shell pkg-config --cflags libavcodec libswscale libavutil)
 else
 LIBS:=	-lavformat -lavcodec -lasound -lmp3lame -lfdk-aac \
--lz -ldl -lswscale -lavutil -lm -lx264 -lpthread
+-lz -ldl -lswscale -lavutil -lm -lx264 -lpthread -lv4l2
 INC 	:= 	-I./Common -I./FrameExtractor -I./MFC_API
 endif
 

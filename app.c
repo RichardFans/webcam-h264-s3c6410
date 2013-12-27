@@ -102,7 +102,7 @@ int app_add_event(app_t app, app_event_t ev)
                   a->event_cnt, a->event_max);
         return -1;
     }
-
+    
     epv.data.ptr = e;
     epv.events = e->events;
     if (ev->epolled) {
@@ -223,7 +223,9 @@ void app_scan_timers(app_t app)
         if (t != NULL && t->active) {
             t->efunc(t->arg); 
             if (!t->one_shot) {
-                timeradd(&now, &t->inter_tv, &t->exp_tv);
+                do {
+                    timeradd(&t->exp_tv, &t->inter_tv, &t->exp_tv);  
+                } while (timercmp(&now, &t->exp_tv, >));
                 heap_insert(&a->timer_heap, (void*)&t->exp_tv, t);
                 pr_debug("heap_insert, size = %d\n", heap_size(&a->timer_heap));
             }
@@ -233,7 +235,7 @@ void app_scan_timers(app_t app)
 
 }
 
-int compare_tv_keys(register void* key1, register void* key2) {
+static int compare_tv_keys(register void* key1, register void* key2) {
     struct timeval *key1_v = key1;
     struct timeval *key2_v = key2;
     int ret = 0;
@@ -330,41 +332,4 @@ void app_finish(app_t app)
     struct app *a = app; 
     a->need_exit = true;
 }
-
-#if 0
-#include <cam/v4l2.h>
-
-
-void img_proc(const void *p, int size, void *arg)
-{
-    static int i;
-    char buf[32];
-    FILE *fp;
-    sprintf(buf, "tmp/%d.yuv", ++i);
-    fp = fopen(buf, "w");
-
-    fwrite(p, size, 1, fp);
-    fclose(fp);
-    fprintf(stdout, ".");
-    fflush(stdout);
-}
-
-int main(int argc, char *argv[])
-{
-    app_t a = app_create(0);
-    
-    v4l2_dev_t v = v4l2_create(a, "/dev/video2", 0, 0);
-    v4l2_set_img_proc(v, img_proc, v);
-    v4l2_start_capture(v);
-
-    app_exec(a);
-
-    v4l2_stop_capture(v);
-    v4l2_free(v);
-
-    app_free(a);
-
-    return 0;
-}
-#endif
 
